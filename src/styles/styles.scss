@@ -1,0 +1,19 @@
+@import "../../node_modules/aloha-css/sass/aloha";
+@import "../../node_modules/aloha-vue/src/styles/styles";
+
+@import "Example";
+
+.a_menu_2__page {
+  padding: 0 1rem 0 2.5rem;
+}
+.a_menu_2 {
+  position: fixed;
+}
+.a_mobile {
+  .a_menu_2__page {
+    padding: 0 .5rem;
+  }
+  .a_menu_2__btn_toggle_outside_menu {
+    display: inline-block;
+  }
+}
