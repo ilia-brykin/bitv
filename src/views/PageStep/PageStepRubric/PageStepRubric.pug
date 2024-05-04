@@ -1,0 +1,12 @@
+div
+  a-translation(
+    tag="h2"
+    :text="headerKey"
+  )
+
+  a-translation(
+    v-for="element in htmlElements"
+    :key="element"
+    tag="div"
+    :safe-html="element"
+  )

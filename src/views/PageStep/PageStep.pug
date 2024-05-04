@@ -1,0 +1,55 @@
+div(
+  v-if="hasStep"
+)
+  a-page-tab-title(
+    :title="pageTitle"
+  )
+  h1
+    span.a_d_block(
+      v-if="headerStep"
+    ) {{ headerStep }}
+    span {{ headerText }}
+
+  page-step-rubric(
+    v-if="currentStep.whatChecked"
+    :current-step="currentStep"
+    rubric-key="whatChecked"
+  )
+
+  page-step-rubric(
+    v-if="currentStep.whyChecked"
+    :current-step="currentStep"
+    rubric-key="whyChecked"
+  )
+
+  page-step-rubric(
+    v-if="currentStep.howChecked"
+    :current-step="currentStep"
+    rubric-key="howChecked"
+  )
+
+  page-step-rubric(
+    v-if="currentStep.sources"
+    :current-step="currentStep"
+    rubric-key="sources"
+  )
+
+  page-step-rubric(
+    v-if="currentStep.classification"
+    :current-step="currentStep"
+    rubric-key="classification"
+  )
+
+  page-step-rubric(
+    v-if="currentStep.questions"
+    :current-step="currentStep"
+    rubric-key="questions"
+  )
+
+div(
+  v-else
+)
+  a-translation(
+    tag="h1"
+    text="Error"
+  )

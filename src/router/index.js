@@ -7,12 +7,17 @@ const ROUTES = [
   {
     path: "/404",
     name: "NotFound",
-    component: () => import(/* webpackChunkName: "not_found" */ "../views/NotFound.vue"),
+    component: () => import(/* webpackChunkName: "NotFound" */ "../views/NotFound.vue"),
   },
   {
     path: "/",
     name: "PageStart",
-    component: () => import(/* webpackChunkName: "start" */ "../views/PageStart/PageStart.vue"),
+    component: () => import(/* webpackChunkName: "PageStart" */ "../views/PageStart/PageStart.vue"),
+  },
+  {
+    path: "/steps/:step/",
+    name: "PageStep",
+    component: () => import(/* webpackChunkName: "PageStep" */ "../views/PageStep/PageStep.vue"),
   },
   {
     // If the routing configuration '*' reports an error, replace it with '/: catchAll(. *)'
