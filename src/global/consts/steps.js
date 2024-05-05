@@ -63,4 +63,13 @@ export default {
     howChecked: 15,
     classification: 16,
   },
+  "9.1.3.1e": {
+    key: "9_1_3_1E",
+    whatChecked: 1,
+    whyChecked: 6,
+    howChecked: 44,
+    sources: 1,
+    classification: 12,
+    questions: 13,
+  },
 };
