@@ -26,4 +26,11 @@ export default {
     classification: 12,
     questions: 12,
   },
+  "9.1.1.1d": {
+    key: "9_1_1_1D",
+    whatChecked: 2,
+    whyChecked: 2,
+    howChecked: 15,
+    classification: 2,
+  },
 };
