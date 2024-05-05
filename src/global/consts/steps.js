@@ -95,4 +95,12 @@ export default {
     sources: 2,
     classification: 16,
   },
+  "9.1.3.2": {
+    key: "9_1_3_2",
+    whatChecked: 3,
+    whyChecked: 1,
+    howChecked: 17,
+    sources: 1,
+    classification: 16,
+  },
 };
