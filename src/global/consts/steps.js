@@ -56,4 +56,11 @@ export default {
     howChecked: 11,
     classification: 12,
   },
+  "9.1.3.1d": {
+    key: "9_1_3_1D",
+    whatChecked: 2,
+    whyChecked: 3,
+    howChecked: 15,
+    classification: 16,
+  },
 };
