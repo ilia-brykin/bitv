@@ -80,4 +80,11 @@ export default {
     sources: 11,
     classification: 12,
   },
+  "9.1.3.1g": {
+    key: "9_1_3_1G",
+    whatChecked: 1,
+    howChecked: 9,
+    sources: 3,
+    classification: 12,
+  },
 };
