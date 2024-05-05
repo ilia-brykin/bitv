@@ -72,4 +72,12 @@ export default {
     classification: 12,
     questions: 13,
   },
+  "9.1.3.1f": {
+    key: "9_1_3_1F",
+    whatChecked: 1,
+    whyChecked: 3,
+    howChecked: 7,
+    sources: 11,
+    classification: 12,
+  },
 };
