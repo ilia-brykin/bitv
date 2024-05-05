@@ -33,4 +33,13 @@ export default {
     howChecked: 15,
     classification: 2,
   },
+  "9.1.3.1a": {
+    key: "9_1_3_1A",
+    whatChecked: 1,
+    whyChecked: 4,
+    howChecked: 13,
+    sources: 9,
+    classification: 17,
+    questions: 24,
+  },
 };
