@@ -7,6 +7,7 @@ import step_9_1_3_1f from "./step_9_1_3_1f/index";
 import step_9_1_3_1g from "./step_9_1_3_1g/index";
 import step_9_1_3_1h from "./step_9_1_3_1h/index";
 import step_9_1_3_2 from "./step_9_1_3_2/index";
+import step_9_1_3_3 from "./step_9_1_3_3/index";
 
 export default {
   de: {
@@ -19,6 +20,7 @@ export default {
     ...step_9_1_3_1g.de,
     ...step_9_1_3_1h.de,
     ...step_9_1_3_2.de,
+    ...step_9_1_3_3.de,
   },
   ru: {
     ...step_9_1_3_1a.ru,
@@ -30,5 +32,6 @@ export default {
     ...step_9_1_3_1g.ru,
     ...step_9_1_3_1h.ru,
     ...step_9_1_3_2.ru,
+    ...step_9_1_3_3.ru,
   },
 };

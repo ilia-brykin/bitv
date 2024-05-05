@@ -103,4 +103,12 @@ export default {
     sources: 1,
     classification: 16,
   },
+  "9.1.3.3": {
+    key: "9_1_3_3",
+    whatChecked: 1,
+    whyChecked: 1,
+    howChecked: 8,
+    sources: 3,
+    classification: 12,
+  },
 };
