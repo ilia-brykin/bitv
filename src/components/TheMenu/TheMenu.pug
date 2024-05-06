@@ -1,8 +1,10 @@
 a-menu-2(
-  :data="menuItems"
   :can-change-body-class="true"
+  :data="menuItems"
+  :is-link-truncated="false"
+  :is-search-breadcrumbs-truncated="false"
+  :is-translated="true"
   key-children="children"
   key-slot="slot"
-  :is-translated="true"
   menu-id="a_menu"
 )

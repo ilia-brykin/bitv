@@ -8,7 +8,7 @@ export default function MenuItemsAPI() {
   const menuItems = [
     {
       id: "PageStart",
-      label: "Start",
+      label: "_START_PAGE_",
       to: {
         name: "PageStart",
       },

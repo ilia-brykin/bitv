@@ -1,11 +1,12 @@
 {
-  "_TEXT_STEP_{{step}}_": "Prüfschritt {{ step }}",
-  "_WHAT_CHECKED_": "Was wird geprüft?",
-  "_WHY_CHECKED_": "Warum wird das geprüft?",
-  "_HOW_CHECKED_": "Wie wird geprüft?",
-  "_SOURCES_": "Quellen",
   "_CLASSIFICATION_": "Einordnung des Prüfschritts",
+  "_HOW_CHECKED_": "Wie wird geprüft?",
   "_QUESTIONS_": "Fragen zu diesem Prüfschritt",
+  "_SOURCES_": "Quellen",
+  "_START_PAGE_": "Startseite",
+  "_STEP_11_7_NAME_": "11.7 Benutzerpräferenzen",
+  "_STEP_11_8_NAME_": "11.8 Autorenwerkzeuge",
+  "_STEP_12_NAME_": "12 Dokumentation und Support",
   "_STEP_5_NAME_": "5 Allgemeine Anforderungen",
   "_STEP_6_NAME_": "6 Zwei-Wege-Sprachkommunikationn",
   "_STEP_7_NAME_": "7 Videofähigkeiten",
@@ -22,7 +23,7 @@
   "_STEP_9_3_2_NAME_": "9.3.2 Vorhersehbar",
   "_STEP_9_3_3_NAME_": "9.3.3 Eingabeunterstützung",
   "_STEP_9_4_1_NAME_": "9.4.1 Kompatibel",
-  "_STEP_11_7_NAME_": "11.7 Benutzerpräferenzen",
-  "_STEP_11_8_NAME_": "11.8 Autorenwerkzeuge",
-  "_STEP_12_NAME_": "12 Dokumentation und Support"
+  "_TEXT_STEP_{{step}}_": "Prüfschritt {{ step }}",
+  "_WHAT_CHECKED_": "Was wird geprüft?",
+  "_WHY_CHECKED_": "Warum wird das geprüft?"
 }
