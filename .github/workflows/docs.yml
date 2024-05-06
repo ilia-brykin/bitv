@@ -27,10 +27,6 @@ jobs:
           npm run build-production
           npm run build-css
 
-      - name: List files in dist
-        run: |
-          ls -al dist
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
