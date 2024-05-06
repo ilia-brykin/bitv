@@ -2,4 +2,14 @@
   the-menu
   .a_menu_2__page
     the-navbar
-    router-view
+    router-view(
+      v-slot="{ Component, route }"
+    )
+      transition(
+        name="fade"
+      )
+        component(
+          :is="Component"
+          :key="route.path"
+        )
+

@@ -27,9 +27,13 @@ export default function PageTitle({
   });
 
   const headerText = computed(() => {
-    return getTranslatedText({
-      placeholder: getTranslationKeyName({ stepKey: currentStep.value.key }),
-    });
+    if (currentStep.value?.key) {
+      return getTranslatedText({
+        placeholder: getTranslationKeyName({ stepKey: currentStep.value.key }),
+      });
+    }
+
+    return undefined;
   });
 
   const pageTitle = computed(() => {

@@ -1,4 +1,10 @@
+import StepsAPI from "./StepsAPI";
+
 export default function MenuItemsAPI() {
+  const {
+    steps,
+  } = StepsAPI();
+
   const menuItems = [
     {
       id: "PageStart",
@@ -6,8 +12,9 @@ export default function MenuItemsAPI() {
       to: {
         name: "PageStart",
       },
-      icon: "Aloha",
+      icon: "House",
     },
+    ...steps,
   ];
 
   return {
