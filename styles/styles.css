@@ -8846,3 +8846,6 @@ input:not(:-webkit-autofill) {
 
 .a_mobile .a_menu_2__btn_toggle_outside_menu {
   display: inline-block; }
+
+:root {
+  --a_menu_2_width_expanded: 400px; }
