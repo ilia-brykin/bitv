@@ -250,4 +250,22 @@ export default {
     classification: 9,
     questions: 2,
   },
+  "9.2.2.1": {
+    key: "9_2_2_1",
+    whatChecked: 2,
+    whyChecked: 3,
+    howChecked: 26,
+    sources: 0,
+    classification: 16,
+    questions: 3,
+  },
+  "9.2.2.2": {
+    key: "9_2_2_2",
+    whatChecked: 2,
+    whyChecked: 6,
+    howChecked: 14,
+    sources: 3,
+    classification: 16,
+    questions: 0,
+  },
 };
