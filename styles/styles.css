@@ -8871,3 +8871,6 @@ h5 {
 
 p {
   margin-bottom: 1rem; }
+
+.cursor_pointer {
+  cursor: pointer; }
