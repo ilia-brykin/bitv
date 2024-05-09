@@ -31,7 +31,9 @@ export default {
     whatChecked: 2,
     whyChecked: 2,
     howChecked: 15,
+    sources: 0,
     classification: 2,
+    questions: 0,
   },
   "9.1.3.1a": {
     key: "9_1_3_1A",
@@ -47,21 +49,27 @@ export default {
     whatChecked: 1,
     whyChecked: 4,
     howChecked: 17,
+    sources: 0,
     classification: 14,
+    questions: 0,
   },
   "9.1.3.1c": {
     key: "9_1_3_1C",
     whatChecked: 1,
     whyChecked: 4,
     howChecked: 11,
+    sources: 0,
     classification: 12,
+    questions: 0,
   },
   "9.1.3.1d": {
     key: "9_1_3_1D",
     whatChecked: 2,
     whyChecked: 3,
     howChecked: 15,
+    sources: 0,
     classification: 16,
+    questions: 0,
   },
   "9.1.3.1e": {
     key: "9_1_3_1E",
@@ -79,6 +87,7 @@ export default {
     howChecked: 7,
     sources: 11,
     classification: 12,
+    questions: 0,
   },
   "9.1.3.1g": {
     key: "9_1_3_1G",
@@ -86,6 +95,7 @@ export default {
     howChecked: 9,
     sources: 3,
     classification: 12,
+    questions: 0,
   },
   "9.1.3.1h": {
     key: "9_1_3_1H",
@@ -94,6 +104,7 @@ export default {
     howChecked: 23,
     sources: 2,
     classification: 16,
+    questions: 0,
   },
   "9.1.3.2": {
     key: "9_1_3_2",
@@ -102,6 +113,7 @@ export default {
     howChecked: 17,
     sources: 1,
     classification: 16,
+    questions: 0,
   },
   "9.1.3.3": {
     key: "9_1_3_3",
@@ -110,6 +122,7 @@ export default {
     howChecked: 8,
     sources: 3,
     classification: 12,
+    questions: 0,
   },
   "9.1.3.4": {
     key: "9_1_3_4",
@@ -118,6 +131,7 @@ export default {
     howChecked: 9,
     sources: 1,
     classification: 11,
+    questions: 0,
   },
   "9.1.3.5": {
     key: "9_1_3_5",
@@ -126,6 +140,7 @@ export default {
     howChecked: 9,
     sources: 1,
     classification: 9,
+    questions: 0,
   },
   "9.1.4.1": {
     key: "9_1_4_1",
@@ -143,6 +158,7 @@ export default {
     howChecked: 14,
     sources: 3,
     classification: 10,
+    questions: 0,
   },
   "9.1.4.3": {
     key: "9_1_4_3",
@@ -178,6 +194,7 @@ export default {
     howChecked: 14,
     sources: 1,
     classification: 11,
+    questions: 0,
   },
   "9.1.4.11": {
     key: "9_1_4_11",
@@ -186,6 +203,7 @@ export default {
     howChecked: 28,
     sources: 1,
     classification: 11,
+    questions: 0,
   },
   "9.1.4.12": {
     key: "9_1_4_12",
@@ -194,6 +212,7 @@ export default {
     howChecked: 9,
     sources: 1,
     classification: 9,
+    questions: 0,
   },
   "9.1.4.13": {
     key: "9_1_4_13",
@@ -202,6 +221,7 @@ export default {
     howChecked: 13,
     sources: 1,
     classification: 9,
+    questions: 0,
   },
   "9.2.1.1": {
     key: "9_2_1_1",
@@ -210,6 +230,7 @@ export default {
     howChecked: 17,
     sources: 3,
     classification: 16,
+    questions: 0,
   },
   "9.2.1.2": {
     key: "9_2_1_2",
@@ -218,5 +239,15 @@ export default {
     howChecked: 14,
     sources: 0,
     classification: 12,
+    questions: 0,
+  },
+  "9.2.1.4": {
+    key: "9_2_1_4",
+    whatChecked: 1,
+    whyChecked: 1,
+    howChecked: 11,
+    sources: 1,
+    classification: 9,
+    questions: 2,
   },
 };
