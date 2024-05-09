@@ -349,4 +349,13 @@ export default {
     classification: 9,
     questions: 0,
   },
+  "9.2.5.2": {
+    key: "9_2_5_2",
+    whatChecked: 2,
+    whyChecked: 2,
+    howChecked: 12,
+    sources: 1,
+    classification: 9,
+    questions: 0,
+  },
 };
