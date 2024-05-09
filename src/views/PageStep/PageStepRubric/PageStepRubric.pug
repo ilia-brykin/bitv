@@ -1,12 +1,26 @@
 div
-  a-translation(
-    tag="h2"
-    :text="headerKey"
+  h2.cursor_pointer.a_d_flex.a_align_items_center(
+    :ariaExpanded="isRubricOpen"
+    tabindex="0"
+    @click="toggleRubric"
   )
+    a-element.a_mr_2(
+      type="text"
+      :icon-left="iconToggleRubric"
+      icon-class="a_width_5 a_height_auto"
+      tag="span"
+    )
+    a-translation(
+      tag="span"
+      :text="headerKey"
+    )
 
-  a-translation(
-    v-for="element in htmlElements"
-    :key="element"
-    tag="div"
-    :safe-html="element"
+  .a_ml_5(
+    v-show="isRubricOpen"
   )
+    a-translation(
+      v-for="element in htmlElements"
+      :key="element"
+      tag="div"
+      :safe-html="element"
+    )
