@@ -27,7 +27,7 @@
   "_STEP_9_1_1_1C_HOW_CHECKED_17_": "<h4 id=\"_nicht_voll_erfüllt\">Nicht voll erfüllt</h4>",
   "_STEP_9_1_1_1C_HOW_CHECKED_18_": "<ul><li><p>Layoutgrafiken haben kein <code>alt</code>-Attribut</p></li><li><p>Layoutgrafiken sind mit Alternativtexten wie \"Platzhalter\" oder \"leer\" versehen</p></li><li><p>Layoutgrafiken haben <code>title</code>-Attribute, die nicht leer sind</p></li></ul>",
   "_STEP_9_1_1_1C_SOURCES_1_": "<p>Die WCAG 2.0-Technik <a href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html\">H67</a> sieht zusätzlich vor, dass bei Layout-Grafiken auch kein <code>title</code>-Attribut vorhanden sein soll oder dass das <code>title</code>-Attribut leer ist:</p>",
-  "_STEP_9_1_1_1C_SOURCES_2_": "<div lang=\"en\" class=\"a_mx_3\"><blockquote><p>For each image that should be ignored:</p><p>Check that <code>title</code> attribute is either absent or empty. Check that <code>alt</code> attribute is present and empty or contains only whitespace (but not )</p></blockquote></div>",
+  "_STEP_9_1_1_1C_SOURCES_2_": "<div lang=\"en\" class=\"a_ml_5\"><blockquote><p>For each image that should be ignored:</p><p>Check that <code>title</code> attribute is either absent or empty. Check that <code>alt</code> attribute is present and empty or contains only whitespace (but not )</p></blockquote></div>",
   "_STEP_9_1_1_1C_SOURCES_3_": "<p>(<a href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html\">H67: Using null alt text and no title attribute on img elements for images that AT should ignore</a>)</p>",
   "_STEP_9_1_1_1C_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_wcag_2_1\">Einordnung des Prüfschritts nach WCAG 2.1</h3>",
   "_STEP_9_1_1_1C_CLASSIFICATION_2_": "<h4 id=\"_guideline\">Guideline</h4>",
