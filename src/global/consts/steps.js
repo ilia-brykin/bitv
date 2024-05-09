@@ -277,4 +277,13 @@ export default {
     classification: 8,
     questions: 0,
   },
+  "9.2.4.1": {
+    key: "9_2_4_1",
+    whatChecked: 3,
+    whyChecked: 5,
+    howChecked: 32,
+    sources: 8,
+    classification: 14,
+    questions: 4,
+  },
 };
