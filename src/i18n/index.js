@@ -17,6 +17,7 @@ import steps_9_3_2 from "./steps/steps_9_3_2/index";
 import steps_9_3_3 from "./steps/steps_9_3_3/index";
 import steps_9_4_1 from "./steps/steps_9_4_1/index";
 import steps_11_7 from "./steps/steps_11_7/index";
+import steps_11_8 from "./steps/steps_11_8/index";
 
 export const de = {
   ..._de,
@@ -36,6 +37,7 @@ export const de = {
   ...steps_9_3_3.de,
   ...steps_9_4_1.de,
   ...steps_11_7.de,
+  ...steps_11_8.de,
 };
 
 export const ru = {
@@ -56,4 +58,5 @@ export const ru = {
   ...steps_9_3_3.ru,
   ...steps_9_4_1.ru,
   ...steps_11_7.ru,
+  ...steps_11_8.ru,
 };

@@ -754,4 +754,13 @@ export default {
     classification: 3,
     questions: 0,
   },
+  "11.8.2": {
+    key: "11_8_2",
+    whatChecked: 1,
+    whyChecked: 1,
+    howChecked: 10,
+    sources: 1,
+    classification: 3,
+    questions: 0,
+  },
 };
