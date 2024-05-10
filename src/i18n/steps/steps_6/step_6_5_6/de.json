@@ -1,0 +1,16 @@
+{
+  "_STEP_6_5_6_NAME_": "Sprecher-Anzeige für Gebärdensprachen-Kommunikation",
+  "_STEP_6_5_6_WHAT_CHECKED_1_": "<p>Wenn ein Webangebot Videotelefonie unterstützt und die Aktivität von Sprechenden angezeigt wird, soll dies auch für Nutzende von Gebärdensprache gewährleistet sein.</p>",
+  "_STEP_6_5_6_WHY_CHECKED_1_": "<p>Die Anzeige einer Gebärden-Eingabe ermöglicht Nutzenden die Wahrnehmung, dass jemand gerade Eingaben in Gebärdensprache macht und wer dies tut.</p>",
+  "_STEP_6_5_6_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_6_5_6_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn ein Webangebot Videotelefonie unterstützt und eine Anzeige der Sprechaktivität von Sprechenden bietet.</p>",
+  "_STEP_6_5_6_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_6_5_6_HOW_CHECKED_4_": "<ol><li><p>Webangebot auf zwei Geräten im Browser mit abweichenden Nutzenden-Konten starten.</p></li><li><p>Videotelefonie-Verbindung zwischen den beiden Instanzen des Webangebots herstellen.</p></li><li><p>Auf dem verbundenen Gerät die Eingabe von Gebärden starten.</p></li><li><p>Prüfen,</p><ul><li><p>ob das Webangebot die Möglichkeit bietet, den Start einer Gebärden-Eingabe manuell zu signalisieren (d.h. die Anzeige des Aktivitätszustandes zu aktivieren) oder</p></li><li><p>die Eingabe vom Webangebot automatisch erkannt und in der Folge der Aktivitäts-Zustand automatisch gesetzt wird.</p></li></ul></li><li><p>Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.</p></li></ol>",
+  "_STEP_6_5_6_HOW_CHECKED_5_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_6_5_6_HOW_CHECKED_6_": "<ul><li><p>Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.</p></li><li><p>Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.</p></li></ul>",
+  "_STEP_6_5_6_HOW_CHECKED_7_": "<p>Für Hinweise zu diesem Prüfschritt können Sie auf GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">ein Issue anlegen</a>.</p>",
+  "_STEP_6_5_6_SOURCES_1_": "<ul><li><p>Zurzeit keine Quellen.</p></li></ul>",
+  "_STEP_6_5_6_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_6_5_6_CLASSIFICATION_2_": "<h4 id=\"_6_5_6_speaker_identification_with_video_sign_language_communication\">6.5.6 Speaker identification with video (sign language) communication</h4>",
+  "_STEP_6_5_6_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT provides speaker identification for voice users, it shall provide a means for speaker identification for real-time signing and sign language users once the start of signing has been indicated.</p><p>NOTE 1: The speaker ID can be in the same location as for voice users for multiparty calls.</p><p>NOTE 2: This mechanism might be triggered manually by a user, or automatically where this is technically achievable.</p></div></div>"
+}
