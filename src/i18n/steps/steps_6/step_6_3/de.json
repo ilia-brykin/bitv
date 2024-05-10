@@ -1,0 +1,14 @@
+{
+  "_STEP_6_3_NAME_": "Anrufer-Identifizierung",
+  "_STEP_6_3_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet, soll die Identifizierung (auch) in Textform verfügbar und programmatisch ermittelbar sein.</p>",
+  "_STEP_6_3_WHY_CHECKED_1_": "<p>Diese Anforderung stellt sicher, dass auch Nutzende von Hilfsmittel-Technologien den Anrufer identifizieren können.</p>",
+  "_STEP_6_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_6_3_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet. Anrufidentifizierung bedeutet hier die Signalisierung bzw. Anzeige des Anrufenden.</p>",
+  "_STEP_6_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_6_3_HOW_CHECKED_4_": "<p>Für die Prüfung muss die Web-Anwendung ggf. auf zwei Geräten geöffnet werden.</p>",
+  "_STEP_6_3_HOW_CHECKED_5_": "<ol><li><p>Screenreader starten</p></li><li><p>Web-Anwendung öffnen</p></li><li><p>Anruf von einem zweiten Gerät tätigen</p></li><li><p>Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufende automatisch angesagt oder sind die Informationen über den Anrufenden im Browser für den Screenreader ohne Umwege auslesbar?</p></li><li><p>Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufenden in irgend einer Weise in Textform identifizieren,</p><ol class=\"loweralpha\"><li><p>B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.</p></li></ol></li></ol>",
+  "_STEP_6_3_SOURCES_1_": "<ul><li><p><a href=\"https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf\">Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)</a></p></li></ul>",
+  "_STEP_6_3_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_6_3_CLASSIFICATION_2_": "<h4 id=\"_6_3_caller_id\">6.3 Caller ID</h4>",
+  "_STEP_6_3_CLASSIFICATION_3_": "<p>Where ICT provides caller identification or similar telecommunications functions, the caller identification and similar telecommunications functions shall be available in text form as well as being programmatically determinable, unless the functionality is closed.</p>"
+}
