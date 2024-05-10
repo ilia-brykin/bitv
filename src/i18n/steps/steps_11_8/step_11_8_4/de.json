@@ -1,0 +1,15 @@
+{
+  "_STEP_11_8_4_NAME_": "Reparaturassistenz",
+  "_STEP_11_8_4_WHAT_CHECKED_1_": "<p>Ist die Seite Teil eines Autorenwerkzeugs und bietet Funktionen zur Erkennung von Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten, dann sollen Vorschläge zur Behebung dieser Fehler verfügbar sein.</p>",
+  "_STEP_11_8_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_11_8_4_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist oder eine Autorfunktion enthält (etwa eine Kommentarfunktion). Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten können aufgezeigt werden (z. B. \"Bitte vergeben Sie eine Überschrift\" oder \"Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Alternativtext\").</p>",
+  "_STEP_11_8_4_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_11_8_4_HOW_CHECKED_4_": "<ol><li><p>Auf der Seite Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten <strong>nicht</strong> nutzen, z. B.:</p><ul><li><p>Vorhandene Felder für Überschriften leer lassen, Überschriftenauszeichung von Text-Editoren nicht nutzen</p></li><li><p>Bilder einfügen, ohne einen Alternativtext festzulegen</p></li><li><p>In ein E-Mail-Adressen-Feld eine fehlerhafte E-Mail-Adresse eingeben</p></li></ul></li><li><p>Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf Fehler stattfindet.</p></li><li><p>Falls eine Fehlerprüfung stattfindet (z. B. wenn das Sichern oder Abschicken nicht möglich ist bzw. fehlerhafte oder fehlende Eingaben grafisch hervorgehoben werden), prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden.</p></li></ol>",
+  "_STEP_11_8_4_HOW_CHECKED_5_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_11_8_4_HOW_CHECKED_6_": "<p>Der Begriff \"Dokumente\" wird in dieser Anforderung weit gefasst und umfasst Web- und Nicht-Web-Dokumente. Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der EN 301 549.</p>",
+  "_STEP_11_8_4_HOW_CHECKED_7_": "<p>Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">dazu ein Issue eröffnen</a>.</p>",
+  "_STEP_11_8_4_SOURCES_1_": "<ul><li><p>Zurzeit keine Quellen.</p></li></ul>",
+  "_STEP_11_8_4_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_11_8_4_CLASSIFICATION_2_": "<h4 id=\"_11_8_4_repair_assistance\">11.8.4 Repair assistance</h4>",
+  "_STEP_11_8_4_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>If the accessibility checking functionality of an authoring tool can detect that content does not meet a requirement of clauses 9 (Web) or 10 (Non-web documents) as applicable, then the authoring tool shall provide repair suggestion(s).</p><p>NOTE: This does not preclude automated and semi-automated repair which is possible (and encouraged) for many types of content accessibility problems.</p></div></div>"
+}
