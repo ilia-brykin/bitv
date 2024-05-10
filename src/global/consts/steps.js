@@ -799,4 +799,13 @@ export default {
     classification: 3,
     questions: 0,
   },
+  "12.1.2": {
+    key: "12_1_2",
+    whatChecked: 4,
+    whyChecked: 1,
+    howChecked: 12,
+    sources: 1,
+    classification: 3,
+    questions: 0,
+  },
 };
