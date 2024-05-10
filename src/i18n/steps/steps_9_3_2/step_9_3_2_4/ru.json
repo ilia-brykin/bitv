@@ -1,1 +1,26 @@
-{}
+{
+  "_STEP_9_3_2_4_NAME_": "Последовательное наименование",
+  "_STEP_9_3_2_4_WHAT_CHECKED_1_": "<p>Механизмы навигации и функции, повторно используемые на сайте, должны иметь единообразные наименования.</p>",
+  "_STEP_9_3_2_4_WHY_CHECKED_1_": "<p>Четкие и последовательно используемые наименования для навигации и повторяющихся функций упрощают пользователям понимание контента сайта. Это облегчает поиск необходимой информации и позволяет легче устанавливать связи между разделами сайта.</p>",
+  "_STEP_9_3_2_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Применимость этапа проверки</h3>",
+  "_STEP_9_3_2_4_HOW_CHECKED_2_": "<p>Этот этап проверки всегда применим.</p>",
+  "_STEP_9_3_2_4_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Проверка</h3>",
+  "_STEP_9_3_2_4_HOW_CHECKED_4_": "<h4 id=\"_2_1_sind_navigation_und_sich_wiederholende_funktionen_einheitlich_bezeichnet\">2.1 Имеют ли навигация и повторяющиеся функции единообразные наименования?</h4>",
+  "_STEP_9_3_2_4_HOW_CHECKED_5_": "<ul><li><p>Перейдите с главной страницы в различные разделы сайта.</p></li><li><p>Проверьте, являются ли навигационные механизмы, пункты меню и повторяющиеся функции в различных разделах сайта осмысленно и единообразно обозначенными.</p></li><li><p>Соответствуют ли (часто более короткие) пункты меню заголовкам целевых страниц?</p></li><li><p>Если сайт использует фреймы для структурирования областей контента: используйте <a href=\"https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper\">Web Developer Toolbar</a> на различных страницах с функцией <em>Outline &gt; Outline Frames</em>, затем <em>Information &gt; Display Element Information</em> и щелкните курсором на рамке фреймов, чтобы проверить, включены ли фреймы с одинаковым содержанием (например, навигационное меню) всегда в одно и то же место в <code>frameset</code>.</p></li></ul>",
+  "_STEP_9_3_2_4_HOW_CHECKED_6_": "<h3 id=\"_3_bewertung\">3. Оценка</h3>",
+  "_STEP_9_3_2_4_HOW_CHECKED_7_": "<p>Оценку как не выполнено или частично выполнено всегда объясняйте!</p>",
+  "_STEP_9_3_2_4_CLASSIFICATION_1_": "<h3 id=\"_abgrenzung_von_anderen_prüfschritten\">Отличие от других этапов проверки</h3>",
+  "_STEP_9_3_2_4_CLASSIFICATION_2_": "<ul><li><p>В то время как данный этап проверки касается использования последовательных наименований в навигационных механизмах, этап проверки 9.3.2.3 \"Последовательная навигация\" оценивает, одинаково ли расположены навигационные механизмы и пункты меню в различных разделах сайта.</p></li></ul>",
+  "_STEP_9_3_2_4_CLASSIFICATION_3_": "<h3 id=\"_einordnung_des_prüfschritts_nach_wcag_2_1\">Классификация этапа проверки по WCAG 2.1</h3>",
+  "_STEP_9_3_2_4_CLASSIFICATION_4_": "<h4 id=\"_guideline\">Руководство</h4>",
+  "_STEP_9_3_2_4_CLASSIFICATION_5_": "<ul><li><p><a href=\"https://www.w3.org/TR/WCAG21/#predictable\"> Руководство 3.2 Создание веб-страниц, которые появляются и функционируют предсказуемо.</a></p></li></ul>",
+  "_STEP_9_3_2_4_CLASSIFICATION_6_": "<h4 id=\"_success_criteria\">Критерии успеха</h4>",
+  "_STEP_9_3_2_4_CLASSIFICATION_7_": "<ul><li><p><a href=\"https://www.w3.org/TR/WCAG21/#consistent-identification\"> 3.2.4 Последовательное обозначение</a> (Уровень AA)</p></li></ul>",
+  "_STEP_9_3_2_4_CLASSIFICATION_8_": "<h4 id=\"_techniques\">Техники</h4>",
+  "_STEP_9_3_2_4_CLASSIFICATION_9_": "<h5 id=\"_general_techniques\">Общие техники</h5>",
+  "_STEP_9_3_2_4_CLASSIFICATION_10_": "<ul><li><p><a href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html\"> G131: Предоставление описательных меток</a></p></li><li><p><a href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html\"> G197: Использование меток, имен и текстовых альтернатив последовательно для контента, имеющего одинаковую функциональность</a></p></li></ul>",
+  "_STEP_9_3_2_4_CLASSIFICATION_11_": "<h5 id=\"_html_techniques\">HTML Техники</h5>",
+  "_STEP_9_3_2_4_CLASSIFICATION_12_": "<ul><li><p><a href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H70.html\"> H70: Использование элементов frame для группировки блоков повторяющегося материала</a></p></li></ul>",
+  "_STEP_9_3_2_4_CLASSIFICATION_13_": "<h5 id=\"_failures\">Неудачи</h5>",
+  "_STEP_9_3_2_4_CLASSIFICATION_14_": "<ul><li><p><a href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F31.html\"> F31: Ошибка критерия успеха 3.2.4 из-за использования двух разных меток для одной и той же функции на разных веб-страницах в рамках набора веб-страниц</a></p></li></ul>"
+}
