@@ -1,0 +1,18 @@
+{
+  "_STEP_6_4_NAME_": "Alternativen zu sprachbasierten Diensten",
+  "_STEP_6_4_WHAT_CHECKED_1_": "<p>Wenn ein Webangebot Echtzeit-Sprachkommunikation mit Voicemail-Funktion bietet oder interaktive Sprachdialogsysteme einsetzt (z.B. sprachgesteueerte Menüführung), sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.</p>",
+  "_STEP_6_4_WHY_CHECKED_1_": "<p>Gehörlose und schwerhörige Menschen und Menschen mit Einschränkungen beim Sprechen können sprachbasierte Dienste nicht nutzen. Deshalb muss eine zugängliche Alternative bereitstehen, in der der Zugang zu Informationen und deren Ausgabe auch ohne Sprechen und Hören möglich ist.</p>",
+  "_STEP_6_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_6_4_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit-Sprachkommunikation mit Voicemail-Funktion oder interaktive Sprachdialogsysteme (z.B. sprachgesteuerte Menüführung bei einer Hotline) einsezt.</p>",
+  "_STEP_6_4_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_6_4_HOW_CHECKED_4_": "<p>Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprach- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:</p>",
+  "_STEP_6_4_HOW_CHECKED_5_": "<ul><li><p>eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare</p></li><li><p>eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text</p></li></ul>",
+  "_STEP_6_4_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_6_4_HOW_CHECKED_7_": "<p>Ein Beispiel für einen Dienst, der Sprach und Hörfähigkeiten voraussetzt, ist z.B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft. Hier muss eine Alternative geboten werden, die das Hören und Sprechen nicht erfordert.</p>",
+  "_STEP_6_4_HOW_CHECKED_8_": "<p>Ein anderes Beispiel ist telefonische Ansage des Guthabens bei einem Prepaid-Mobilfunkvertrag. Hier müsste der Anbieter das aktuelle Guthaben in Textform auf der Seite bereitstellen.</p>",
+  "_STEP_6_4_HOW_CHECKED_9_": "<p>Für Hinweise zu diesem Prüfschritt können Sie auf GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">ein Issue anlegen</a>.</p>",
+  "_STEP_6_4_SOURCES_1_": "<ul><li><p><a href=\"https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf\">Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)</a></p></li></ul>",
+  "_STEP_6_4_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_6_4_CLASSIFICATION_2_": "<h4 id=\"_6_4_alternatives_to_voice_based_services\">6.4 Alternatives to voice-based services</h4>",
+  "_STEP_6_4_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT provides real-time voice-based communication and also provides voice mail, auto-attendant, or interactive voice response facilities, the ICT shall offer users a means to access the information and carry out the tasks provided by the ICT without the use of hearing or speech.</p><p>NOTE 1: Tasks that involve both operating the interface and perceiving the information would require that both the interface and information be accessible without use of speech or hearing.</p><p>NOTE 2: Solutions capable of handling audio, RTT and video media could satisfy the above requirement.</p></div></div>"
+}
