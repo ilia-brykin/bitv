@@ -1,0 +1,22 @@
+{
+  "_STEP_7_1_3_NAME_": "Erhaltung von Untertiteln",
+  "_STEP_7_1_3_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, bleiben die Untertitel erhalten, sie lassen sich weiterhin anzeigen und werden synchron zum Ton dargestellt. Das heißt, die Prüfschritte 7.1.1 \"Wiedergabe von Untertiteln\" und 7.1.2 \"Synchrone Untertitel\" sind weiterhin erfüllt.</p>",
+  "_STEP_7_1_3_WHY_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, sollen diese Untertitel in gleicher Weise nutzbar sein wie vor dem Vorgang. Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.</p>",
+  "_STEP_7_1_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_7_1_3_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln übertragen, konvertieren oder aufnehmen kann.</p>",
+  "_STEP_7_1_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_7_1_3_HOW_CHECKED_4_": "<p>Wenn die Webseite Videos mit Untertiteln konvertiert oder aufnimmt, Video anschließend in einem konformen Player abspielen:</p>",
+  "_STEP_7_1_3_HOW_CHECKED_5_": "<ul><li><p>Sind alle Untertitel aus der Quelle weiterhin vorhanden?</p></li><li><p>Lassen sich alle Untertitel anzeigen?</p></li><li><p>Ist die Darstellung der Untertitel weiterhin synchron zum Ton?</p></li></ul>",
+  "_STEP_7_1_3_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_7_1_3_HOW_CHECKED_7_": "<p>Wenn gestalterische Aspekte der Untertitel (z. B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.</p>",
+  "_STEP_7_1_3_HOW_CHECKED_8_": "<p>Hinweise zu diesem Prüfschritt können Sie auf GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">in einem Issue hinterlassen</a>.</p>",
+  "_STEP_7_1_3_HOW_CHECKED_9_": "<h3 id=\"_4_bewertung\">4. Bewertung</h3>",
+  "_STEP_7_1_3_HOW_CHECKED_10_": "<h4 id=\"_nicht_erfüllt\">Nicht erfüllt:</h4>",
+  "_STEP_7_1_3_HOW_CHECKED_11_": "<ul><li><p>Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen oder sind nicht mehr synchron zum Ton.</p></li></ul>",
+  "_STEP_7_1_3_SOURCES_1_": "<ul><li><p>Zurzeit keine Quellen.</p></li></ul>",
+  "_STEP_7_1_3_CLASSIFICATION_1_": "<h3 id=\"_abgrenzung_zu_anderen_prüfschritten\">Abgrenzung zu anderen Prüfschritten</h3>",
+  "_STEP_7_1_3_CLASSIFICATION_2_": "<p>In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt. In den Prüfschritten 7.1.1 \"Wiedergabe von Untertiteln\" und 7.1.2 \"Synchrone Untertitel\" geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind.</p>",
+  "_STEP_7_1_3_CLASSIFICATION_3_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_7_1_3_CLASSIFICATION_4_": "<h4 id=\"_7_1_3_preservation_of_captioning\">7.1.3 Preservation of captioning</h4>",
+  "_STEP_7_1_3_CLASSIFICATION_5_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT transmits, converts or records video with synchronized audio, it shall preserve caption data such that it can be displayed in a manner consistent with clauses 7.1.1 and 7.1.2.</p><p>Additional presentational aspects of the text such as screen position, text colours, text style and text fonts may convey meaning, based on regional conventions. Altering these presentational aspects could change the meaning and should be avoided wherever possible.</p></div></div>"
+}
