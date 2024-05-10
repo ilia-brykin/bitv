@@ -6,7 +6,7 @@ export default {
     howChecked: 17,
     sources: 1,
     classification: 3,
-    questions: 0
+    questions: 0,
   },
   5.3: {
     key: "5_3",
@@ -15,7 +15,7 @@ export default {
     howChecked: 11,
     sources: 1,
     classification: 3,
-    questions: 0
+    questions: 0,
   },
   5.4: {
     key: "5_4",
@@ -24,7 +24,16 @@ export default {
     howChecked: 12,
     sources: 1,
     classification: 3,
-    questions: 0
+    questions: 0,
+  },
+  6.1: {
+    key: "6_1",
+    whatChecked: 2,
+    whyChecked: 1,
+    howChecked: 4,
+    sources: 1,
+    classification: 3,
+    questions: 0,
   },
   "9.1.1.1a": {
     key: "9_1_1_1A",
