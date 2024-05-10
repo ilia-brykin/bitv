@@ -1,1 +1,16 @@
-{}
+{
+  "_STEP_6_5_5_NAME_": "Визуальный индикатор аудиоактивности",
+  "_STEP_6_5_5_WHAT_CHECKED_1_": "<p>Если веб-приложение поддерживает видеотелефонию, аудиоактивность должна визуально отображаться.</p>",
+  "_STEP_6_5_5_WHY_CHECKED_1_": "<p>Отображение аудиоактивности позволяет глухим пользователям осознавать, что кто-то говорит и кто именно говорит.</p>",
+  "_STEP_6_5_5_HOW_CHECKED_1_": "<h3 id=\"_anwendbarkeit_des_prüfschritts\">Применимость этапа проверки</h3>",
+  "_STEP_6_5_5_HOW_CHECKED_2_": "<p>Этап проверки применим, если веб-приложение поддерживает видеотелефонию с передачей голоса.</p>",
+  "_STEP_6_5_5_HOW_CHECKED_3_": "<h3 id=\"_prüfung\">Проверка</h3>",
+  "_STEP_6_5_5_HOW_CHECKED_4_": "<ol><li><p>Открыть веб-приложение на двух разных устройствах в браузере с разными учетными записями пользователей.</p></li><li><p>Установить видеотелефонную связь между двумя экземплярами веб-приложения.</p></li><li><p>Ввести голос на подключенном устройстве и проверить на тестируемом устройстве, видима ли визуально голосовая активность.</p></li></ol>",
+  "_STEP_6_5_5_HOW_CHECKED_5_": "<h3 id=\"_hinweise\">Замечания</h3>",
+  "_STEP_6_5_5_HOW_CHECKED_6_": "<p>Для индикатора голосовой активности существуют дополнительные требования, например, к контрасту графики.</p>",
+  "_STEP_6_5_5_HOW_CHECKED_7_": "<p>Визуальный индикатор аудиоактивности может быть простым визуальным пунктом, светодиодом или другим типом индикатора вкл/выкл, который мигает.</p>",
+  "_STEP_6_5_5_HOW_CHECKED_8_": "<p>Для советов по этому этапу проверки вы можете создать <a href=\"https://github.com/BIK-BITV/BIK-App-Test/issues\">запрос на GitHub</a>.</p>",
+  "_STEP_6_5_5_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Классификация этапа проверки по EN 301 549 V3.2.1</h3>",
+  "_STEP_6_5_5_CLASSIFICATION_2_": "<h4 id=\"_6_5_5_visual_indicator_of_audio_with_video\">6.5.5 Визуальный индикатор аудио с видео</h4>",
+  "_STEP_6_5_5_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT provides two-way voice communication, and includes real-time video functionality, the ICT shall provide a real-time visual indicator of audio activity.</p><p>NOTE 1: The visual indicator may be a simple visual dot or LED, or other type of on/off indicator, that flickers to reflect audio activity.</p><p>NOTE 2: Without this indication a person who lacks the ability to hear does not know when someone is talking.</p></div></div>"
+}
