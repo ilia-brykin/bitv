@@ -6,6 +6,7 @@ import step_6_2_2_2 from "./step_6_2_2_2/index";
 import step_6_2_2_3 from "./step_6_2_2_3/index";
 import step_6_2_2_4 from "./step_6_2_2_4/index";
 import step_6_2_3 from "./step_6_2_3/index";
+import step_6_2_4 from "./step_6_2_4/index";
 
 export default {
   de: {
@@ -17,6 +18,7 @@ export default {
     ...step_6_2_2_3.de,
     ...step_6_2_2_4.de,
     ...step_6_2_3.de,
+    ...step_6_2_4.de,
   },
   ru: {
     ...step_6_1.ru,
@@ -27,5 +29,6 @@ export default {
     ...step_6_2_2_3.ru,
     ...step_6_2_2_4.ru,
     ...step_6_2_3.ru,
+    ...step_6_2_4.ru,
   },
 };
