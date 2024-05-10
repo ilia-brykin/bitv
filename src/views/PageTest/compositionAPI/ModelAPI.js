@@ -90,7 +90,7 @@ export default function ModelAPI() {
         if (child.hasAttribute("lang")) {
           child.classList.add("a_ml_5");
         }
-        JSON[KEY_TRANSLATE] = child.outerHTML.replaceAll("&nbsp;", " ").replaceAll("\\n", " ");
+        JSON[KEY_TRANSLATE] = child.outerHTML.replaceAll("&nbsp;", " ").replaceAll("\n", " ");
         JSON_STEP_INFO[rubric.key] = objIndex.index;
         objIndex.index++;
       } else {
