@@ -1,1 +1,18 @@
-{}
+{
+  "_STEP_6_4_NAME_": "Альтернативы голосовым услугам",
+  "_STEP_6_4_WHAT_CHECKED_1_": "<p>Если веб-предложение поддерживает голосовую связь в реальном времени с функцией голосовой почты или использует интерактивные голосовые системы диалога (например, управление голосовым меню), задачи должны быть выполнимы без способности слышать и говорить.</p>",
+  "_STEP_6_4_WHY_CHECKED_1_": "<p>Люди с нарушениями слуха и речи не могут использовать голосовые услуги, поэтому должна быть доступна доступная альтернатива, позволяющая получать доступ к информации и выводить ее без необходимости говорить и слышать.</p>",
+  "_STEP_6_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Применимость этапа проверки</h3>",
+  "_STEP_6_4_HOW_CHECKED_2_": "<p>Этап проверки применим, если веб-предложение поддерживает голосовую связь в реальном времени с функцией голосовой почты или интерактивные голосовые системы диалога (например, управление голосовым меню на горячей линии).</p>",
+  "_STEP_6_4_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Проверка</h3>",
+  "_STEP_6_4_HOW_CHECKED_4_": "<p>Если информация предоставляется через голосовую связь в реальном времени, проверить, доступна ли она без способностей говорить и слышать. Это включает:</p>",
+  "_STEP_6_4_HOW_CHECKED_5_": "<ul><li><p>альтернативный способ доступа, например, через доступные меню или формы</p></li><li><p>альтернативный доступный вывод информации, например, в виде видимого программно определяемого текста</p></li></ul>",
+  "_STEP_6_4_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Замечания</h3>",
+  "_STEP_6_4_HOW_CHECKED_7_": "<p>Пример услуги, требующей возможности слышать и говорить, например, процедура идентификации видео. Она используется, в том числе, онлайн-банками для идентификации. Во время видеозвонка проверяется подлинность паспорта и т. д. Здесь должна быть предложена альтернатива, которая не требует слушания и говорения.</p>",
+  "_STEP_6_4_HOW_CHECKED_8_": "<p>Другой пример — телефонное объявление баланса на предоплаченном мобильном контракте. Здесь провайдер должен предоставить текущий баланс в текстовой форме на сайте.</p>",
+  "_STEP_6_4_HOW_CHECKED_9_": "<p>Для получения рекомендаций по этому этапу проверки вы можете создать <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">запрос на GitHub</a>.</p>",
+  "_STEP_6_4_SOURCES_1_": "<ul><li><p><a href=\"https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf\">Факторы человеческого фактора (HF); Текст в реальном времени (RTT) в многопользовательских телефонных конференциях / ETSI TR 103 708 V1.1.1 (2022-08)</a></p></li></ul>",
+  "_STEP_6_4_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Классификация этапа проверки по EN 301 549 V3.2.1</h3>",
+  "_STEP_6_4_CLASSIFICATION_2_": "<h4 id=\"_6_4_alternatives_to_voice_based_services\">6.4 Альтернативы голосовым услугам</h4>",
+  "_STEP_6_4_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT provides real-time voice-based communication and also provides voice mail, auto-attendant, or interactive voice response facilities, the ICT shall offer users a means to access the information and carry out the tasks provided by the ICT without the use of hearing or speech.</p><p>NOTE 1: Tasks that involve both operating the interface and perceiving the information would require that both the interface and information be accessible without use of speech or hearing.</p><p>NOTE 2: Solutions capable of handling audio, RTT and video media could satisfy the above requirement.</p></div></div>"
+}
