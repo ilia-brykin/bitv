@@ -1,0 +1,19 @@
+{
+  "_STEP_7_2_3_NAME_": "Erhaltung von Audiodeskription",
+  "_STEP_7_2_3_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, bleibt die Audiodeskription nach dem Vorgang erhalten. Sie ist weiterhin zuschaltbar und wird synchron zu Bild und Ton dargestellt. Die Prüfschritte 7.2.1 \"Wiedergabe von Audiodeskription\" und 7.2.2 \"Synchrone Audiodeskription\" sind weiterhin erfüllt.</p>",
+  "_STEP_7_2_3_WHY_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, soll die Audiodeskription in gleicher Weise nutzbar sein wie vor dem Vorgang. Dazu gehört, dass sie ausgegeben werden kann und synchron abgespielt wird.</p>",
+  "_STEP_7_2_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_7_2_3_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Audiodeskription übertragen, konvertieren oder aufnehmen kann.</p>",
+  "_STEP_7_2_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_7_2_3_HOW_CHECKED_4_": "<p>Wenn das Webangebot Videos mit Audiodeskription konvertiert oder aufnimmt, das Video anschließend in einem konformen Player abspielen:</p>",
+  "_STEP_7_2_3_HOW_CHECKED_5_": "<ul><li><p>Ist Audiodeskription aus der Quelle weiterhin vorhanden?</p></li><li><p>Lässt sich Audiodeskription abspielen?</p></li><li><p>Ist die Audiodeskription weiterhin synchron zu Bild und Ton?</p></li></ul>",
+  "_STEP_7_2_3_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_7_2_3_HOW_CHECKED_7_": "<p>Hinweise zu diesem Prüfschritt können Sie auf GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">in einem Issue hinterlassen</a>.</p>",
+  "_STEP_7_2_3_HOW_CHECKED_8_": "<h3 id=\"_4_bewertung\">4. Bewertung</h3>",
+  "_STEP_7_2_3_HOW_CHECKED_9_": "<h4 id=\"_nicht_erfüllt\">Nicht erfüllt:</h4>",
+  "_STEP_7_2_3_CLASSIFICATION_1_": "<h3 id=\"_abgrenzung_zu_anderen_prüfschritten\">Abgrenzung zu anderen Prüfschritten</h3>",
+  "_STEP_7_2_3_CLASSIFICATION_2_": "<p>In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Ausgabe oder Synchronität von Audiodeskription kommt. In den Prüfschritten 7.2.1 \"Wiedergabe von Audiodeskription\" und 7.2.2 \"Synchrone Audiodeskription\" geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind.</p>",
+  "_STEP_7_2_3_CLASSIFICATION_3_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_7_2_3_CLASSIFICATION_4_": "<h4 id=\"_7_2_3_preservation_of_audio_description\">7.2.3 Preservation of audio description</h4>",
+  "_STEP_7_2_3_CLASSIFICATION_5_": "<p>Where ICT transmits, converts, or records video with synchronized audio, it shall preserve audio description data such that it can be played in a manner consistent with clauses 7.2.1 and 7.2.2.</p>"
+}
