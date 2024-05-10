@@ -71,6 +71,15 @@ export default {
     classification: 3,
     questions: 0,
   },
+  "6.2.2.3": {
+    key: "6_2_2_3",
+    whatChecked: 1,
+    whyChecked: 1,
+    howChecked: 6,
+    sources: 1,
+    classification: 3,
+    questions: 0,
+  },
   "9.1.1.1a": {
     key: "9_1_1_1A",
     whatChecked: 3,

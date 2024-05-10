@@ -1,0 +1,15 @@
+{
+  "_STEP_6_2_2_3_NAME_": "Sprecheridentifizierung",
+  "_STEP_6_2_2_3_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprechende über Sprache identifiziert, sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.</p>",
+  "_STEP_6_2_2_3_WHY_CHECKED_1_": "<p>Für alle Teilnehmenden in einer entfernten Kommunikation ist es sehr wichtig, sehen oder ermitteln zu können, wer gerade spricht, um sich in Antworten auf sie oder ihn beziehen zu können. Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.</p>",
+  "_STEP_6_2_2_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_6_2_2_3_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert. Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig hervorgehoben.</p>",
+  "_STEP_6_2_2_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_6_2_2_3_HOW_CHECKED_4_": "<ol><li><p>Web-Anwendung öffnen.</p></li><li><p>Prüfen, ob aktive Sprechende über Sprache identifiziert und in der Anwendung markiert oder anderweitig hervorgehoben werden.</p></li><li><p>Ist dies der Fall, prüfen, ob auch Teilnehmende, die Echtzeit-Texteingabe verwenden, beim Eingeben markiert oder anderweitig hervorgehoben werden.</p></li></ol>",
+  "_STEP_6_2_2_3_HOW_CHECKED_5_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_6_2_2_3_HOW_CHECKED_6_": "<p>Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmenden etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.</p>",
+  "_STEP_6_2_2_3_SOURCES_1_": "<ul><li><p><a href=\"https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf\">Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)</a></p></li></ul>",
+  "_STEP_6_2_2_3_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_6_2_2_3_CLASSIFICATION_2_": "<h4 id=\"_6_2_2_3_speaker_identification\">6.2.2.3 Speaker identification</h4>",
+  "_STEP_6_2_2_3_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT has RTT capabilities, and provides speaker identification for voice, the ICT shall provide speaker identification for RTT.</p><p>NOTE: This is necessary to enable both voice and RTT participants to know who is currently communicating, whether it be in RTT or voice.</p></div></div>"
+}
