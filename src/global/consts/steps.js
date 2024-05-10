@@ -826,4 +826,13 @@ export default {
     classification: 3,
     questions: 0,
   },
+  "12.2.4": {
+    key: "12_2_4",
+    whatChecked: 3,
+    whyChecked: 1,
+    howChecked: 17,
+    sources: 1,
+    classification: 3,
+    questions: 0,
+  },
 };
