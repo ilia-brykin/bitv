@@ -1,4 +1,13 @@
 export default {
+  5.2: {
+    key: "5_2",
+    whatChecked: 4,
+    whyChecked: 2,
+    howChecked: 17,
+    sources: 1,
+    classification: 3,
+    questions: 0
+  },
   "9.1.1.1a": {
     key: "9_1_1_1A",
     whatChecked: 3,
