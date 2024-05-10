@@ -1,6 +1,7 @@
 import step_6_1 from "./step_6_1/index";
 import step_6_2_1_1 from "./step_6_2_1_1/index";
 import step_6_2_1_2 from "./step_6_2_1_2/index";
+import step_6_2_2_1 from "./step_6_2_2_1/index";
 
 
 export default {
@@ -8,10 +9,12 @@ export default {
     ...step_6_1.de,
     ...step_6_2_1_1.de,
     ...step_6_2_1_2.de,
+    ...step_6_2_2_1.de,
   },
   ru: {
     ...step_6_1.ru,
     ...step_6_2_1_1.ru,
     ...step_6_2_1_2.ru,
+    ...step_6_2_2_1.ru,
   },
 };
