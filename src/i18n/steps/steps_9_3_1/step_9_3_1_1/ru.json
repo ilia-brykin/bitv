@@ -1,1 +1,24 @@
-{}
+{
+  "_STEP_9_3_1_1_NAME_": "Основной язык указан",
+  "_STEP_9_3_1_1_WHAT_CHECKED_1_": "<p>Основной язык веб-страницы должен быть указан.</p>",
+  "_STEP_9_3_1_1_WHY_CHECKED_1_": "<p>Скринридеры используют списки слов, в которых определено произношение слов. Им нужно знать, на каком языке написан текст, чтобы они могли использовать правильный список слов и корректно произносить текст.</p>",
+  "_STEP_9_3_1_1_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Применимость этапа проверки</h3>",
+  "_STEP_9_3_1_1_HOW_CHECKED_2_": "<p>Этот шаг проверки всегда применим.</p>",
+  "_STEP_9_3_1_1_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Проверка</h3>",
+  "_STEP_9_3_1_1_HOW_CHECKED_4_": "<p>Анализ исходного кода: проверить исходный код страницы и убедиться, что в открывающем элементе <code>html</code> используется атрибут <code>lang</code> (или <code>xml:lang</code> на страницах XHTML) и что в нем правильно указан основной язык страницы.</p>",
+  "_STEP_9_3_1_1_HOW_CHECKED_5_": "<h3 id=\"_3_bewertung\">3. Оценка</h3>",
+  "_STEP_9_3_1_1_HOW_CHECKED_6_": "<h4 id=\"_erfüllt\">Выполнено</h4>",
+  "_STEP_9_3_1_1_HOW_CHECKED_7_": "<ul><li><p>Основной язык веб-страницы указан корректно.</p></li></ul>",
+  "_STEP_9_3_1_1_HOW_CHECKED_8_": "<h4 id=\"_nicht_erfüllt\">Не выполнено</h4>",
+  "_STEP_9_3_1_1_HOW_CHECKED_9_": "<ul><li><p>Основной язык веб-страницы не указан или указан неправильно.</p></li></ul>",
+  "_STEP_9_3_1_1_CLASSIFICATION_1_": "<h3 id=\"_abgrenzung_zu_anderen_prüfschritten\">Разграничение с другими этапами проверки</h3>",
+  "_STEP_9_3_1_1_CLASSIFICATION_2_": "<ul><li><p>Этап проверки 9.3.1.2 \"Слова и разделы на других языках выделены\"</p></li></ul>",
+  "_STEP_9_3_1_1_CLASSIFICATION_3_": "<h3 id=\"_einordnung_des_prüfschritts_nach_wcag_2_1\">Классификация этапа проверки по WCAG 2.1</h3>",
+  "_STEP_9_3_1_1_CLASSIFICATION_4_": "<h4 id=\"_guideline\">Руководство</h4>",
+  "_STEP_9_3_1_1_CLASSIFICATION_5_": "<ul><li><p><a href=\"https://www.w3.org/TR/WCAG21/#readable\">Руководство 3.1 Читаемость: Сделать текстовый контент читаемым и понятным</a></p></li></ul>",
+  "_STEP_9_3_1_1_CLASSIFICATION_6_": "<h4 id=\"_success_criterion\">Критерий успеха</h4>",
+  "_STEP_9_3_1_1_CLASSIFICATION_7_": "<ul><li><p><a href=\"https://www.w3.org/TR/WCAG21/#language-of-page\">3.1.1 Язык страницы</a> (Уровень A)</p></li></ul>",
+  "_STEP_9_3_1_1_CLASSIFICATION_8_": "<h4 id=\"_techniques\">Техники</h4>",
+  "_STEP_9_3_1_1_CLASSIFICATION_9_": "<h5 id=\"_html_techniques\">Техники HTML</h5>",
+  "_STEP_9_3_1_1_CLASSIFICATION_10_": "<ul><li><p><a href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H57.html\">H57: Использование атрибутов языка на элементе html</a></p></li></ul>"
+}
