@@ -179,6 +179,15 @@ export default {
     classification: 7,
     questions: 0,
   },
+  "7.1.2": {
+    key: "7_1_2",
+    whatChecked: 2,
+    whyChecked: 1,
+    howChecked: 12,
+    sources: 1,
+    classification: 5,
+    questions: 0,
+  },
   "9.1.1.1a": {
     key: "9_1_1_1A",
     whatChecked: 3,
