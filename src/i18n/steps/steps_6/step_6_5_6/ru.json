@@ -1,1 +1,16 @@
-{}
+{
+  "_STEP_6_5_6_NAME_": "Индикация участника при общении на языке жестов",
+  "_STEP_6_5_6_WHAT_CHECKED_1_": "<p>Если веб-предложение поддерживает видеотелефонию и отображает активность говорящих, это должно быть обеспечено также для пользователей языка жестов.</p>",
+  "_STEP_6_5_6_WHY_CHECKED_1_": "<p>Отображение ввода жестов позволяет пользователям видеть, что кто-то делает ввод на языке жестов и кто это делает.</p>",
+  "_STEP_6_5_6_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">Применимость этапа проверки</h3>",
+  "_STEP_6_5_6_HOW_CHECKED_2_": "<p>Этап проверки применим, если веб-предложение поддерживает видеотелефонию и отображает активность говорящих.</p>",
+  "_STEP_6_5_6_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Этап проверки</h3>",
+  "_STEP_6_5_6_HOW_CHECKED_4_": "<ol><li><p>Запустить веб-предложение на двух устройствах в браузере с разными учетными записями пользователей.</p></li><li><p>Установить видеотелефонную связь между двумя экземплярами веб-предложения.</p></li><li><p>Начать ввод жестами на подключенном устройстве.</p></li><li><p>Проверить, предоставляет ли веб-предложение возможность вручную сигнализировать о начале ввода жестов (т.е. активировать отображение состояния активности) или</p><li><p>автоматически распознает ввод и соответственно автоматически устанавливает состояние активности.</p></li><li><p>Проверить, видима ли активность ввода жестов.</p></li></ol>",
+  "_STEP_6_5_6_HOW_CHECKED_5_": "<h3 id=\"_3_hinweise\">3. Замечания</h3>",
+  "_STEP_6_5_6_HOW_CHECKED_6_": "<ul><li><p>Вероятно, не имеет значения, делает ли ввод человек, знающий язык жестов, или просто делаются похожие движения, т.е. ввод симулируется.</p></li><li><p>Для индикатора активности жестов действуют дополнительные требования, например, к контрасту графики.</p></li></ul>",
+  "_STEP_6_5_6_HOW_CHECKED_7_": "<p>Для получения советов по этому этапу проверки вы можете создать <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">запрос на GitHub</a>.</p>",
+  "_STEP_6_5_6_SOURCES_1_": "<ul><li><p>На данный момент нет источников.</p></li></ul>",
+  "_STEP_6_5_6_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Классификация этапа проверки по EN 301 549 V3.2.1</h3>",
+  "_STEP_6_5_6_CLASSIFICATION_2_": "<h4 id=\"_6_5_6_speaker_identification_with_video_sign_language_communication\">6.5.6 Идентификация говорящего при видеокоммуникации с использованием языка жестов</h4>",
+  "_STEP_6_5_6_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT provides speaker identification for voice users, it shall provide a means for speaker identification for real-time signing and sign language users once the start of signing has been indicated.</p><p>NOTE 1: The speaker ID can be in the same location as for voice users for multiparty calls.</p><p>NOTE 2: This mechanism might be triggered manually by a user, or automatically where this is technically achievable.</p></div></div>"
+}
