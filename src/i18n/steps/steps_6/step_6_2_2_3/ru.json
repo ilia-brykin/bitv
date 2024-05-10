@@ -1,1 +1,15 @@
-{}
+{
+  "_STEP_6_2_2_3_NAME_": "Идентификация говорящего",
+  "_STEP_6_2_2_3_WHAT_CHECKED_1_": "<p>Если веб-приложение поддерживает текстовую коммуникацию в реальном времени (RTT, Real-Time Text) и идентифицирует активных говорящих с использованием голоса, то говорящие, использующие ввод текста в реальном времени, должны быть идентифицируемы таким же образом.</p>",
+  "_STEP_6_2_2_3_WHY_CHECKED_1_": "<p>Для всех участников удаленной коммуникации очень важно видеть или определять, кто говорит, чтобы они могли отвечать этому человеку. Поэтому ввод голосом и текстом должен обрабатываться равноправно.</p>",
+  "_STEP_6_2_2_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Применимость проверки</h3>",
+  "_STEP_6_2_2_3_HOW_CHECKED_2_": "<p>Проверка применима, если веб-приложение поддерживает текстовую коммуникацию в реальном времени (RTT, Real-Time Text) и идентифицирует активного говорящего с использованием голоса. Активный говорящий должен быть помечен или выделен в веб-приложении.</p>",
+  "_STEP_6_2_2_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Проверка</h3>",
+  "_STEP_6_2_2_3_HOW_CHECKED_4_": "<ol><li><p>Открыть веб-приложение.</p></li><li><p>Проверить, идентифицируются ли активные говорящие посредством голоса и помечены или выделены в приложении.</p></li><li><p>Если это так, проверить, помечаются ли участники, использующие ввод текста в реальном времени, в момент ввода.</p></li></ol>",
+  "_STEP_6_2_2_3_HOW_CHECKED_5_": "<h3 id=\"_3_hinweise\">3. Замечания</h3>",
+  "_STEP_6_2_2_3_HOW_CHECKED_6_": "<p>Для этого теста необходимо установить видео- и голосовую связь с несколькими участниками, чтобы однозначно определить любую маркировку или выделение.</p>",
+  "_STEP_6_2_2_3_SOURCES_1_": "<ul><li><p><a href=\"https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf\">Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)</a></p></li></ul>",
+  "_STEP_6_2_2_3_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Классификация шага проверки по EN 301 549 V3.2.1</h3>",
+  "_STEP_6_2_2_3_CLASSIFICATION_2_": "<h4 id=\"_6_2_2_3_speaker_identification\">6.2.2.3 Идентификация говорящего</h4>",
+  "_STEP_6_2_2_3_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT has RTT capabilities, and provides speaker identification for voice, the ICT shall provide speaker identification for RTT.</p><p>NOTE: This is necessary to enable both voice and RTT participants to know who is currently communicating, whether it be in RTT or voice.</p></div></div>"
+}
