@@ -1,0 +1,17 @@
+{
+  "_STEP_6_5_3_NAME_": "Bildwiederholfrequenz bei Videotelefonie",
+  "_STEP_6_5_3_WHAT_CHECKED_1_": "<p>Wenn das Web-Angebot Videotelefonie unterstützt, soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.</p>",
+  "_STEP_6_5_3_WHY_CHECKED_1_": "<p>Eine ausreichende Bildwiederholfrequenz ist besonders wichtig für Menschen mit Hörbehinderungen, die Bildinformationen auswerten, etwa gehörlose Menschen, die das Mundbild von Sprechenden lesen. Auch die unterstützende Wahrnehmung von Mimik und Gestik verlangt eine ausreichende Bildwiederholfrequenz.</p>",
+  "_STEP_6_5_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_6_5_3_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn das Web-Angebot Videotelefonie unterstützt.</p>",
+  "_STEP_6_5_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_6_5_3_HOW_CHECKED_4_": "<p>Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Angaben des Software-Herstellers mit den eigenen visuellen Eindrücken abgeglichen werden. Für die Prüfung muss das Web-Angebot auf zwei Geräten geöffnet werden.</p>",
+  "_STEP_6_5_3_HOW_CHECKED_5_": "<ol><li><p>Die unterstützte Bildwiederholfrequenz der Dokumentation des Web-Angebots entnehmen oder vom Hersteller erfragen. Werden mindestens 20 Bilder pro Sekunde unterstützt?</p></li><li><p>Web-Angebot auf zwei Geräten öffnen</p></li><li><p>Videotelefonieverbindung zwischen den Geräten herstellen</p></li><li><p>Prüfen, ob das Bild flüssig dargestellt wird. Scheint die Angabe des Herstellers über die Bildwiederholfrequenz plausibel?</p></li></ol>",
+  "_STEP_6_5_3_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_6_5_3_HOW_CHECKED_7_": "<p>Für die Videotelefonie ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde empfehlenswert, um eine flüssige Darstellung des Bildes zu gewährleisten.</p>",
+  "_STEP_6_5_3_HOW_CHECKED_8_": "<p>Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noch offen. Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">in einem Issue</a> hinterlassen.</p>",
+  "_STEP_6_5_3_SOURCES_1_": "<ul><li><p>Zurzeit keine Quellen.</p></li></ul>",
+  "_STEP_6_5_3_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_6_5_3_CLASSIFICATION_2_": "<h4 id=\"_6_5_3_framerate\">6.5.3 Framerate</h4>",
+  "_STEP_6_5_3_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT that provides two-way voice communication includes real-time video functionality, the ICT:</p><ul><li><p>shall support a frame rate of at least 20 frames per second (FPS)</p></li></ul></div></div>"
+}
