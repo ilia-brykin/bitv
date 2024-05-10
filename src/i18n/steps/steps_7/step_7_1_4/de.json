@@ -1,0 +1,19 @@
+{
+  "_STEP_7_1_4_NAME_": "Untertitel-Anpassungen",
+  "_STEP_7_1_4_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Untertiteln enthält, lassen sich Untertitel anpassen, z.B. hinsichtlich der Schriftgröße.</p>",
+  "_STEP_7_1_4_WHY_CHECKED_1_": "<p>Bei Videos mit Untertiteln ist es für Untertitel-Nutzende hilfreich, die visuelle Darstellung der Untertitel anpassen zu können, zum Beispiel, die Schrift größer stellen zu können oder den Kontrast des Texts erhöhen zu können.</p>",
+  "_STEP_7_1_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_7_1_4_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln enthält und sich die Untertitel zuschalten lassen (closed captions). Auf permanent sichtbare Untertitel, die Teil des Videobildes sind (open captions), ist der Prüfschritt nicht anwendbar.</p>",
+  "_STEP_7_1_4_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_7_1_4_HOW_CHECKED_4_": "<ol><li><p>Webangebot öffnen.</p></li><li><p>Video mit Untertitelung abspielen.</p></li><li><p>Falls es sich um zuschaltbare Untertitel handelt: Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, oder Transparenz des Untertitel-Bereichs anpassen zu können.</p></li></ol>",
+  "_STEP_7_1_4_HOW_CHECKED_5_": "<p>Hinweise zu diesem Prüfschritt können Sie auf GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">in einem Issue hinterlassen</a>.</p>",
+  "_STEP_7_1_4_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_7_1_4_HOW_CHECKED_7_": "<ul><li><p>Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die Norm nennt beispielhaft Hinter- und Vordergrundfarbe der Untertitel, Schriftart, Größe, Transparenz des Untertitel-Bereichs und Kontur der Schrift.</p></li><li><p>Der Prüfschritt ist auch erfüllt, wenn sich die Darstellung der Untertitel nicht über Einstellungen des Video-Players, sondern durch browserseitige oder systemseitige Einstellungen anpassen lässt (wenn also etwa die Vergrößerung der Schriftgröße oder angepasste Farb-Schemata in den Browser-Einstellungen sich auf die Darstellung der Untertitel auswirken).</p></li></ul>",
+  "_STEP_7_1_4_HOW_CHECKED_8_": "<h3 id=\"_4_bewertung\">4. Bewertung</h3>",
+  "_STEP_7_1_4_HOW_CHECKED_9_": "<h4 id=\"_nicht_erfüllt\">Nicht erfüllt:</h4>",
+  "_STEP_7_1_4_HOW_CHECKED_10_": "<ul><li><p>Bei zuschaltbaren Untertiteln (closed captions) gibt es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.</p></li></ul>",
+  "_STEP_7_1_4_SOURCES_1_": "<ul><li><p>Zurzeit keine Quellen.</p></li></ul>",
+  "_STEP_7_1_4_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v_3_2_1\">Einordnung des Prüfschritts nach EN 301 549 v.3.2.1</h3>",
+  "_STEP_7_1_4_CLASSIFICATION_2_": "<h4 id=\"_7_1_4_captions_characteristics\">7.1.4 Captions characteristics</h4>",
+  "_STEP_7_1_4_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT displays captions, it shall provide a way for the user to adapt the displayed characteristics of captions to their individual requirements, except where the captions are displayed as unmodifiable characters.</p><p>NOTE 1: Defining the background and foreground colour of subtitles, font type, size opacity of the background box of subtitles, and the contour or border of the fonts can contribute to meeting this requirement.</p><p>NOTE 2: Subtitles that are bitmap images are examples of unmodifiable characters.</p></div></div>"
+}
