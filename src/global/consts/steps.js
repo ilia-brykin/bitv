@@ -8,6 +8,15 @@ export default {
     classification: 3,
     questions: 0
   },
+  5.3: {
+    key: "5_3",
+    whatChecked: 2,
+    whyChecked: 1,
+    howChecked: 11,
+    sources: 1,
+    classification: 3,
+    questions: 0
+  },
   "9.1.1.1a": {
     key: "9_1_1_1A",
     whatChecked: 3,
