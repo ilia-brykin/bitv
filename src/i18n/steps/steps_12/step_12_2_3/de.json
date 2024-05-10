@@ -1,0 +1,17 @@
+{
+  "_STEP_12_2_3_NAME_": "Effektive Kommunikation",
+  "_STEP_12_2_3_WHAT_CHECKED_1_": "<p>Wird ein technischer Support (etwa über Telefon, Mail oder Chat) angeboten, soll dieser die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte geschehen.</p>",
+  "_STEP_12_2_3_WHY_CHECKED_1_": "<p>Menschen mit verschiedenen Behinderungen bevorzugen verschiedene Kommunikationskanäle. So haben zum Beispiel schwerhörige Menschen Schwierigkeiten beim Telefonieren und bevorzugen E-Mail oder Chat. Für Menschen, denen Schreiben aus welchen Gründen auch immer schwer fällt, ist ein Telefonat einfacher.</p>",
+  "_STEP_12_2_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
+  "_STEP_12_2_3_HOW_CHECKED_2_": "<p>Der Prüfschritt ist anwendbar, wenn das Angebot (meist eine Web-Anwendung) technischen Support (etwa über Telefon, Mail oder Chat) anbietet.</p>",
+  "_STEP_12_2_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Prüfung</h3>",
+  "_STEP_12_2_3_HOW_CHECKED_4_": "<p>Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsmöglichkeiten für die Nutzenden anzubieten. Also etwa Kommunikation über</p>",
+  "_STEP_12_2_3_HOW_CHECKED_5_": "<ul><li><p>E-Mail</p></li><li><p>Chat</p></li><li><p>Telefon</p></li><li><p>Videotelefonie</p></li></ul>",
+  "_STEP_12_2_3_HOW_CHECKED_6_": "<h3 id=\"_3_hinweise\">3. Hinweise</h3>",
+  "_STEP_12_2_3_HOW_CHECKED_7_": "<p>Ein Ansatz für die Prüfung wäre, festzustellen, ob eine Kontaktmöglichkeit zum Support über mindestens zwei verschiedene Kommunikations-Kanäle (z.B. Telefon und E-Mail) zur Verfügung steht.</p>",
+  "_STEP_12_2_3_HOW_CHECKED_8_": "<p>Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Auf GitHub können Sie <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">Hinweise zu diesem Prüfschritt hinterlassen</a>.</p>",
+  "_STEP_12_2_3_SOURCES_1_": "<ul><li><p>Zurzeit keine Quellen.</p></li></ul>",
+  "_STEP_12_2_3_CLASSIFICATION_1_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_2_1\">Einordnung des Prüfschritts nach EN 301 549 V3.2.1</h3>",
+  "_STEP_12_2_3_CLASSIFICATION_2_": "<h4 id=\"_12_2_3_effective_communication\">12.2.3 Effective communication</h4>",
+  "_STEP_12_2_3_CLASSIFICATION_3_": "<p>ICT support services shall accommodate the communication needs of individuals with disabilities either directly or through a referral point.</p>"
+}
