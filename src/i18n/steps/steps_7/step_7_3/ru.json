@@ -1,1 +1,20 @@
-{}
+{
+  "_STEP_7_3_NAME_": "Элементы управления для субтитров и аудиоописания",
+  "_STEP_7_3_WHAT_CHECKED_1_": "<p>Когда видеоплеер воспроизводит видеоконтент с соответствующими аудиодорожками, элементы управления для активации субтитров и аудиоописания находятся на том же уровне взаимодействия, что и элементы управления воспроизведением (например, воспроизведение, пауза, громкость и т.д.).</p>",
+  "_STEP_7_3_WHY_CHECKED_1_": "<p>Видеоплееры предоставляют людям множество возможностей для взаимодействия. Самые важные из них — элементы управления воспроизведением. Поэтому они и размещены на самом видном уровне интерфейса плеера. Элементы управления для включения и выключения субтитров или начала и окончания аудиоописания также являются важными элементами управления для людей, которым нужны эти функции. Они должны быть легко найдены, и поэтому также должны быть расположены на верхнем уровне интеракции.</p>",
+  "_STEP_7_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Применимость этапа проверки</h3>",
+  "_STEP_7_3_HOW_CHECKED_2_": "<p>Этап проверки применим, если на веб-сайте встроен видеоплеер, который воспроизводит видеоконтент с соответствующими аудиодорожками и если предлагаются субтитры и/или аудиоописание.</p>",
+  "_STEP_7_3_HOW_CHECKED_3_": "<h3 id=\"_2_prüfung\">2. Проверка</h3>",
+  "_STEP_7_3_HOW_CHECKED_4_": "<ol><li><p>Воспроизвести видео с помощью встроенного в сайт плеера.</p></li><li><p>Проверить, находятся ли элементы управления для отображения субтитров и/или аудиоописания на том же уровне, что и элементы управления воспроизведением (например, воспроизведение, пауза, громкость и т.д.).</p></li></ol>",
+  "_STEP_7_3_HOW_CHECKED_5_": "<h3 id=\"_3_hinweise\">3. Замечания</h3>",
+  "_STEP_7_3_HOW_CHECKED_6_": "<p>Если этап проверки 7.3 'Элементы управления для субтитров и аудиоописания' выполнен, то этапы 7.1.1 'Воспроизведение субтитров' и 7.2.1 'Воспроизведение аудиоописания' также считаются выполненными.</p>",
+  "_STEP_7_3_HOW_CHECKED_7_": "<p>Для замечаний по этому этапу проверки вы можете создать Issue на GitHub <a href=\"https://github.com/BIK-BITV/BIK-Web-Test/issues\">здесь</a>.</p>",
+  "_STEP_7_3_HOW_CHECKED_8_": "<h3 id=\"_4_bewertung\">4. Оценка</h3>",
+  "_STEP_7_3_HOW_CHECKED_9_": "<h4 id=\"_nicht_erfüllt\">Не выполнено:</h4>",
+  "_STEP_7_3_HOW_CHECKED_10_": "<ul><li><p>Элементы управления для активации субтитров и аудиоописания не расположены на том же уровне взаимодействия, что и элементы управления воспроизведением.</p></li></ul>",
+  "_STEP_7_3_CLASSIFICATION_1_": "<h3 id=\"_abgrenzung_zu_anderen_prüfschritten\">Различие с другими этапами проверки</h3>",
+  "_STEP_7_3_CLASSIFICATION_2_": "<p>Этот этап проверки касается <strong>расположения</strong> элементов управления для субтитров и аудиоописания. Этап 7.2.1 'Воспроизведение аудиоописания' касается наличия соответствующих элементов управления.</p>",
+  "_STEP_7_3_CLASSIFICATION_3_": "<h3 id=\"_einordnung_des_prüfschritts_nach_en_301_549_v3_1_1\">Классификация этапа проверки по EN 301 549 V3.1.1</h3>",
+  "_STEP_7_3_CLASSIFICATION_4_": "<h4 id=\"_7_3_user_controls_for_captions_and_audio_description\">7.3 Элементы управления для субтитров и аудиоописания</h4>",
+  "_STEP_7_3_CLASSIFICATION_5_": "<div lang=\"en\" class=\"a_ml_5\"><div class=\"content\"><p>Where ICT primarily displays materials containing video with associated audio content, user controls to activate subtitling and audio description shall be provided to the user at the same level of interaction (i.e. the number of steps to complete the task) as the primary media controls.</p><p>NOTE 1: Primary media controls are the set of controls that the user most commonly uses to control media.</p><p>NOTE 2: Products that have a general hardware volume control, such as a telephone, or a laptop which can be configured to display video through Web-App but which is not its primary purpose, would not need dedicated hardware controls for captions and descriptions; however Web-App controls, or hardware controls mapped through Web-App, would need to be at the same level of interaction.</p><p>NOTE 3: It is best practice for ICT to include additional controls enabling the user to select whether captions and audio description are turned on or off by default.</p></div></div>"
+}
