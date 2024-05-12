@@ -20,6 +20,8 @@ import steps_11_7 from "./steps/steps_11_7/index";
 import steps_11_8 from "./steps/steps_11_8/index";
 import steps_12 from "./steps/steps_12/index";
 
+import tags from "./tags";
+
 export const de = {
   ..._de,
   ...steps_5.de,
@@ -40,6 +42,7 @@ export const de = {
   ...steps_11_7.de,
   ...steps_11_8.de,
   ...steps_12.de,
+  ...tags.de,
 };
 
 export const ru = {
@@ -62,4 +65,5 @@ export const ru = {
   ...steps_11_7.ru,
   ...steps_11_8.ru,
   ...steps_12.ru,
+  ...tags.ru,
 };

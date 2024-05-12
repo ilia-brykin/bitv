@@ -49,3 +49,10 @@ p {
 .cursor_pointer {
   cursor: pointer;
 }
+
+.a_list_tags {
+  margin-top: -0.5rem;
+  .a_list_inline_item {
+    margin-top: .5rem;
+  }
+}

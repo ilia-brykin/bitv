@@ -11,3 +11,10 @@ div
     key-id="step"
     label="_STEPS_"
   )
+    template(
+      v-slot:tags="{ row }"
+    )
+      step-tags(
+        :is-button="true"
+        :tags="row.tags"
+      )

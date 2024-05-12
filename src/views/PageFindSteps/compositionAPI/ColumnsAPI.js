@@ -30,7 +30,7 @@ export default function ColumnsAPI() {
       id: "tags",
       label: "_STEP_TAGS_",
       keyLabel: "tags",
-      slotName: "tags",
+      slot: "tags",
     },
   ];
 
