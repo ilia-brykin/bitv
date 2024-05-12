@@ -3,3 +3,40 @@ sleduyuschii schag: Mne nujna tegi.
 Staraisya, chtoby tegi povtoryalis' esli eto vozmojno.
 chtoby potom mojno bylo filtrovat' i gruppirovat'.
 RAsspisyvat' (opisyvat') kajdyi teg poka ne nujno
+
+Применение:
+use:
+use-component
+use-page
+use-site
+use-specific
+
+Основные категории контента:
+main:
+main-video
+main-audio
+main-text
+main-link
+main-image
+main-form
+main-table
+main-multimedia
+main-subtitles
+
+Дополнительные теги:
+additional:
+additional-real-time-communication: Реальное время коммуникации.
+additional-user-interface: Интерфейс пользователя.
+additional-html-standard: Стандарты HTML.
+additional-html-semantic: Семантический HTML.
+additional-keyboard: Использование клавиатуры.
+additional-screen-reader: Экранные читалки.
+additional-alternative-text: Альтернативный текст для изображений.
+additional-security
+additional-compatibility
+additional-speed
+additional-functionality
+additional-requirements
+additional-responsive
+additional-color
+

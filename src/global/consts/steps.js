@@ -8,7 +8,8 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-site",
+      "additional-user-interface",
     ],
   },
   5.3: {
@@ -20,7 +21,9 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-specific",
+      "additional-user-interface",
+      "additional-security",
     ],
   },
   5.4: {
@@ -32,7 +35,8 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-specific",
+      "additional-compatibility",
     ],
   },
   6.1: {
@@ -44,7 +48,10 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-site",
+      "main-audio",
+      "additional-real-time-communication",
+      "additional-requirements",
     ],
   },
   "6.2.1.1": {
@@ -56,7 +63,9 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-real-time-communication",
     ],
   },
   "6.2.1.2": {
@@ -68,7 +77,10 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-text",
+      "additional-real-time-communication",
     ],
   },
   "6.2.2.1": {
@@ -80,7 +92,10 @@ export default {
     classification: 5,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-real-time-communication",
+      "user-interface",
     ],
   },
   "6.2.2.2": {
@@ -92,7 +107,11 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-real-time-communication",
+      "additional-user-interface",
+      "additional-screen-reader",
     ],
   },
   "6.2.2.3": {
@@ -104,7 +123,11 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-real-time-communication",
+      "additional-user-interface",
+      "additional-screen-reader",
     ],
   },
   "6.2.2.4": {
@@ -116,7 +139,10 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "additional-real-time-communication",
+      "additional-screen-reader",
     ],
   },
   "6.2.3": {
@@ -128,7 +154,9 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-specific",
+      "main-text",
+      "additional-real-time-communication",
     ],
   },
   "6.2.4": {
@@ -140,7 +168,11 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-real-time-communication",
+      "additional-speed",
+      "additional-requirements",
     ],
   },
   6.3: {
@@ -152,7 +184,10 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-real-time-communication",
+      "additional-screen-reader",
     ],
   },
   6.4: {
@@ -164,7 +199,9 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "additional-functionality",
     ],
   },
   "6.5.2": {
@@ -176,7 +213,10 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "additional-real-time-communication",
+      "additional-requirements",
     ],
   },
   "6.5.3": {
@@ -188,7 +228,11 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "additional-real-time-communication",
+      "additional-speed",
+      "additional-requirements",
     ],
   },
   "6.5.4": {
@@ -200,7 +244,12 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-video",
+      "additional-speed",
+      "additional-real-time-communication",
+      "additional-requirements",
     ],
   },
   "6.5.5": {
@@ -212,7 +261,9 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "additional-real-time-communication",
     ],
   },
   "6.5.6": {
@@ -224,7 +275,9 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "additional-real-time-communication",
     ],
   },
   "7.1.1": {
@@ -236,7 +289,11 @@ export default {
     classification: 7,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "main-audio",
+      "main-subtitles",
+      "additional-user-interface",
     ],
   },
   "7.1.2": {
@@ -248,7 +305,12 @@ export default {
     classification: 5,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "main-audio",
+      "main-subtitles",
+      "additional-speed",
+      "additional-requirements",
     ],
   },
   "7.1.3": {
@@ -260,7 +322,9 @@ export default {
     classification: 5,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "main-subtitles",
     ],
   },
   "7.1.4": {
@@ -272,7 +336,10 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-video",
+      "main-subtitles",
+      "additional-user-interface",
     ],
   },
   "7.1.5": {
@@ -284,7 +351,11 @@ export default {
     classification: 3,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-video",
+      "main-subtitles",
+      "additional-functionality",
     ],
   },
   "7.2.1": {
@@ -296,7 +367,11 @@ export default {
     classification: 6,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-video",
+      "additional-functionality",
+      "additional-user-interface",
     ],
   },
   "7.2.2": {
@@ -308,7 +383,10 @@ export default {
     classification: 5,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-video",
+      "additional-functionality",
     ],
   },
   "7.2.3": {
@@ -320,7 +398,10 @@ export default {
     classification: 5,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-video",
+      "additional-functionality",
     ],
   },
   7.3: {
@@ -332,7 +413,11 @@ export default {
     classification: 5,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "main-video",
+      "main-subtitles",
+      "additional-functionality",
     ],
   },
   "9.1.1.1a": {
@@ -344,7 +429,12 @@ export default {
     classification: 18,
     questions: 32,
     tags: [
-
+      "use-component",
+      "main-image",
+      "additional-user-interface",
+      "additional-html-standard",
+      "additional-screen-reader",
+      "additional-alternative-text",
     ],
   },
   "9.1.1.1b": {
@@ -356,7 +446,11 @@ export default {
     classification: 16,
     questions: 24,
     tags: [
-
+      "use-component",
+      "main-image",
+      "additional-html-standard",
+      "additional-screen-reader",
+      "additional-alternative-text",
     ],
   },
   "9.1.1.1c": {
@@ -368,7 +462,11 @@ export default {
     classification: 12,
     questions: 12,
     tags: [
-
+      "use-component",
+      "main-image",
+      "additional-html-standard",
+      "additional-screen-reader",
+      "additional-alternative-text",
     ],
   },
   "9.1.1.1d": {
@@ -380,7 +478,12 @@ export default {
     classification: 2,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-image",
+      "additional-html-standard",
+      "additional-screen-reader",
+      "additional-alternative-text",
+      "additional-security",
     ],
   },
   "9.1.3.1a": {
@@ -392,7 +495,11 @@ export default {
     classification: 17,
     questions: 24,
     tags: [
-
+      "use-page",
+      "main-text",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1b": {
@@ -404,7 +511,11 @@ export default {
     classification: 14,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1c": {
@@ -416,7 +527,11 @@ export default {
     classification: 12,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1d": {
@@ -428,7 +543,11 @@ export default {
     classification: 16,
     questions: 0,
     tags: [
-
+      "use-specific",
+      "main-text",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1e": {
@@ -440,7 +559,11 @@ export default {
     classification: 12,
     questions: 13,
     tags: [
-
+      "use-component",
+      "main-table",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1f": {
@@ -452,7 +575,11 @@ export default {
     classification: 12,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-table",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1g": {
@@ -463,7 +590,11 @@ export default {
     classification: 12,
     questions: 0,
     tags: [
-
+      "use-page",
+      "main-table",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.1h": {
@@ -475,7 +606,11 @@ export default {
     classification: 16,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-form",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.2": {
@@ -487,7 +622,10 @@ export default {
     classification: 16,
     questions: 0,
     tags: [
-
+      "use-specific",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.3.3": {
@@ -499,7 +637,8 @@ export default {
     classification: 12,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-user-interface",
     ],
   },
   "9.1.3.4": {
@@ -511,7 +650,9 @@ export default {
     classification: 11,
     questions: 0,
     tags: [
-
+      "use-page",
+      "additional-user-interface",
+      "additional-responsive",
     ],
   },
   "9.1.3.5": {
@@ -523,7 +664,10 @@ export default {
     classification: 9,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-form",
+      "additional-html-standard",
+      "additional-user-interface",
     ],
   },
   "9.1.4.1": {
@@ -535,7 +679,10 @@ export default {
     classification: 22,
     questions: 4,
     tags: [
-
+      "use-component",
+      "additional-user-interface",
+      "additional-color",
+      "additional-functionality",
     ],
   },
   "9.1.4.2": {
@@ -547,7 +694,10 @@ export default {
     classification: 10,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-audio",
+      "additional-speed",
+      "additional-requirements",
     ],
   },
   "9.1.4.3": {
@@ -559,7 +709,10 @@ export default {
     classification: 12,
     questions: 6,
     tags: [
-
+      "use-component",
+      "additional-user-interface",
+      "additional-color",
+      "additional-requirements",
     ],
   },
   "9.1.4.4": {
@@ -571,7 +724,11 @@ export default {
     classification: 16,
     questions: 7,
     tags: [
-
+      "use-page",
+      "main-text",
+      "additional-user-interface",
+      "additional-functionality",
+      "additional-requirements",
     ],
   },
   "9.1.4.5": {
@@ -583,7 +740,10 @@ export default {
     classification: 12,
     questions: 10,
     tags: [
-
+      "use-component",
+      "main-image",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.1.4.10": {
@@ -595,7 +755,10 @@ export default {
     classification: 11,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-user-interface",
+      "additional-responsive",
+      "additional-requirements",
     ],
   },
   "9.1.4.11": {
@@ -607,7 +770,11 @@ export default {
     classification: 11,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-image",
+      "additional-user-interface",
+      "additional-requirements",
+      "additional-color",
     ],
   },
   "9.1.4.12": {
@@ -619,7 +786,10 @@ export default {
     classification: 9,
     questions: 0,
     tags: [
-
+      "use-page",
+      "main-text",
+      "additional-user-interface",
+      "additional-requirements",
     ],
   },
   "9.1.4.13": {
@@ -631,7 +801,11 @@ export default {
     classification: 9,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-text",
+      "additional-user-interface",
+      "additional-functionality",
+      "additional-keyboard",
     ],
   },
   "9.2.1.1": {
@@ -643,7 +817,9 @@ export default {
     classification: 16,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-keyboard",
+      "additional-functionality",
     ],
   },
   "9.2.1.2": {
@@ -655,7 +831,8 @@ export default {
     classification: 12,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-keyboard",
     ],
   },
   "9.2.1.4": {
@@ -667,7 +844,8 @@ export default {
     classification: 9,
     questions: 2,
     tags: [
-
+      "use-component",
+      "additional-keyboard",
     ],
   },
   "9.2.2.1": {
@@ -679,7 +857,9 @@ export default {
     classification: 16,
     questions: 3,
     tags: [
-
+      "use-component",
+      "additional-speed",
+      "additional-functionality",
     ],
   },
   "9.2.2.2": {
@@ -691,7 +871,10 @@ export default {
     classification: 16,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-speed",
+      "additional-functionality",
+      "additional-requirements",
     ],
   },
   "9.2.3.1": {
@@ -703,7 +886,9 @@ export default {
     classification: 8,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-speed",
+      "additional-requirements",
     ],
   },
   "9.2.4.1": {
@@ -715,7 +900,10 @@ export default {
     classification: 14,
     questions: 4,
     tags: [
-
+      "use-page",
+      "additional-html-standard",
+      "additional-html-semantic",
+      "additional-screen-reader",
     ],
   },
   "9.2.4.2": {
@@ -727,7 +915,8 @@ export default {
     classification: 12,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-screen-reader",
     ],
   },
   "9.2.4.3": {
@@ -739,7 +928,11 @@ export default {
     classification: 16,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-form",
+      "additional-user-interface",
+      "additional-keyboard",
+      "additional-screen-reader",
     ],
   },
   "9.2.4.4": {
@@ -751,7 +944,8 @@ export default {
     classification: 21,
     questions: 0,
     tags: [
-
+      "use-component",
+      "main-link",
     ],
   },
   "9.2.4.5": {
@@ -763,7 +957,8 @@ export default {
     classification: 8,
     questions: 0,
     tags: [
-
+      "use-site",
+      "main-link",
     ],
   },
   "9.2.4.6": {
@@ -775,7 +970,9 @@ export default {
     classification: 10,
     questions: 0,
     tags: [
-
+      "use-page",
+      "main-text",
+      "main-link",
     ],
   },
   "9.2.4.7": {
@@ -787,7 +984,12 @@ export default {
     classification: 17,
     questions: 3,
     tags: [
-
+      "use-component",
+      "main-link",
+      "main-form",
+      "additional-user-interface",
+      "additional-requirements",
+      "additional-color",
     ],
   },
   "9.2.5.1": {
@@ -799,7 +1001,9 @@ export default {
     classification: 9,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-user-interface",
+      "additional-functionality",
     ],
   },
   "9.2.5.2": {
@@ -811,7 +1015,9 @@ export default {
     classification: 9,
     questions: 0,
     tags: [
-
+      "use-component",
+      "additional-user-interface",
+      "additional-functionality",
     ],
   },
   "9.2.5.3": {
