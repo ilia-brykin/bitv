@@ -12,17 +12,12 @@ const ROUTES = [
   {
     path: "/",
     name: "PageStart",
-    component: () => import(/* webpackChunkName: "PageStart" */ "../views/PageStart/PageStart.vue"),
+    component: () => import(/* webpackChunkName: "PageFindSteps" */ "../views/PageFindSteps/PageFindSteps.vue"),
   },
   {
     path: "/test/",
     name: "PageTest",
     component: () => import(/* webpackChunkName: "PageTest" */ "../views/PageTest/PageTest.vue"),
-  },
-  {
-    path: "/find-steps/",
-    name: "PageFindSteps",
-    component: () => import(/* webpackChunkName: "PageFindSteps" */ "../views/PageFindSteps/PageFindSteps.vue"),
   },
   {
     path: "/steps/:step/",
