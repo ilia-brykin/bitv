@@ -7,6 +7,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   5.3: {
     key: "5_3",
@@ -16,6 +19,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   5.4: {
     key: "5_4",
@@ -25,6 +31,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   6.1: {
     key: "6_1",
@@ -34,6 +43,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.1.1": {
     key: "6_2_1_1",
@@ -43,6 +55,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.1.2": {
     key: "6_2_1_2",
@@ -52,6 +67,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.2.1": {
     key: "6_2_2_1",
@@ -61,6 +79,9 @@ export default {
     sources: 1,
     classification: 5,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.2.2": {
     key: "6_2_2_2",
@@ -70,6 +91,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.2.3": {
     key: "6_2_2_3",
@@ -79,6 +103,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.2.4": {
     key: "6_2_2_4",
@@ -88,6 +115,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.3": {
     key: "6_2_3",
@@ -97,6 +127,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.2.4": {
     key: "6_2_4",
@@ -106,6 +139,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   6.3: {
     key: "6_3",
@@ -115,6 +151,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   6.4: {
     key: "6_4",
@@ -124,6 +163,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.5.2": {
     key: "6_5_2",
@@ -133,6 +175,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.5.3": {
     key: "6_5_3",
@@ -142,6 +187,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.5.4": {
     key: "6_5_4",
@@ -151,6 +199,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.5.5": {
     key: "6_5_5",
@@ -160,6 +211,9 @@ export default {
     sources: 0,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "6.5.6": {
     key: "6_5_6",
@@ -169,6 +223,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.1.1": {
     key: "7_1_1",
@@ -178,6 +235,9 @@ export default {
     sources: 1,
     classification: 7,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.1.2": {
     key: "7_1_2",
@@ -187,6 +247,9 @@ export default {
     sources: 1,
     classification: 5,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.1.3": {
     key: "7_1_3",
@@ -196,6 +259,9 @@ export default {
     sources: 1,
     classification: 5,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.1.4": {
     key: "7_1_4",
@@ -205,6 +271,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.1.5": {
     key: "7_1_5",
@@ -214,6 +283,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.2.1": {
     key: "7_2_1",
@@ -223,6 +295,9 @@ export default {
     sources: 1,
     classification: 6,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.2.2": {
     key: "7_2_2",
@@ -232,6 +307,9 @@ export default {
     sources: 1,
     classification: 5,
     questions: 0,
+    tags: [
+
+    ],
   },
   "7.2.3": {
     key: "7_2_3",
@@ -241,6 +319,9 @@ export default {
     sources: 0,
     classification: 5,
     questions: 0,
+    tags: [
+
+    ],
   },
   7.3: {
     key: "7_3",
@@ -250,6 +331,9 @@ export default {
     sources: 0,
     classification: 5,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.1.1a": {
     key: "9_1_1_1A",
@@ -259,6 +343,9 @@ export default {
     sources: 6,
     classification: 18,
     questions: 32,
+    tags: [
+
+    ],
   },
   "9.1.1.1b": {
     key: "9_1_1_1B",
@@ -268,6 +355,9 @@ export default {
     sources: 6,
     classification: 16,
     questions: 24,
+    tags: [
+
+    ],
   },
   "9.1.1.1c": {
     key: "9_1_1_1C",
@@ -277,6 +367,9 @@ export default {
     sources: 3,
     classification: 12,
     questions: 12,
+    tags: [
+
+    ],
   },
   "9.1.1.1d": {
     key: "9_1_1_1D",
@@ -286,6 +379,9 @@ export default {
     sources: 0,
     classification: 2,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.1a": {
     key: "9_1_3_1A",
@@ -295,6 +391,9 @@ export default {
     sources: 9,
     classification: 17,
     questions: 24,
+    tags: [
+
+    ],
   },
   "9.1.3.1b": {
     key: "9_1_3_1B",
@@ -304,6 +403,9 @@ export default {
     sources: 0,
     classification: 14,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.1c": {
     key: "9_1_3_1C",
@@ -313,6 +415,9 @@ export default {
     sources: 0,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.1d": {
     key: "9_1_3_1D",
@@ -322,6 +427,9 @@ export default {
     sources: 0,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.1e": {
     key: "9_1_3_1E",
@@ -331,6 +439,9 @@ export default {
     sources: 1,
     classification: 12,
     questions: 13,
+    tags: [
+
+    ],
   },
   "9.1.3.1f": {
     key: "9_1_3_1F",
@@ -340,6 +451,9 @@ export default {
     sources: 11,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.1g": {
     key: "9_1_3_1G",
@@ -348,6 +462,9 @@ export default {
     sources: 3,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.1h": {
     key: "9_1_3_1H",
@@ -357,6 +474,9 @@ export default {
     sources: 2,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.2": {
     key: "9_1_3_2",
@@ -366,6 +486,9 @@ export default {
     sources: 1,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.3": {
     key: "9_1_3_3",
@@ -375,6 +498,9 @@ export default {
     sources: 3,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.4": {
     key: "9_1_3_4",
@@ -384,6 +510,9 @@ export default {
     sources: 1,
     classification: 11,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.3.5": {
     key: "9_1_3_5",
@@ -393,6 +522,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.4.1": {
     key: "9_1_4_1",
@@ -402,6 +534,9 @@ export default {
     sources: 3,
     classification: 22,
     questions: 4,
+    tags: [
+
+    ],
   },
   "9.1.4.2": {
     key: "9_1_4_2",
@@ -411,6 +546,9 @@ export default {
     sources: 3,
     classification: 10,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.4.3": {
     key: "9_1_4_3",
@@ -420,6 +558,9 @@ export default {
     sources: 2,
     classification: 12,
     questions: 6,
+    tags: [
+
+    ],
   },
   "9.1.4.4": {
     key: "9_1_4_4",
@@ -429,6 +570,9 @@ export default {
     sources: 6,
     classification: 16,
     questions: 7,
+    tags: [
+
+    ],
   },
   "9.1.4.5": {
     key: "9_1_4_5",
@@ -438,6 +582,9 @@ export default {
     sources: 1,
     classification: 12,
     questions: 10,
+    tags: [
+
+    ],
   },
   "9.1.4.10": {
     key: "9_1_4_10",
@@ -447,6 +594,9 @@ export default {
     sources: 1,
     classification: 11,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.4.11": {
     key: "9_1_4_11",
@@ -456,6 +606,9 @@ export default {
     sources: 1,
     classification: 11,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.4.12": {
     key: "9_1_4_12",
@@ -465,6 +618,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.1.4.13": {
     key: "9_1_4_13",
@@ -474,6 +630,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.1.1": {
     key: "9_2_1_1",
@@ -483,6 +642,9 @@ export default {
     sources: 3,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.1.2": {
     key: "9_2_1_2",
@@ -492,6 +654,9 @@ export default {
     sources: 0,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.1.4": {
     key: "9_2_1_4",
@@ -501,6 +666,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 2,
+    tags: [
+
+    ],
   },
   "9.2.2.1": {
     key: "9_2_2_1",
@@ -510,6 +678,9 @@ export default {
     sources: 0,
     classification: 16,
     questions: 3,
+    tags: [
+
+    ],
   },
   "9.2.2.2": {
     key: "9_2_2_2",
@@ -519,6 +690,9 @@ export default {
     sources: 3,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.3.1": {
     key: "9_2_3_1",
@@ -528,6 +702,9 @@ export default {
     sources: 6,
     classification: 8,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.4.1": {
     key: "9_2_4_1",
@@ -537,6 +714,9 @@ export default {
     sources: 8,
     classification: 14,
     questions: 4,
+    tags: [
+
+    ],
   },
   "9.2.4.2": {
     key: "9_2_4_2",
@@ -546,6 +726,9 @@ export default {
     sources: 3,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.4.3": {
     key: "9_2_4_3",
@@ -555,6 +738,9 @@ export default {
     sources: 1,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.4.4": {
     key: "9_2_4_4",
@@ -564,6 +750,9 @@ export default {
     sources: 13,
     classification: 21,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.4.5": {
     key: "9_2_4_5",
@@ -573,6 +762,9 @@ export default {
     sources: 3,
     classification: 8,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.4.6": {
     key: "9_2_4_6",
@@ -582,6 +774,9 @@ export default {
     sources: 0,
     classification: 10,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.4.7": {
     key: "9_2_4_7",
@@ -591,6 +786,9 @@ export default {
     sources: 0,
     classification: 17,
     questions: 3,
+    tags: [
+
+    ],
   },
   "9.2.5.1": {
     key: "9_2_5_1",
@@ -600,6 +798,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.5.2": {
     key: "9_2_5_2",
@@ -609,6 +810,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.5.3": {
     key: "9_2_5_3",
@@ -618,6 +822,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.2.5.4": {
     key: "9_2_5_4",
@@ -627,6 +834,9 @@ export default {
     sources: 1,
     classification: 9,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.1.1": {
     key: "9_3_1_1",
@@ -636,6 +846,9 @@ export default {
     sources: 0,
     classification: 10,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.1.2": {
     key: "9_3_1_2",
@@ -645,6 +858,9 @@ export default {
     sources: 3,
     classification: 10,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.2.1": {
     key: "9_3_2_1",
@@ -654,6 +870,9 @@ export default {
     sources: 0,
     classification: 12,
     questions: 3,
+    tags: [
+
+    ],
   },
   "9.3.2.2": {
     key: "9_3_2_2",
@@ -663,6 +882,9 @@ export default {
     sources: 0,
     classification: 14,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.2.3": {
     key: "9_3_2_3",
@@ -672,6 +894,9 @@ export default {
     sources: 3,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.2.4": {
     key: "9_3_2_4",
@@ -681,6 +906,9 @@ export default {
     sources: 0,
     classification: 14,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.3.1": {
     key: "9_3_3_1",
@@ -690,6 +918,9 @@ export default {
     sources: 2,
     classification: 14,
     questions: 3,
+    tags: [
+
+    ],
   },
   "9.3.3.2": {
     key: "9_3_3_2",
@@ -699,6 +930,9 @@ export default {
     sources: 0,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.3.3": {
     key: "9_3_3_3",
@@ -708,6 +942,9 @@ export default {
     sources: 0,
     classification: 13,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.3.3.4": {
     key: "9_3_3_4",
@@ -717,6 +954,9 @@ export default {
     sources: 0,
     classification: 8,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.4.1.1": {
     key: "9_4_1_1",
@@ -726,6 +966,9 @@ export default {
     sources: 2,
     classification: 12,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.4.1.2": {
     key: "9_4_1_2",
@@ -735,6 +978,9 @@ export default {
     sources: 6,
     classification: 16,
     questions: 0,
+    tags: [
+
+    ],
   },
   "9.4.1.3": {
     key: "9_4_1_3",
@@ -744,6 +990,9 @@ export default {
     sources: 1,
     classification: 14,
     questions: 0,
+    tags: [
+
+    ],
   },
   "11.7.1": {
     key: "11_7_1",
@@ -753,6 +1002,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "11.8.2": {
     key: "11_8_2",
@@ -762,6 +1014,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "11.8.3": {
     key: "11_8_3",
@@ -771,6 +1026,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "11.8.4": {
     key: "11_8_4",
@@ -780,6 +1038,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "11.8.5": {
     key: "11_8_5",
@@ -789,6 +1050,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "12.1.1": {
     key: "12_1_1",
@@ -798,6 +1062,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "12.1.2": {
     key: "12_1_2",
@@ -807,6 +1074,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "12.2.2": {
     key: "12_2_2",
@@ -816,6 +1086,9 @@ export default {
     sources: 1,
     classification: 6,
     questions: 0,
+    tags: [
+
+    ],
   },
   "12.2.3": {
     key: "12_2_3",
@@ -825,6 +1098,9 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
   "12.2.4": {
     key: "12_2_4",
@@ -834,5 +1110,8 @@ export default {
     sources: 1,
     classification: 3,
     questions: 0,
+    tags: [
+
+    ],
   },
 };

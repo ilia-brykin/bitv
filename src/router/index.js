@@ -20,6 +20,11 @@ const ROUTES = [
     component: () => import(/* webpackChunkName: "PageTest" */ "../views/PageTest/PageTest.vue"),
   },
   {
+    path: "/find-steps/",
+    name: "PageFindSteps",
+    component: () => import(/* webpackChunkName: "PageFindSteps" */ "../views/PageFindSteps/PageFindSteps.vue"),
+  },
+  {
     path: "/steps/:step/",
     name: "PageStep",
     component: () => import(/* webpackChunkName: "PageStep" */ "../views/PageStep/PageStep.vue"),

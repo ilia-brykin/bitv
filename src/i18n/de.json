@@ -25,5 +25,10 @@
   "_STEP_9_4_1_NAME_": "9.4.1 Kompatibel",
   "_TEXT_STEP_{{step}}_": "Prüfschritt {{ step }}",
   "_WHAT_CHECKED_": "Was wird geprüft?",
-  "_WHY_CHECKED_": "Warum wird das geprüft?"
+  "_WHY_CHECKED_": "Warum wird das geprüft?",
+  "_FIND_STEPS_": "Find Prüfkriterien",
+  "_STEPS_": "Prüfkriterien",
+  "_STEP_NUMBER_": "Nummer",
+  "_STEP_NAME_": "Name",
+  "_STEP_TAGS_": "Tags"
 }

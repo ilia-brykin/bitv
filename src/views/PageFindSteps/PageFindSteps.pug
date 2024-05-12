@@ -1,0 +1,13 @@
+div
+  a-translation(
+    tag="h1"
+    text="_FIND_STEPS_"
+  )
+
+  a-table(
+    :columns="columns"
+    :data="dataSteps"
+    :pagination="{ use: true }"
+    key-id="step"
+    label="_STEPS_"
+  )
