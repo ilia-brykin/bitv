@@ -4,6 +4,7 @@ import {
 
 import steps from "../../../global/consts/steps";
 import {
+  getTranslationKeyGroupName,
   getTranslationKeyName,
 } from "../../../global/functions/utils";
 import {
@@ -20,11 +21,15 @@ export default function DataAPI() {
       const STEP_NAME = getTranslationKeyName({
         stepKey: step.key,
       });
+      const GROUP_NAME = getTranslationKeyGroupName({
+        group: step.group,
+      });
 
       const STEP = {
         step: key,
         name: getTranslatedText({ placeholder: STEP_NAME }),
         tags: step.tags,
+        group: getTranslatedText({ placeholder: GROUP_NAME }),
       };
       DATA.push(STEP);
     });

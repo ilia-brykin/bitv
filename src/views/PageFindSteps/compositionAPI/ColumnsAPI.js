@@ -27,6 +27,12 @@ export default function ColumnsAPI() {
       },
     },
     {
+      id: "group",
+      label: "_STEP_GROUP_",
+      keyLabel: "group",
+      grow: 0,
+    },
+    {
       id: "tags",
       label: "_STEP_TAGS_",
       keyLabel: "tags",

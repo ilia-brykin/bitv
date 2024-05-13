@@ -11,6 +11,7 @@ export default {
       "use-site",
       "additional-user-interface",
     ],
+    group: "5",
   },
   5.3: {
     key: "5_3",
@@ -25,6 +26,7 @@ export default {
       "additional-user-interface",
       "additional-security",
     ],
+    group: "5",
   },
   5.4: {
     key: "5_4",
@@ -38,6 +40,7 @@ export default {
       "use-specific",
       "additional-compatibility",
     ],
+    group: "5",
   },
   6.1: {
     key: "6_1",
@@ -53,6 +56,7 @@ export default {
       "additional-real-time-communication",
       "additional-requirements",
     ],
+    group: "6",
   },
   "6.2.1.1": {
     key: "6_2_1_1",
@@ -67,6 +71,7 @@ export default {
       "main-text",
       "additional-real-time-communication",
     ],
+    group: "6",
   },
   "6.2.1.2": {
     key: "6_2_1_2",
@@ -82,6 +87,7 @@ export default {
       "main-text",
       "additional-real-time-communication",
     ],
+    group: "6",
   },
   "6.2.2.1": {
     key: "6_2_2_1",
@@ -97,6 +103,7 @@ export default {
       "additional-real-time-communication",
       "user-interface",
     ],
+    group: "6",
   },
   "6.2.2.2": {
     key: "6_2_2_2",
@@ -113,6 +120,7 @@ export default {
       "additional-user-interface",
       "additional-screen-reader",
     ],
+    group: "6",
   },
   "6.2.2.3": {
     key: "6_2_2_3",
@@ -129,6 +137,7 @@ export default {
       "additional-user-interface",
       "additional-screen-reader",
     ],
+    group: "6",
   },
   "6.2.2.4": {
     key: "6_2_2_4",
@@ -144,6 +153,7 @@ export default {
       "additional-real-time-communication",
       "additional-screen-reader",
     ],
+    group: "6",
   },
   "6.2.3": {
     key: "6_2_3",
@@ -158,6 +168,7 @@ export default {
       "main-text",
       "additional-real-time-communication",
     ],
+    group: "6",
   },
   "6.2.4": {
     key: "6_2_4",
@@ -174,6 +185,7 @@ export default {
       "additional-speed",
       "additional-requirements",
     ],
+    group: "6",
   },
   6.3: {
     key: "6_3",
@@ -189,6 +201,7 @@ export default {
       "additional-real-time-communication",
       "additional-screen-reader",
     ],
+    group: "6",
   },
   6.4: {
     key: "6_4",
@@ -203,6 +216,7 @@ export default {
       "main-audio",
       "additional-functionality",
     ],
+    group: "6",
   },
   "6.5.2": {
     key: "6_5_2",
@@ -218,6 +232,7 @@ export default {
       "additional-real-time-communication",
       "additional-requirements",
     ],
+    group: "6",
   },
   "6.5.3": {
     key: "6_5_3",
@@ -234,6 +249,7 @@ export default {
       "additional-speed",
       "additional-requirements",
     ],
+    group: "6",
   },
   "6.5.4": {
     key: "6_5_4",
@@ -251,6 +267,7 @@ export default {
       "additional-real-time-communication",
       "additional-requirements",
     ],
+    group: "6",
   },
   "6.5.5": {
     key: "6_5_5",
@@ -265,6 +282,7 @@ export default {
       "main-audio",
       "additional-real-time-communication",
     ],
+    group: "6",
   },
   "6.5.6": {
     key: "6_5_6",
@@ -279,6 +297,7 @@ export default {
       "main-video",
       "additional-real-time-communication",
     ],
+    group: "6",
   },
   "7.1.1": {
     key: "7_1_1",
@@ -295,6 +314,7 @@ export default {
       "main-subtitles",
       "additional-user-interface",
     ],
+    group: "7",
   },
   "7.1.2": {
     key: "7_1_2",
@@ -312,6 +332,7 @@ export default {
       "additional-speed",
       "additional-requirements",
     ],
+    group: "7",
   },
   "7.1.3": {
     key: "7_1_3",
@@ -326,6 +347,7 @@ export default {
       "main-video",
       "main-subtitles",
     ],
+    group: "7",
   },
   "7.1.4": {
     key: "7_1_4",
@@ -341,6 +363,7 @@ export default {
       "main-subtitles",
       "additional-user-interface",
     ],
+    group: "7",
   },
   "7.1.5": {
     key: "7_1_5",
@@ -357,6 +380,7 @@ export default {
       "main-subtitles",
       "additional-functionality",
     ],
+    group: "7",
   },
   "7.2.1": {
     key: "7_2_1",
@@ -373,6 +397,7 @@ export default {
       "additional-functionality",
       "additional-user-interface",
     ],
+    group: "7",
   },
   "7.2.2": {
     key: "7_2_2",
@@ -388,6 +413,7 @@ export default {
       "main-video",
       "additional-functionality",
     ],
+    group: "7",
   },
   "7.2.3": {
     key: "7_2_3",
@@ -403,6 +429,7 @@ export default {
       "main-video",
       "additional-functionality",
     ],
+    group: "7",
   },
   7.3: {
     key: "7_3",
@@ -419,6 +446,7 @@ export default {
       "main-subtitles",
       "additional-functionality",
     ],
+    group: "7",
   },
   "9.1.1.1a": {
     key: "9_1_1_1A",
@@ -436,6 +464,7 @@ export default {
       "additional-screen-reader",
       "additional-alternative-text",
     ],
+    group: "9.1.1",
   },
   "9.1.1.1b": {
     key: "9_1_1_1B",
@@ -452,6 +481,7 @@ export default {
       "additional-screen-reader",
       "additional-alternative-text",
     ],
+    group: "9.1.1",
   },
   "9.1.1.1c": {
     key: "9_1_1_1C",
@@ -468,6 +498,7 @@ export default {
       "additional-screen-reader",
       "additional-alternative-text",
     ],
+    group: "9.1.1",
   },
   "9.1.1.1d": {
     key: "9_1_1_1D",
@@ -485,6 +516,42 @@ export default {
       "additional-alternative-text",
       "additional-security",
     ],
+    group: "9.1.1",
+  },
+  "9.1.2.1": {
+    key: "9_1_2_1",
+    tags: [
+
+    ],
+    group: "9.1.2",
+  },
+  "9.1.2.2": {
+    key: "9_1_2_2",
+    tags: [
+
+    ],
+    group: "9.1.2",
+  },
+  "9.1.2.3": {
+    key: "9_1_2_3",
+    tags: [
+
+    ],
+    group: "9.1.2",
+  },
+  "9.1.2.4": {
+    key: "9_1_2_4",
+    tags: [
+
+    ],
+    group: "9.1.2",
+  },
+  "9.1.2.5": {
+    key: "9_1_2_5",
+    tags: [
+
+    ],
+    group: "9.1.2",
   },
   "9.1.3.1a": {
     key: "9_1_3_1A",
@@ -501,6 +568,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1b": {
     key: "9_1_3_1B",
@@ -517,6 +585,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1c": {
     key: "9_1_3_1C",
@@ -533,6 +602,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1d": {
     key: "9_1_3_1D",
@@ -549,6 +619,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1e": {
     key: "9_1_3_1E",
@@ -565,6 +636,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1f": {
     key: "9_1_3_1F",
@@ -581,6 +653,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1g": {
     key: "9_1_3_1G",
@@ -596,6 +669,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.1h": {
     key: "9_1_3_1H",
@@ -612,6 +686,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.2": {
     key: "9_1_3_2",
@@ -627,6 +702,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.3",
   },
   "9.1.3.3": {
     key: "9_1_3_3",
@@ -640,6 +716,7 @@ export default {
       "use-component",
       "additional-user-interface",
     ],
+    group: "9.1.3",
   },
   "9.1.3.4": {
     key: "9_1_3_4",
@@ -654,6 +731,7 @@ export default {
       "additional-user-interface",
       "additional-responsive",
     ],
+    group: "9.1.3",
   },
   "9.1.3.5": {
     key: "9_1_3_5",
@@ -669,6 +747,7 @@ export default {
       "additional-html-standard",
       "additional-user-interface",
     ],
+    group: "9.1.3",
   },
   "9.1.4.1": {
     key: "9_1_4_1",
@@ -684,6 +763,7 @@ export default {
       "additional-color",
       "additional-functionality",
     ],
+    group: "9.1.4",
   },
   "9.1.4.2": {
     key: "9_1_4_2",
@@ -699,6 +779,7 @@ export default {
       "additional-speed",
       "additional-requirements",
     ],
+    group: "9.1.4",
   },
   "9.1.4.3": {
     key: "9_1_4_3",
@@ -714,6 +795,7 @@ export default {
       "additional-color",
       "additional-requirements",
     ],
+    group: "9.1.4",
   },
   "9.1.4.4": {
     key: "9_1_4_4",
@@ -730,6 +812,7 @@ export default {
       "additional-functionality",
       "additional-requirements",
     ],
+    group: "9.1.4",
   },
   "9.1.4.5": {
     key: "9_1_4_5",
@@ -745,6 +828,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.1.4",
   },
   "9.1.4.10": {
     key: "9_1_4_10",
@@ -760,6 +844,7 @@ export default {
       "additional-responsive",
       "additional-requirements",
     ],
+    group: "9.1.4",
   },
   "9.1.4.11": {
     key: "9_1_4_11",
@@ -776,6 +861,7 @@ export default {
       "additional-requirements",
       "additional-color",
     ],
+    group: "9.1.4",
   },
   "9.1.4.12": {
     key: "9_1_4_12",
@@ -791,6 +877,7 @@ export default {
       "additional-user-interface",
       "additional-requirements",
     ],
+    group: "9.1.4",
   },
   "9.1.4.13": {
     key: "9_1_4_13",
@@ -807,6 +894,7 @@ export default {
       "additional-functionality",
       "additional-keyboard",
     ],
+    group: "9.1.4",
   },
   "9.2.1.1": {
     key: "9_2_1_1",
@@ -821,6 +909,7 @@ export default {
       "additional-keyboard",
       "additional-functionality",
     ],
+    group: "9.2.1",
   },
   "9.2.1.2": {
     key: "9_2_1_2",
@@ -834,6 +923,7 @@ export default {
       "use-component",
       "additional-keyboard",
     ],
+    group: "9.2.1",
   },
   "9.2.1.4": {
     key: "9_2_1_4",
@@ -847,6 +937,7 @@ export default {
       "use-component",
       "additional-keyboard",
     ],
+    group: "9.2.1",
   },
   "9.2.2.1": {
     key: "9_2_2_1",
@@ -861,6 +952,7 @@ export default {
       "additional-speed",
       "additional-functionality",
     ],
+    group: "9.2.2",
   },
   "9.2.2.2": {
     key: "9_2_2_2",
@@ -876,6 +968,7 @@ export default {
       "additional-functionality",
       "additional-requirements",
     ],
+    group: "9.2.2",
   },
   "9.2.3.1": {
     key: "9_2_3_1",
@@ -890,6 +983,7 @@ export default {
       "additional-speed",
       "additional-requirements",
     ],
+    group: "9.2.3",
   },
   "9.2.4.1": {
     key: "9_2_4_1",
@@ -905,6 +999,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.2.4",
   },
   "9.2.4.2": {
     key: "9_2_4_2",
@@ -918,6 +1013,7 @@ export default {
       "use-component",
       "additional-screen-reader",
     ],
+    group: "9.2.4",
   },
   "9.2.4.3": {
     key: "9_2_4_3",
@@ -934,6 +1030,7 @@ export default {
       "additional-keyboard",
       "additional-screen-reader",
     ],
+    group: "9.2.4",
   },
   "9.2.4.4": {
     key: "9_2_4_4",
@@ -947,6 +1044,7 @@ export default {
       "use-component",
       "main-link",
     ],
+    group: "9.2.4",
   },
   "9.2.4.5": {
     key: "9_2_4_5",
@@ -960,6 +1058,7 @@ export default {
       "use-site",
       "main-link",
     ],
+    group: "9.2.4",
   },
   "9.2.4.6": {
     key: "9_2_4_6",
@@ -974,6 +1073,7 @@ export default {
       "main-text",
       "main-link",
     ],
+    group: "9.2.4",
   },
   "9.2.4.7": {
     key: "9_2_4_7",
@@ -991,6 +1091,7 @@ export default {
       "additional-requirements",
       "additional-color",
     ],
+    group: "9.2.4",
   },
   "9.2.5.1": {
     key: "9_2_5_1",
@@ -1005,6 +1106,7 @@ export default {
       "additional-user-interface",
       "additional-functionality",
     ],
+    group: "9.2.5",
   },
   "9.2.5.2": {
     key: "9_2_5_2",
@@ -1019,6 +1121,7 @@ export default {
       "additional-user-interface",
       "additional-functionality",
     ],
+    group: "9.2.5",
   },
   "9.2.5.3": {
     key: "9_2_5_3",
@@ -1036,6 +1139,7 @@ export default {
       "additional-html-semantic",
       "additional-alternative-text",
     ],
+    group: "9.2.5",
   },
   "9.2.5.4": {
     key: "9_2_5_4",
@@ -1050,6 +1154,7 @@ export default {
       "additional-user-interface",
       "additional-functionality",
     ],
+    group: "9.2.5",
   },
   "9.3.1.1": {
     key: "9_3_1_1",
@@ -1064,6 +1169,7 @@ export default {
       "main-text",
       "additional-html-standard",
     ],
+    group: "9.3.1",
   },
   "9.3.1.2": {
     key: "9_3_1_2",
@@ -1079,6 +1185,7 @@ export default {
       "additional-html-standard",
       "additional-html-semantic",
     ],
+    group: "9.3.1",
   },
   "9.3.2.1": {
     key: "9_3_2_1",
@@ -1094,6 +1201,7 @@ export default {
       "additional-expected-behavior",
       "additional-screen-reader",
     ],
+    group: "9.3.2",
   },
   "9.3.2.2": {
     key: "9_3_2_2",
@@ -1109,6 +1217,7 @@ export default {
       "additional-expected-behavior",
       "additional-screen-reader",
     ],
+    group: "9.3.2",
   },
   "9.3.2.3": {
     key: "9_3_2_3",
@@ -1123,6 +1232,7 @@ export default {
       "main-menu",
       "additional-expected-behavior",
     ],
+    group: "9.3.2",
   },
   "9.3.2.4": {
     key: "9_3_2_4",
@@ -1137,6 +1247,7 @@ export default {
       "main-menu",
       "additional-expected-behavior",
     ],
+    group: "9.3.2",
   },
   "9.3.3.1": {
     key: "9_3_3_1",
@@ -1151,6 +1262,7 @@ export default {
       "main-form",
       "additional-expected-behavior",
     ],
+    group: "9.3.3",
   },
   "9.3.3.2": {
     key: "9_3_3_2",
@@ -1166,6 +1278,7 @@ export default {
       "additional-expected-behavior",
       "additional-html-standard",
     ],
+    group: "9.3.3",
   },
   "9.3.3.3": {
     key: "9_3_3_3",
@@ -1180,6 +1293,7 @@ export default {
       "main-form",
       "additional-expected-behavior",
     ],
+    group: "9.3.3",
   },
   "9.3.3.4": {
     key: "9_3_3_4",
@@ -1194,6 +1308,7 @@ export default {
       "main-form",
       "additional-functionality",
     ],
+    group: "9.3.3",
   },
   "9.4.1.1": {
     key: "9_4_1_1",
@@ -1209,6 +1324,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.4.1",
   },
   "9.4.1.2": {
     key: "9_4_1_2",
@@ -1224,6 +1340,7 @@ export default {
       "additional-html-semantic",
       "additional-screen-reader",
     ],
+    group: "9.4.1",
   },
   "9.4.1.3": {
     key: "9_4_1_3",
@@ -1238,6 +1355,7 @@ export default {
       "main-text",
       "additional-screen-reader",
     ],
+    group: "9.4.1",
   },
   "11.7.1": {
     key: "11_7_1",
@@ -1251,6 +1369,7 @@ export default {
       "use-page",
       "additional-browser",
     ],
+    group: "11.7",
   },
   "11.8.2": {
     key: "11_8_2",
@@ -1265,6 +1384,7 @@ export default {
       "additional-compatibility",
       "additional-functionality",
     ],
+    group: "11.8",
   },
   "11.8.3": {
     key: "11_8_3",
@@ -1279,6 +1399,7 @@ export default {
       "additional-compatibility",
       "additional-functionality",
     ],
+    group: "11.8",
   },
   "11.8.4": {
     key: "11_8_4",
@@ -1294,6 +1415,7 @@ export default {
       "additional-compatibility",
       "additional-functionality",
     ],
+    group: "11.8",
   },
   "11.8.5": {
     key: "11_8_5",
@@ -1309,6 +1431,7 @@ export default {
       "additional-compatibility",
       "additional-functionality",
     ],
+    group: "11.8",
   },
   "12.1.1": {
     key: "12_1_1",
@@ -1322,6 +1445,7 @@ export default {
       "use-site",
       "additional-documentation",
     ],
+    group: "12",
   },
   "12.1.2": {
     key: "12_1_2",
@@ -1335,6 +1459,7 @@ export default {
       "use-site",
       "additional-documentation",
     ],
+    group: "12",
   },
   "12.2.2": {
     key: "12_2_2",
@@ -1349,6 +1474,7 @@ export default {
       "additional-documentation",
       "additional-support",
     ],
+    group: "12",
   },
   "12.2.3": {
     key: "12_2_3",
@@ -1362,6 +1488,7 @@ export default {
       "use-site",
       "additional-support",
     ],
+    group: "12",
   },
   "12.2.4": {
     key: "12_2_4",
@@ -1376,5 +1503,6 @@ export default {
       "additional-documentation",
       "additional-support",
     ],
+    group: "12",
   },
 };
