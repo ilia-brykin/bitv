@@ -17,11 +17,15 @@ main-video
 main-audio
 main-text
 main-link
+main-button
 main-image
 main-form
 main-table
 main-multimedia
 main-subtitles
+main-focus
+main-menu
+main-browser
 
 Дополнительные теги:
 additional:
@@ -39,4 +43,7 @@ additional-functionality
 additional-requirements
 additional-responsive
 additional-color
+additional-documentation
+additional-support
+additional-expected-behavior: ожидаемое поведение
 
