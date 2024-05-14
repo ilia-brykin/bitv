@@ -5,6 +5,7 @@ import steps_5 from "./steps/steps_5/index";
 import steps_6 from "./steps/steps_6/index";
 import steps_7 from "./steps/steps_7/index";
 import steps_9_1_1 from "./steps/steps_9_1_1/index";
+import steps_9_1_2 from "./steps/steps_9_1_2/index";
 import steps_9_1_3 from "./steps/steps_9_1_3/index";
 import steps_9_1_4 from "./steps/steps_9_1_4/index";
 import steps_9_2_1 from "./steps/steps_9_2_1/index";
@@ -28,6 +29,7 @@ export const de = {
   ...steps_6.de,
   ...steps_7.de,
   ...steps_9_1_1.de,
+  ...steps_9_1_2.de,
   ...steps_9_1_3.de,
   ...steps_9_1_4.de,
   ...steps_9_2_1.de,
@@ -51,6 +53,7 @@ export const ru = {
   ...steps_6.ru,
   ...steps_7.ru,
   ...steps_9_1_1.ru,
+  ...steps_9_1_2.ru,
   ...steps_9_1_3.ru,
   ...steps_9_1_4.ru,
   ...steps_9_2_1.ru,
