@@ -6,11 +6,25 @@ div
 
   a-table(
     :columns="columns"
-    :data="dataSteps"
+    :data="dataStepsFiltered"
     :pagination="{ use: true }"
     key-id="step"
     label="_STEPS_"
   )
+    template(
+      v-slot:tablePrepend
+    )
+      a-filters(
+        :unapplied-model="unappliedModel"
+        :applied-model="appliedModel"
+        :filter-main="filterMain"
+        :filters="filters"
+        :main-model="mainModel"
+        @update:main-model="updateMainModel"
+        @update:applied-model="updateAppliedModel"
+        @update:unapplied-model="updateUnappliedModel"
+      )
+
     template(
       v-slot:tags="{ row }"
     )
