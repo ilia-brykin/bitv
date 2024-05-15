@@ -21,7 +21,6 @@ main-button
 main-image
 main-form
 main-table
-main-multimedia
 main-subtitles
 main-focus
 main-menu

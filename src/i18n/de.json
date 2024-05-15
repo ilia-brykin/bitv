@@ -31,5 +31,7 @@
   "_STEP_NUMBER_": "Nummer",
   "_STEP_NAME_": "Name",
   "_STEP_TAGS_": "Tags",
-  "_STEP_GROUP_": "Gruppe"
+  "_STEP_GROUP_": "Gruppe",
+  "_TAG_PRESENCE_FILTER_": "Tag-Präsenz-Filter",
+  "_TAG_ABSENCE_FILTER_": "Tag-Abwesenheit-Filter"
 }

@@ -4,6 +4,7 @@ import {
 } from "vue";
 
 import steps from "../../../global/consts/steps";
+import tags from "../../../global/consts/tags";
 import {
   getTranslationKeyGroupName,
 } from "../../../global/functions/utils";
@@ -11,8 +12,10 @@ import {
   getTranslatedText,
 } from "aloha-vue/src/ATranslation/compositionAPI/UtilsAPI";
 import {
+  difference,
   filter,
   forEach,
+  intersection,
   toLower,
 } from "lodash-es";
 
@@ -27,10 +30,14 @@ export default function FiltersAPI({
   const appliedModel = ref({
     group: [],
     steps: [],
+    tagPresence: [],
+    tagAbsence: [],
   });
   const unappliedModel = ref({
     group: [],
     steps: [],
+    tagPresence: [],
+    tagAbsence: [],
   });
   const mainModel = ref({
     name: "",
@@ -70,6 +77,32 @@ export default function FiltersAPI({
         data: stepsGroups.value,
         keyLabel: "value",
         keyId: "value",
+      },
+      {
+        type: "multiselect",
+        id: "tagPresence",
+        label: "_TAG_PRESENCE_FILTER_",
+        alwaysVisible: true,
+        search: true,
+        data: tags,
+        keyLabel: "tag",
+        keyId: "tag",
+        keyGroup: "group",
+        sortOrder: "asc",
+        sortOrderGroup: "desc",
+      },
+      {
+        type: "multiselect",
+        id: "tagAbsence",
+        label: "_TAG_ABSENCE_FILTER_",
+        alwaysVisible: true,
+        search: true,
+        data: tags,
+        keyLabel: "tag",
+        keyId: "tag",
+        keyGroup: "group",
+        sortOrder: "asc",
+        sortOrderGroup: "desc",
       },
       {
         type: "multiselect",
@@ -118,6 +151,16 @@ export default function FiltersAPI({
         return false;
       }
     }
+    if (appliedModel.value.tagPresence?.length) {
+      if (difference(appliedModel.value.tagPresence, step.tags).length !== 0) {
+        return false;
+      }
+    }
+    if (appliedModel.value.tagAbsence?.length) {
+      if (intersection(appliedModel.value.tagAbsence, step.tags).length !== 0) {
+        return false;
+      }
+    }
 
     return true;
   };
@@ -125,7 +168,9 @@ export default function FiltersAPI({
   const dataStepsFiltered = computed(() => {
     if (!mainModelAppliedLowerCase.value &&
       !appliedModel.value.group?.length &&
-      !appliedModel.value.steps?.length) {
+      !appliedModel.value.steps?.length &&
+      !appliedModel.value.tagPresence?.length &&
+      !appliedModel.value.tagAbsence?.length) {
       return dataSteps.value;
     }
 

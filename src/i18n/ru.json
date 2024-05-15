@@ -31,5 +31,7 @@
   "_STEP_NUMBER_": "Номер",
   "_STEP_NAME_": "Название",
   "_STEP_TAGS_": "Теги",
-  "_STEP_GROUP_": "Группа"
+  "_STEP_GROUP_": "Группа",
+  "_TAG_PRESENCE_FILTER_": "Фильтр наличия тегов",
+  "_TAG_ABSENCE_FILTER_": "Фильтр отсутствия тегов"
 }
