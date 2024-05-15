@@ -1,5 +1,5 @@
 {
-  "name": "BITV",
+  "name": "bitv",
   "description": "BITV",
   "version": "1.0.0",
   "author": "Ilia Brykin",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "aloha-css": "1.0.134",
-    "aloha-vue": "1.2.178",
+    "aloha-vue": "1.2.189",
     "lodash-es": "4.17.21",
     "vue": "3.4.26",
     "vue-router": "4.3.2"
