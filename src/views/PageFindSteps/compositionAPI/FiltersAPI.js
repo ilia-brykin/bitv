@@ -21,9 +21,11 @@ export default function FiltersAPI({
   };
   const appliedModel = ref({
     group: [],
+    steps: [],
   });
   const unappliedModel = ref({
     group: [],
+    steps: [],
   });
   const mainModel = ref({
     name: "",
@@ -64,6 +66,17 @@ export default function FiltersAPI({
         keyLabel: "value",
         keyId: "value",
       },
+      {
+        type: "multiselect",
+        id: "steps",
+        label: "_STEPS_",
+        alwaysVisible: true,
+        deselectable: true,
+        search: true,
+        data: dataSteps.value,
+        keyLabelCallback: ({ item }) => `${ item.step } ${ item.name }`,
+        keyId: "step",
+      },
     ];
   });
 
@@ -95,12 +108,19 @@ export default function FiltersAPI({
         return false;
       }
     }
+    if (appliedModel.value.steps?.length) {
+      if (appliedModel.value.steps.indexOf(step.step) === -1) {
+        return false;
+      }
+    }
 
     return true;
   };
 
   const dataStepsFiltered = computed(() => {
-    if (!mainModelAppliedLowerCase.value && !appliedModel.value.group?.length) {
+    if (!mainModelAppliedLowerCase.value &&
+      !appliedModel.value.group?.length &&
+      !appliedModel.value.steps?.length) {
       return dataSteps.value;
     }
 
