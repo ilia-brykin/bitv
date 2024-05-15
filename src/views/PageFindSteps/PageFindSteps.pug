@@ -26,6 +26,14 @@ div
       )
 
     template(
+      v-slot:stepName="{ row }"
+    )
+      page-find-steps-name(
+        :step="row"
+        :model-search="mainModelApplied.name"
+      )
+
+    template(
       v-slot:tags="{ row }"
     )
       step-tags(

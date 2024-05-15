@@ -1,6 +1,7 @@
 import AFilters from "aloha-vue/src/AFilters/AFilters/AFilters";
 import ATable from "aloha-vue/src/ATable/ATable";
 import ATranslation from "aloha-vue/src/ATranslation/ATranslation";
+import PageFindStepsName from "./PageFindStepsName/PageFindStepsName.vue";
 import StepTags from "../../components/StepTags/StepTags.vue";
 
 import ColumnsAPI from "./compositionAPI/ColumnsAPI";
@@ -13,6 +14,7 @@ export default {
     AFilters,
     ATable,
     ATranslation,
+    PageFindStepsName,
     StepTags,
   },
   setup() {
@@ -26,6 +28,7 @@ export default {
       filterMain,
       filters,
       mainModel,
+      mainModelApplied,
       unappliedModel,
       updateAppliedModel,
       updateMainModel,
@@ -46,6 +49,7 @@ export default {
       filterMain,
       filters,
       mainModel,
+      mainModelApplied,
       unappliedModel,
       updateAppliedModel,
       updateMainModel,

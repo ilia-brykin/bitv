@@ -5,11 +5,16 @@ import {
 
 import steps from "../../../global/consts/steps";
 import {
-  filter, forEach,
+  getTranslationKeyGroupName,
+} from "../../../global/functions/utils";
+import {
+  getTranslatedText,
+} from "aloha-vue/src/ATranslation/compositionAPI/UtilsAPI";
+import {
+  filter,
+  forEach,
   toLower,
 } from "lodash-es";
-import { getTranslationKeyGroupName } from "../../../global/functions/utils";
-import { getTranslatedText } from "aloha-vue/src/ATranslation/compositionAPI/UtilsAPI";
 
 export default function FiltersAPI({
   dataSteps = computed(() => []),
@@ -135,6 +140,7 @@ export default function FiltersAPI({
     filterMain,
     filters,
     mainModel,
+    mainModelApplied,
     unappliedModel,
     updateAppliedModel,
     updateMainModel,

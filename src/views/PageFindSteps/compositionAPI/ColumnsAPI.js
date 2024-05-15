@@ -19,12 +19,7 @@ export default function ColumnsAPI() {
       label: "_STEP_NAME_",
       keyLabel: "name",
       sortId: "name",
-      to: {
-        name: "PageStep",
-        paramsDynamic: {
-          step: "step",
-        },
-      },
+      slot: "stepName",
     },
     {
       id: "group",
