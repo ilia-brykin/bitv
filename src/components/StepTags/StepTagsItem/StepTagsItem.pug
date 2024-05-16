@@ -2,7 +2,10 @@ li.a_list_inline_item
   a-element.a_pill_rounded(
     :type="typeTag"
     :class="classTagLocal"
-    :text="tag"
+    :text="tagText"
+    :title="tagTextDescription"
+    :text-screen-reader="tagTextDescription"
+    :text-aria-hidden="true"
     :is-switch="isButton"
     :model-switch="isBtnActive"
     v-on="eventsLocal"

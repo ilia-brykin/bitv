@@ -101,7 +101,7 @@ export default {
       "use-component",
       "main-text",
       "additional-real-time-communication",
-      "user-interface",
+      "additional-user-interface",
     ],
     group: "6",
   },

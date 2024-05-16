@@ -7,11 +7,15 @@ import steps from "../../../global/consts/steps";
 import tags from "../../../global/consts/tags";
 import {
   getTranslationKeyGroupName,
+  getTranslationKeyTag,
+  getTranslationKeyTagDescription,
+  getTranslationKeyTagGroup,
 } from "../../../global/functions/utils";
 import {
   getTranslatedText,
 } from "aloha-vue/src/ATranslation/compositionAPI/UtilsAPI";
 import {
+  cloneDeep,
   difference,
   filter,
   forEach,
@@ -65,6 +69,37 @@ export default function FiltersAPI({
     return GROUPS;
   });
 
+  const dataTags = computed(() => {
+    const TAGS = cloneDeep(tags);
+
+    forEach(TAGS, tag => {
+      const TAG_KEY = getTranslationKeyTag({
+        tag: tag.tag,
+      });
+      const TAG_TRANSLATED = getTranslatedText({
+        placeholder: TAG_KEY,
+      });
+      const TAG_KEY_DESCRIPTION = getTranslationKeyTagDescription({
+        tag: tag.tag,
+      });
+      const TAG_DESCRIPTION_TRANSLATED = getTranslatedText({
+        placeholder: TAG_KEY_DESCRIPTION,
+      });
+
+      tag.label = `${ TAG_TRANSLATED } (${ TAG_DESCRIPTION_TRANSLATED })`;
+    });
+
+    return TAGS;
+  });
+
+  const getTranslatedGroup = ({ group }) => {
+    const KEY_GROUP = getTranslationKeyTagGroup({ group });
+
+    return getTranslatedText({
+      placeholder: KEY_GROUP,
+    });
+  };
+
   const filters = computed(() => {
     return [
       {
@@ -84,12 +119,13 @@ export default function FiltersAPI({
         label: "_TAG_PRESENCE_FILTER_",
         alwaysVisible: true,
         search: true,
-        data: tags,
-        keyLabel: "tag",
+        data: dataTags.value,
+        keyLabel: "label",
         keyId: "tag",
         keyGroup: "group",
         sortOrder: "asc",
         sortOrderGroup: "desc",
+        keyGroupCallback: getTranslatedGroup,
       },
       {
         type: "multiselect",
@@ -97,12 +133,13 @@ export default function FiltersAPI({
         label: "_TAG_ABSENCE_FILTER_",
         alwaysVisible: true,
         search: true,
-        data: tags,
-        keyLabel: "tag",
+        data: dataTags.value,
+        keyLabel: "label",
         keyId: "tag",
         keyGroup: "group",
         sortOrder: "asc",
         sortOrderGroup: "desc",
+        keyGroupCallback: getTranslatedGroup,
       },
       {
         type: "multiselect",

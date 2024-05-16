@@ -4,6 +4,7 @@ import ActiveAPI from "./compositionAPI/ActiveAPI";
 import ClassAPI from "./compositionAPI/ClassAPI";
 import EventAPI from "./compositionAPI/EventAPI";
 import TagsAPI from "../../../global/compositionAPI/TagsAPI";
+import TextAPI from "./compositionAPI/TextAPI";
 import TypeAPI from "./compositionAPI/TypeAPI";
 
 export default {
@@ -47,10 +48,17 @@ export default {
       toggleTagInModelTags,
     });
 
+    const {
+      tagText,
+      tagTextDescription,
+    } = TextAPI(props);
+
     return {
       classTagLocal,
       eventsLocal,
       isBtnActive,
+      tagText,
+      tagTextDescription,
       typeTag,
     };
   },
