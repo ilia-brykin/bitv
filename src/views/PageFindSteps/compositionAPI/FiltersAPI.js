@@ -23,26 +23,27 @@ import {
   toLower,
 } from "lodash-es";
 
+const appliedModel = ref({
+  group: [],
+  steps: [],
+  tagPresence: [],
+  tagAbsence: [],
+});
+const unappliedModel = ref({
+  group: [],
+  steps: [],
+  tagPresence: [],
+  tagAbsence: [],
+});
+
 export default function FiltersAPI({
   dataSteps = computed(() => []),
-}) {
+} = {}) {
   const filterMain = {
     type: "text",
     id: "name",
     label: "_STEP_NAME_",
   };
-  const appliedModel = ref({
-    group: [],
-    steps: [],
-    tagPresence: [],
-    tagAbsence: [],
-  });
-  const unappliedModel = ref({
-    group: [],
-    steps: [],
-    tagPresence: [],
-    tagAbsence: [],
-  });
   const mainModel = ref({
     name: "",
   });
@@ -216,6 +217,17 @@ export default function FiltersAPI({
     });
   });
 
+  const toggleTagInModelTags = ({ tag }) => {
+    const INDEX = appliedModel.value.tagPresence.indexOf(tag);
+
+    if (INDEX === -1) {
+      appliedModel.value.tagPresence.push(tag);
+    } else {
+      appliedModel.value.tagPresence.splice(INDEX, 1);
+    }
+    unappliedModel.value.tagPresence = cloneDeep(appliedModel.value.tagPresence);
+  };
+
   return {
     appliedModel,
     dataStepsFiltered,
@@ -223,6 +235,7 @@ export default function FiltersAPI({
     filters,
     mainModel,
     mainModelApplied,
+    toggleTagInModelTags,
     unappliedModel,
     updateAppliedModel,
     updateMainModel,

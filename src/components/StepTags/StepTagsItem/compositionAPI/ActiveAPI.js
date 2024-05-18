@@ -5,7 +5,7 @@ import {
 } from "vue";
 
 export default function ActiveAPI(props, {
-  modelTags = ref({}),
+  appliedModel = ref({}),
 }) {
   const isButton = toRef(props, "isButton");
   const tag = toRef(props, "tag");
@@ -15,7 +15,7 @@ export default function ActiveAPI(props, {
       return false;
     }
 
-    return !!modelTags.value[tag.value];
+    return appliedModel.value?.tagPresence.indexOf(tag.value) !== -1;
   });
 
   return {
