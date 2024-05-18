@@ -10,6 +10,15 @@ div(
     ) {{ headerStep }}
     span {{ headerText }}
 
+  a-translation(
+    tag="h2"
+    text="_STEP_TAGS_"
+  )
+  step-tags(
+    :is-button="false"
+    :tags="currentStep.tags"
+  )
+
   page-step-rubric(
     v-if="currentStep.whatChecked"
     :current-step="currentStep"
