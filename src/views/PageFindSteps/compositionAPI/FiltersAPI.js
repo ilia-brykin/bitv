@@ -228,6 +228,21 @@ export default function FiltersAPI({
     unappliedModel.value.tagPresence = cloneDeep(appliedModel.value.tagPresence);
   };
 
+  const setModelEmpty = () => {
+    appliedModel.value = {
+      group: [],
+      steps: [],
+      tagPresence: [],
+      tagAbsence: [],
+    };
+    unappliedModel.value = {
+      group: [],
+      steps: [],
+      tagPresence: [],
+      tagAbsence: [],
+    };
+  };
+
   return {
     appliedModel,
     dataStepsFiltered,
@@ -235,6 +250,7 @@ export default function FiltersAPI({
     filters,
     mainModel,
     mainModelApplied,
+    setModelEmpty,
     toggleTagInModelTags,
     unappliedModel,
     updateAppliedModel,

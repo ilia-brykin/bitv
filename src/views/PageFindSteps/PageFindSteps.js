@@ -1,3 +1,7 @@
+import {
+  onBeforeUnmount,
+} from "vue";
+
 import AFilters from "aloha-vue/src/AFilters/AFilters/AFilters";
 import ATable from "aloha-vue/src/ATable/ATable";
 import ATranslation from "aloha-vue/src/ATranslation/ATranslation";
@@ -29,6 +33,7 @@ export default {
       filters,
       mainModel,
       mainModelApplied,
+      setModelEmpty,
       unappliedModel,
       updateAppliedModel,
       updateMainModel,
@@ -40,6 +45,10 @@ export default {
     const {
       columns,
     } = ColumnsAPI();
+
+    onBeforeUnmount(() => {
+      setModelEmpty();
+    });
 
     return {
       appliedModel,
