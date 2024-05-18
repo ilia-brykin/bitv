@@ -2,6 +2,10 @@ import {
   computed,
   ref,
 } from "vue";
+import {
+  useRoute,
+  useRouter,
+} from "vue-router";
 
 import steps from "../../../global/consts/steps";
 import tags from "../../../global/consts/tags";
@@ -17,9 +21,9 @@ import {
 import {
   cloneDeep,
   difference,
-  filter,
+  filter as _filter,
   forEach,
-  intersection,
+  intersection, keyBy,
   toLower,
 } from "lodash-es";
 
@@ -39,6 +43,8 @@ const unappliedModel = ref({
 export default function FiltersAPI({
   dataSteps = computed(() => []),
 } = {}) {
+  const $route = useRoute();
+  const $router = useRouter();
   const filterMain = {
     type: "text",
     id: "name",
@@ -49,6 +55,22 @@ export default function FiltersAPI({
   });
   const mainModelApplied = ref({
     name: "",
+  });
+
+  const urlParams = computed(() => {
+    const URL_PARAMS = {};
+
+    forEach(appliedModel.value, (model, key) => {
+      if (model?.length) {
+        URL_PARAMS[key] = model;
+      }
+    });
+
+    if (mainModel.value.name) {
+      URL_PARAMS.name = mainModel.value.name;
+    }
+
+    return URL_PARAMS;
   });
 
   const stepsGroups = computed(() => {
@@ -63,7 +85,7 @@ export default function FiltersAPI({
         group: step.group,
       });
 
-      GROUPS.push({ value: getTranslatedText({ placeholder: GROUP_NAME }) });
+      GROUPS.push({ label: getTranslatedText({ placeholder: GROUP_NAME }), value: step.group });
       GROUPS_KEYS[step.group] = true;
     });
 
@@ -111,7 +133,7 @@ export default function FiltersAPI({
         deselectable: true,
         search: true,
         data: stepsGroups.value,
-        keyLabel: "value",
+        keyLabel: "label",
         keyId: "value",
       },
       {
@@ -156,6 +178,55 @@ export default function FiltersAPI({
     ];
   });
 
+  const stepsGroupsKeyByValue = computed(() => {
+    return keyBy(stepsGroups.value, "value");
+  });
+
+  const dataTagsKeyByTag = computed(() => {
+    return keyBy(dataTags.value, "tag");
+  });
+
+  const dataStepsKeyByStep = computed(() => {
+    return keyBy(dataSteps.value, "step");
+  });
+
+  const filtersDataKeyBy = computed(() => {
+    return {
+      group: stepsGroupsKeyByValue.value,
+      tagPresence: dataTagsKeyByTag.value,
+      tagAbsence: dataTagsKeyByTag.value,
+      steps: dataStepsKeyByStep.value,
+    };
+  });
+
+  const updateQueryParams = () => {
+    $router.push({ query: urlParams.value });
+  };
+
+  const filterQuery = ({ filter, currentQuery }) => {
+    const CURRENT_MAPPING = filtersDataKeyBy.value[filter.id];
+
+    return _filter(currentQuery, value => {
+      return CURRENT_MAPPING[value];
+    });
+  };
+
+  const setModelFromUrl = () => {
+    const QUERY = cloneDeep($route.query);
+    if (QUERY.name) {
+      mainModel.value.name = QUERY.name;
+      mainModelApplied.value.name = QUERY.name;
+      delete QUERY.name;
+    }
+    forEach(filters.value, filter => {
+      if (QUERY[filter.id]?.length) {
+        appliedModel.value[filter.id] = filterQuery({ filter, currentQuery: QUERY[filter.id] });
+      }
+    });
+    unappliedModel.value = cloneDeep(appliedModel.value);
+    updateQueryParams();
+  };
+
   const updateMainModel = model => {
     mainModel.value = model;
   };
@@ -163,6 +234,7 @@ export default function FiltersAPI({
   const updateAppliedModel = model => {
     appliedModel.value = model;
     mainModelApplied.value.name = mainModel.value.name;
+    updateQueryParams();
   };
 
   const updateUnappliedModel = model => {
@@ -180,7 +252,7 @@ export default function FiltersAPI({
       }
     }
     if (appliedModel.value.group?.length) {
-      if (appliedModel.value.group.indexOf(step.group) === -1) {
+      if (appliedModel.value.group.indexOf(step.groupId) === -1) {
         return false;
       }
     }
@@ -212,7 +284,7 @@ export default function FiltersAPI({
       return dataSteps.value;
     }
 
-    return filter(dataSteps.value, step => {
+    return _filter(dataSteps.value, step => {
       return isStepVisible(step);
     });
   });
@@ -251,6 +323,7 @@ export default function FiltersAPI({
     mainModel,
     mainModelApplied,
     setModelEmpty,
+    setModelFromUrl,
     toggleTagInModelTags,
     unappliedModel,
     updateAppliedModel,

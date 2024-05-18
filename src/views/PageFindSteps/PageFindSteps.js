@@ -34,6 +34,7 @@ export default {
       mainModel,
       mainModelApplied,
       setModelEmpty,
+      setModelFromUrl,
       unappliedModel,
       updateAppliedModel,
       updateMainModel,
@@ -45,6 +46,8 @@ export default {
     const {
       columns,
     } = ColumnsAPI();
+
+    setModelFromUrl();
 
     onBeforeUnmount(() => {
       setModelEmpty();

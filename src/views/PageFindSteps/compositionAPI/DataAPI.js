@@ -30,6 +30,7 @@ export default function DataAPI() {
         name: getTranslatedText({ placeholder: STEP_NAME }),
         tags: step.tags,
         group: getTranslatedText({ placeholder: GROUP_NAME }),
+        groupId: step.group,
       };
       DATA.push(STEP);
     });
