@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_4_2_NAME_": "Ton abschaltbar",
+  "_STEP_9_1_4_2_NAME_MENU_": "9.1.4.2 Ton abschaltbar",
   "_STEP_9_1_4_2_WHAT_CHECKED_1_": "<p>Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen abschaltbar sein.</p>",
   "_STEP_9_1_4_2_WHY_CHECKED_1_": "<p>Automatisch abgespielte Töne stören Nutzer, die sich auf einer Seite mittels Sprachausgabe orientieren.</p>",
   "_STEP_9_1_4_2_WHY_CHECKED_2_": "<p>Falls ein Tonelement nach dem Laden einer Seite automatisch startet, ist es deshalb wichtig, dass es sich über einen am Seitenbeginn befindlichen barrierefreien Mechanismus abschalten, anhalten oder herunter regeln lässt.</p>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_1_2_NAME_": "Anderssprachige Wörter und Abschnitte ausgezeichnet",
+  "_STEP_9_3_1_2_NAME_MENU_": "9.3.1.2 Anderssprachige Wörter und Abschnitte ausgezeichnet",
   "_STEP_9_3_1_2_WHAT_CHECKED_1_": "<p>Wenn innerhalb einer Seite Wörter und Textabschnitte in einer anderen Sprache vorkommen, müssen diese mithilfe des <code>lang</code>-Attributs ausgezeichnet werden.</p>",
   "_STEP_9_3_1_2_WHY_CHECKED_1_": "<p>Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist. Sie müssen wissen, zu welcher Sprache ein Text gehört, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.</p>",
   "_STEP_9_3_1_2_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

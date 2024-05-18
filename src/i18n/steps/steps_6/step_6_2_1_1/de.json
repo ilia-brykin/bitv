@@ -1,5 +1,6 @@
 {
   "_STEP_6_2_1_1_NAME_": "Textkommunikation in Echtzeit",
+  "_STEP_6_2_1_1_NAME_MENU_": "6.2.1.1 Textkommunikation in Echtzeit",
   "_STEP_6_2_1_1_WHAT_CHECKED_1_": "<p>Ermöglicht das Webangebot Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, z.B. Sprach- und Videotelefonie), muss es ebenfalls Textkommunikation in Echtzeit (RTT, Real-Time Text) zur Verfügung stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen und dem Empfänger angezeigt wird. Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.</p>",
   "_STEP_6_2_1_1_WHY_CHECKED_1_": "<p>Menschen, die nicht Sprache nutzen können oder wollen, sollen die Möglichkeit haben, über Echtzeit-Textkommunikation (RTT, Real-time Text) gleichrangig an Kommunikation teilzuhaben.</p>",
   "_STEP_6_2_1_1_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

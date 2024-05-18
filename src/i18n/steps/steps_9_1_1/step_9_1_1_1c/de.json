@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_1_1C_NAME_": "Leere alt-Attribute für Layoutgrafiken",
+  "_STEP_9_1_1_1C_NAME_MENU_": "9.1.1.1c Leere alt-Attribute für Layoutgrafiken",
   "_STEP_9_1_1_1C_WHAT_CHECKED_1_": "<p>Eine Grafik, die keine informative Funktion hat, benötigt keinen Alternativtext. Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster, oder rein dekorative Fotos. Solche Grafiken sollen mit einem leeren <code>alt</code>-Attribut (<code>alt=\"\"</code>) ausgezeichnet werden.</p>",
   "_STEP_9_1_1_1C_WHAT_CHECKED_2_": "<p>Thema des Prüfschritts sind auch Icons, die mittels Icon Font eingebunden sind und SVGs.</p>",
   "_STEP_9_1_1_1C_WHY_CHECKED_1_": "<p>Screenreader behandeln Bilder <strong>ohne</strong> <code>alt</code>-Attribut anders als Bilder <strong>mit leerem</strong> <code>alt</code>-Attribut.</p>",

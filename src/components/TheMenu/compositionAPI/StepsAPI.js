@@ -7,7 +7,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step5_2",
-          label: "_STEP_5_2_NAME_",
+          label: "_STEP_5_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -17,7 +17,7 @@ export default function StepsAPI() {
         },
         {
           id: "step5_3",
-          label: "_STEP_5_3_NAME_",
+          label: "_STEP_5_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -27,7 +27,7 @@ export default function StepsAPI() {
         },
         {
           id: "step5_4",
-          label: "_STEP_5_4_NAME_",
+          label: "_STEP_5_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -44,7 +44,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step6_1",
-          label: "_STEP_6_1_NAME_",
+          label: "_STEP_6_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -54,7 +54,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_1_1",
-          label: "_STEP_6_2_1_1_NAME_",
+          label: "_STEP_6_2_1_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -64,7 +64,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_1_2",
-          label: "_STEP_6_2_1_2_NAME_",
+          label: "_STEP_6_2_1_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -74,7 +74,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_2_1",
-          label: "_STEP_6_2_2_1_NAME_",
+          label: "_STEP_6_2_2_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -84,7 +84,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_2_2",
-          label: "_STEP_6_2_2_2_NAME_",
+          label: "_STEP_6_2_2_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -94,7 +94,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_2_3",
-          label: "_STEP_6_2_2_3_NAME_",
+          label: "_STEP_6_2_2_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -104,7 +104,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_2_4",
-          label: "_STEP_6_2_2_4_NAME_",
+          label: "_STEP_6_2_2_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -114,7 +114,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_3",
-          label: "_STEP_6_2_3_NAME_",
+          label: "_STEP_6_2_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -124,7 +124,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_2_4",
-          label: "_STEP_6_2_4_NAME_",
+          label: "_STEP_6_2_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -134,7 +134,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_3",
-          label: "_STEP_6_3_NAME_",
+          label: "_STEP_6_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -144,7 +144,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_4",
-          label: "_STEP_6_4_NAME_",
+          label: "_STEP_6_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -154,7 +154,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_5_2",
-          label: "_STEP_6_5_2_NAME_",
+          label: "_STEP_6_5_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -164,7 +164,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_5_3",
-          label: "_STEP_6_5_3_NAME_",
+          label: "_STEP_6_5_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -174,7 +174,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_5_4",
-          label: "_STEP_6_5_4_NAME_",
+          label: "_STEP_6_5_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -184,7 +184,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_5_5",
-          label: "_STEP_6_5_5_NAME_",
+          label: "_STEP_6_5_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -194,7 +194,7 @@ export default function StepsAPI() {
         },
         {
           id: "step6_5_6",
-          label: "_STEP_6_5_6_NAME_",
+          label: "_STEP_6_5_6_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -211,7 +211,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step7_1_1",
-          label: "_STEP_7_1_1_NAME_",
+          label: "_STEP_7_1_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -221,7 +221,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_1_2",
-          label: "_STEP_7_1_2_NAME_",
+          label: "_STEP_7_1_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -231,7 +231,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_1_3",
-          label: "_STEP_7_1_3_NAME_",
+          label: "_STEP_7_1_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -241,7 +241,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_1_4",
-          label: "_STEP_7_1_4_NAME_",
+          label: "_STEP_7_1_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -251,7 +251,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_1_5",
-          label: "_STEP_7_1_5_NAME_",
+          label: "_STEP_7_1_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -261,7 +261,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_2_1",
-          label: "_STEP_7_2_1_NAME_",
+          label: "_STEP_7_2_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -271,7 +271,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_2_2",
-          label: "_STEP_7_2_2_NAME_",
+          label: "_STEP_7_2_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -281,7 +281,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_2_3",
-          label: "_STEP_7_2_3_NAME_",
+          label: "_STEP_7_2_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -291,7 +291,7 @@ export default function StepsAPI() {
         },
         {
           id: "step7_3",
-          label: "_STEP_7_3_NAME_",
+          label: "_STEP_7_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -308,7 +308,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_1_1_1a",
-          label: "_STEP_9_1_1_1A_NAME_",
+          label: "_STEP_9_1_1_1A_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -318,7 +318,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_1_1b",
-          label: "_STEP_9_1_1_1B_NAME_",
+          label: "_STEP_9_1_1_1B_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -328,7 +328,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_1_1c",
-          label: "_STEP_9_1_1_1C_NAME_",
+          label: "_STEP_9_1_1_1C_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -338,7 +338,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_1_1d",
-          label: "_STEP_9_1_1_1D_NAME_",
+          label: "_STEP_9_1_1_1D_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -355,7 +355,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_1_2_1",
-          label: "_STEP_9_1_2_1_NAME_",
+          label: "_STEP_9_1_2_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -365,7 +365,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_2_2",
-          label: "_STEP_9_1_2_2_NAME_",
+          label: "_STEP_9_1_2_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -375,7 +375,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_2_3",
-          label: "_STEP_9_1_2_3_NAME_",
+          label: "_STEP_9_1_2_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -385,7 +385,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_2_4",
-          label: "_STEP_9_1_2_4_NAME_",
+          label: "_STEP_9_1_2_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -395,7 +395,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_2_5",
-          label: "_STEP_9_1_2_5_NAME_",
+          label: "_STEP_9_1_2_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -412,7 +412,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_1_3_1a",
-          label: "_STEP_9_1_3_1A_NAME_",
+          label: "_STEP_9_1_3_1A_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -422,7 +422,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1b",
-          label: "_STEP_9_1_3_1B_NAME_",
+          label: "_STEP_9_1_3_1B_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -432,7 +432,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1c",
-          label: "_STEP_9_1_3_1C_NAME_",
+          label: "_STEP_9_1_3_1C_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -442,7 +442,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1d",
-          label: "_STEP_9_1_3_1D_NAME_",
+          label: "_STEP_9_1_3_1D_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -452,7 +452,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1e",
-          label: "_STEP_9_1_3_1E_NAME_",
+          label: "_STEP_9_1_3_1E_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -462,7 +462,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1f",
-          label: "_STEP_9_1_3_1F_NAME_",
+          label: "_STEP_9_1_3_1F_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -472,7 +472,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1g",
-          label: "_STEP_9_1_3_1G_NAME_",
+          label: "_STEP_9_1_3_1G_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -482,7 +482,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_1h",
-          label: "_STEP_9_1_3_1H_NAME_",
+          label: "_STEP_9_1_3_1H_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -492,7 +492,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_2",
-          label: "_STEP_9_1_3_2_NAME_",
+          label: "_STEP_9_1_3_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -502,7 +502,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_3",
-          label: "_STEP_9_1_3_3_NAME_",
+          label: "_STEP_9_1_3_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -512,7 +512,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_4",
-          label: "_STEP_9_1_3_4_NAME_",
+          label: "_STEP_9_1_3_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -522,7 +522,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_3_5",
-          label: "_STEP_9_1_3_5_NAME_",
+          label: "_STEP_9_1_3_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -539,7 +539,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_1_4_1",
-          label: "_STEP_9_1_4_1_NAME_",
+          label: "_STEP_9_1_4_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -549,7 +549,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_2",
-          label: "_STEP_9_1_4_2_NAME_",
+          label: "_STEP_9_1_4_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -559,7 +559,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_3",
-          label: "_STEP_9_1_4_3_NAME_",
+          label: "_STEP_9_1_4_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -569,7 +569,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_4",
-          label: "_STEP_9_1_4_4_NAME_",
+          label: "_STEP_9_1_4_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -579,7 +579,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_5",
-          label: "_STEP_9_1_4_5_NAME_",
+          label: "_STEP_9_1_4_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -589,7 +589,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_10",
-          label: "_STEP_9_1_4_10_NAME_",
+          label: "_STEP_9_1_4_10_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -599,7 +599,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_11",
-          label: "_STEP_9_1_4_11_NAME_",
+          label: "_STEP_9_1_4_11_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -609,7 +609,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_12",
-          label: "_STEP_9_1_4_12_NAME_",
+          label: "_STEP_9_1_4_12_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -619,7 +619,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_1_4_13",
-          label: "_STEP_9_1_4_13_NAME_",
+          label: "_STEP_9_1_4_13_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -636,7 +636,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_2_1_1",
-          label: "_STEP_9_2_1_1_NAME_",
+          label: "_STEP_9_2_1_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -646,7 +646,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_1_2",
-          label: "_STEP_9_2_1_2_NAME_",
+          label: "_STEP_9_2_1_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -656,7 +656,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_1_4",
-          label: "_STEP_9_2_1_4_NAME_",
+          label: "_STEP_9_2_1_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -673,7 +673,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_2_2_1",
-          label: "_STEP_9_2_2_1_NAME_",
+          label: "_STEP_9_2_2_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -683,7 +683,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_2_2",
-          label: "_STEP_9_2_2_2_NAME_",
+          label: "_STEP_9_2_2_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -700,7 +700,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_2_3_1",
-          label: "_STEP_9_2_3_1_NAME_",
+          label: "_STEP_9_2_3_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -717,7 +717,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_2_4_1",
-          label: "_STEP_9_2_4_1_NAME_",
+          label: "_STEP_9_2_4_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -727,7 +727,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_4_2",
-          label: "_STEP_9_2_4_2_NAME_",
+          label: "_STEP_9_2_4_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -737,7 +737,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_4_3",
-          label: "_STEP_9_2_4_3_NAME_",
+          label: "_STEP_9_2_4_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -747,7 +747,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_4_4",
-          label: "_STEP_9_2_4_4_NAME_",
+          label: "_STEP_9_2_4_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -757,7 +757,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_4_5",
-          label: "_STEP_9_2_4_5_NAME_",
+          label: "_STEP_9_2_4_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -767,7 +767,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_4_6",
-          label: "_STEP_9_2_4_6_NAME_",
+          label: "_STEP_9_2_4_6_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -777,7 +777,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_4_7",
-          label: "_STEP_9_2_4_7_NAME_",
+          label: "_STEP_9_2_4_7_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -794,7 +794,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_2_5_1",
-          label: "_STEP_9_2_5_1_NAME_",
+          label: "_STEP_9_2_5_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -804,7 +804,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_5_2",
-          label: "_STEP_9_2_5_2_NAME_",
+          label: "_STEP_9_2_5_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -814,7 +814,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_5_3",
-          label: "_STEP_9_2_5_3_NAME_",
+          label: "_STEP_9_2_5_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -824,7 +824,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_2_5_4",
-          label: "_STEP_9_2_5_4_NAME_",
+          label: "_STEP_9_2_5_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -841,7 +841,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_3_1_1",
-          label: "_STEP_9_3_1_1_NAME_",
+          label: "_STEP_9_3_1_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -851,7 +851,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_1_2",
-          label: "_STEP_9_3_1_2_NAME_",
+          label: "_STEP_9_3_1_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -868,7 +868,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_3_2_1",
-          label: "_STEP_9_3_2_1_NAME_",
+          label: "_STEP_9_3_2_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -878,7 +878,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_2_2",
-          label: "_STEP_9_3_2_2_NAME_",
+          label: "_STEP_9_3_2_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -888,7 +888,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_2_3",
-          label: "_STEP_9_3_2_3_NAME_",
+          label: "_STEP_9_3_2_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -898,7 +898,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_2_4",
-          label: "_STEP_9_3_2_4_NAME_",
+          label: "_STEP_9_3_2_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -915,7 +915,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_3_3_1",
-          label: "_STEP_9_3_3_1_NAME_",
+          label: "_STEP_9_3_3_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -925,7 +925,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_3_2",
-          label: "_STEP_9_3_3_2_NAME_",
+          label: "_STEP_9_3_3_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -935,7 +935,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_3_3",
-          label: "_STEP_9_3_3_3_NAME_",
+          label: "_STEP_9_3_3_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -945,7 +945,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_3_3_4",
-          label: "_STEP_9_3_3_4_NAME_",
+          label: "_STEP_9_3_3_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -962,7 +962,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step9_4_1_1",
-          label: "_STEP_9_4_1_1_NAME_",
+          label: "_STEP_9_4_1_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -972,7 +972,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_4_1_2",
-          label: "_STEP_9_4_1_2_NAME_",
+          label: "_STEP_9_4_1_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -982,7 +982,7 @@ export default function StepsAPI() {
         },
         {
           id: "step9_4_1_3",
-          label: "_STEP_9_4_1_3_NAME_",
+          label: "_STEP_9_4_1_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -999,7 +999,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step11_7_1",
-          label: "_STEP_11_7_1_NAME_",
+          label: "_STEP_11_7_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1016,7 +1016,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step11_8_2",
-          label: "_STEP_11_8_2_NAME_",
+          label: "_STEP_11_8_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1026,7 +1026,7 @@ export default function StepsAPI() {
         },
         {
           id: "step11_8_3",
-          label: "_STEP_11_8_3_NAME_",
+          label: "_STEP_11_8_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1036,7 +1036,7 @@ export default function StepsAPI() {
         },
         {
           id: "step11_8_4",
-          label: "_STEP_11_8_4_NAME_",
+          label: "_STEP_11_8_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1046,7 +1046,7 @@ export default function StepsAPI() {
         },
         {
           id: "step11_8_5",
-          label: "_STEP_11_8_5_NAME_",
+          label: "_STEP_11_8_5_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1063,7 +1063,7 @@ export default function StepsAPI() {
       children: [
         {
           id: "step12_1_1",
-          label: "_STEP_12_1_1_NAME_",
+          label: "_STEP_12_1_1_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1073,7 +1073,7 @@ export default function StepsAPI() {
         },
         {
           id: "step12_1_2",
-          label: "_STEP_12_1_2_NAME_",
+          label: "_STEP_12_1_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1083,7 +1083,7 @@ export default function StepsAPI() {
         },
         {
           id: "step12_2_2",
-          label: "_STEP_12_2_2_NAME_",
+          label: "_STEP_12_2_2_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1093,7 +1093,7 @@ export default function StepsAPI() {
         },
         {
           id: "step12_2_3",
-          label: "_STEP_12_2_3_NAME_",
+          label: "_STEP_12_2_3_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {
@@ -1103,7 +1103,7 @@ export default function StepsAPI() {
         },
         {
           id: "step12_2_4",
-          label: "_STEP_12_2_4_NAME_",
+          label: "_STEP_12_2_4_NAME_MENU_",
           to: {
             name: "PageStep",
             params: {

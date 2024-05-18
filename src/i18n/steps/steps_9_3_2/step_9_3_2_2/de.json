@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_2_2_NAME_": "Keine unerwartete Kontextänderung bei Eingabe",
+  "_STEP_9_3_2_2_NAME_MENU_": "9.3.2.2 Keine unerwartete Kontextänderung bei Eingabe",
   "_STEP_9_3_2_2_WHAT_CHECKED_1_": "<p>Eingaben von Nutzenden auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen führen. Alle Kontextänderungen müssen unterhalb des auslösenden Elements geschehen und sollen klar nachvollziehbar sein, der Fokus soll nicht versetzt werden.</p>",
   "_STEP_9_3_2_2_WHY_CHECKED_1_": "<p>Unerwartete und unangekündigte Kontextänderungen bei einer Auswahl in Formularen können die Orientierung von Nutzern beeinträchtigen (z.B. die Auswahl einer Checkbox oder ein Radio-Button ruft eine neue Seite auf, eine Auswahlliste ohne Submit-Button reagiert auf <code>onchange</code>. Kontextänderungen auf der Seite selbst können Nutzende ablenken und verwirren oder auch unbemerkt bleiben und dadurch für Verwirrung sorgen (plötzlich sind Inhalte verändert). Sie sollten deshalb erwartet und klar nachvollziehbar sein.</p>",
   "_STEP_9_3_2_2_WHY_CHECKED_2_": "<p>Wenn Kontextänderungen auf der selben Seite nicht <strong>unterhalb</strong> des Elements stattfinden, das sie auslöst, werden sie von blinden Nutzenden häufig nicht wahrgenommen.</p>",

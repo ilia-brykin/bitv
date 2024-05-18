@@ -1,5 +1,6 @@
 {
   "_STEP_9_4_1_1_NAME_": "Korrekte Syntax",
+  "_STEP_9_4_1_1_NAME_MENU_": "9.4.1.1 Korrekte Syntax",
   "_STEP_9_4_1_1_WHAT_CHECKED_1_": "<p>Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werden. Dabei muss für jedes Element folgendes gewährleistet sein:</p>",
   "_STEP_9_4_1_1_WHAT_CHECKED_2_": "<ul><li><p>Sie besitzen vollständige Start- und Endtags</p></li><li><p>sie sind gemäß Spezifikation korrekt verschachtelt</p></li><li><p>sie enthalten keine doppelten Attribute</p></li><li><p>alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben</p></li></ul>",
   "_STEP_9_4_1_1_WHY_CHECKED_1_": "<p>Eine saubere HTML-Syntax vereinfacht Browsern oder Screenreadern den Umgang mit der Seite.</p>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_1F_NAME_": "Zuordnung von Tabellenzellen",
+  "_STEP_9_1_3_1F_NAME_MENU_": "9.1.3.1f Zuordnung von Tabellenzellen",
   "_STEP_9_1_3_1F_WHAT_CHECKED_1_": "<p>In komplexen Datentabellen soll der Bezug von Überschriften und Inhalten (über <code>scope</code> oder über <code>id</code> und <code>headers</code>) definiert sein, ausdrückliche Zuordnungen von Überschriften und Inhalten in einfachen Datentabellen sollen korrekt sein.</p>",
   "_STEP_9_1_3_1F_WHY_CHECKED_1_": "<p>Bei komplexen Tabellen können Screenreader aus dem Tabellengerüst allein nicht schließen, welche Bezüge es zwischen Daten- und Überschriftenzellen gibt. Deshalb müssen diese Verknüpfungen mithilfe der in HTML zur Verfügung stehenden Attribute ausdrücklich definiert werden.</p>",
   "_STEP_9_1_3_1F_WHY_CHECKED_2_": "<p>In der Praxis sind manchmal auch einfache Datentabellen mit <code>headers</code>- und <code>id</code>-Attributen ausgezeichnet. Screenreader richten sich dann nicht nach allgemeinen Regeln, sondern nach der vorliegenden Auszeichnung. Deshalb muss die Auszeichnung auch dann richtig sein, wenn sie eigentlich nicht nötig wäre. Denn bei falscher direkter Zuordnung von Datenzellen werden die Überschriften nicht oder fehlerhaft ausgegeben.</p>",

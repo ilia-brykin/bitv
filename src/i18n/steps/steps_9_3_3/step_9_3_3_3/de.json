@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_3_3_NAME_": "Hilfe bei Fehlern",
+  "_STEP_9_3_3_3_NAME_MENU_": "9.3.3.3 Hilfe bei Fehlern",
   "_STEP_9_3_3_3_WHAT_CHECKED_1_": "<p>Wenn ein Formular Fehlermeldungen erzeugt, müssen diese verständlich sein und Hinweise geben, wie der Fehler zu korrigieren ist.</p>",
   "_STEP_9_3_3_3_WHY_CHECKED_1_": "<p>Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.</p>",
   "_STEP_9_3_3_3_WHY_CHECKED_2_": "<p>Wenn das Angebot Nutzereingaben überprüft, sollen die ausgegebenen Fehlermeldungen hilfreich sein und es den Nutzenden erleichtern, Eingaben zu korrigieren.</p>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_2_1_NAME_": "Zeitbegrenzungen anpassbar",
+  "_STEP_9_2_2_1_NAME_MENU_": "9.2.2.1 Zeitbegrenzungen anpassbar",
   "_STEP_9_2_2_1_WHAT_CHECKED_1_": "<p>Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist abschaltbar, oder sie kann verlängert werden. Dies betrifft etwa:</p>",
   "_STEP_9_2_2_1_WHAT_CHECKED_2_": "<ul><li><p>zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern</p></li><li><p>Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität</p></li><li><p>das automatische Neu-Laden von Seiten oder die zeitverzögerte Weiterleitung zu einer anderen Seite</p></li><li><p>Wichtige Statusmeldungen, die nach kurzer Zeit automatisch schließen</p></li></ul>",
   "_STEP_9_2_2_1_WHY_CHECKED_1_": "<p>Die Auto-Aktualisierung durch das Neu-Laden einer Seite kann bei Screenreader-Nutzern das Vorlesen der Seiteninhalte unterbrechen und unvermittelt von vorne beginnen.</p>",

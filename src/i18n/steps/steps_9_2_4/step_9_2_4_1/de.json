@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_4_1_NAME_": "Bereiche überspringbar",
+  "_STEP_9_2_4_1_NAME_MENU_": "9.2.4.1 Bereiche überspringbar",
   "_STEP_9_2_4_1_WHAT_CHECKED_1_": "<p>Verschiedene Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können von Nutzern assistiver Technologien übersprungen werden. Der Seitenaufbau soll unabhängig von der Darstellung deutlich werden. Eine der folgenden Voraussetzungen soll erfüllt sein:</p>",
   "_STEP_9_2_4_1_WHAT_CHECKED_2_": "<ul><li><p>Es werden sinnvolle Bereichsüberschriften (HTML-Strukturelemente <code>h1</code> bis <code>h6</code>) eingesetzt</p></li><li><p>Es sind Sprunglinks vorhanden.</p></li><li><p>HTML5 Elemente zur Auszeichnung von Bereichen (<code>header, nav, main, aside, footer</code>) erschließen den Seitenaufbau sinnvoll.</p></li><li><p>WAI-ARIA <em>document landmarks</em> strukturieren die Seitenbereiche sinnvoll.</p></li></ul>",
   "_STEP_9_2_4_1_WHAT_CHECKED_3_": "<p>Frames und iframes brauchen ein sinnvolles <code>title</code>-Attribut.</p>",

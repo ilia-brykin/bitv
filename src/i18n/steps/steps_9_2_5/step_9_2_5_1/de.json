@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_5_1_NAME_": "Alternativen für komplexe Zeiger-Gesten",
+  "_STEP_9_2_5_1_NAME_MENU_": "9.2.5.1 Alternativen für komplexe Zeiger-Gesten",
   "_STEP_9_2_5_1_WHAT_CHECKED_1_": "<p>Wenn Webinhalte Funktionen implementieren, die über pfadbasierte Zeiger-Gesten (etwa Wischgesten oder Mehrpunktgesten) bedient werden können, gibt es Alternativen für die Aktivierung mittels einer einfachen Zeigereingabe.</p>",
   "_STEP_9_2_5_1_WHAT_CHECKED_2_": "<p>'Zeiger' schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie direkte Eingaben ein, etwa mit dem Finger auf dem Touchscreen oder mit dem Stift auf einem Grafiktablett.</p>",
   "_STEP_9_2_5_1_WHAT_CHECKED_3_": "<p>Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe essenziell wichtig ist - etwa bei der Handschrifterkennung.</p>",

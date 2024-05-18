@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_1H_NAME_": "Beschriftung von Formularelementen programmatisch ermittelbar",
+  "_STEP_9_1_3_1H_NAME_MENU_": "9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar",
   "_STEP_9_1_3_1H_WHAT_CHECKED_1_": "<p>Beschriftungen sollen über Markup mit den Formularelementen, die sie beschriften, verknüpft sein.</p>",
   "_STEP_9_1_3_1H_WHAT_CHECKED_2_": "<p>Bei <code>label</code>-Elementen geschieht das über das <code>for</code>-Attribut oder den Einschluss des beschrifteten Formularelements in das <code>label</code>-Element. Sind Beschriftungen nicht mit dem <code>label</code>-Element ausgezeichnet, soll eine Beschriftung des zugehörigen Formularelements auf anderem Weg (etwa über das <code>aria-labelledby</code>-Attribut) sichergestellt sein.</p>",
   "_STEP_9_1_3_1H_WHAT_CHECKED_3_": "<p>Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die Verfügbarkeit sichergestellt werden (z. B. mit Hilfe von <code>fieldset</code> mit <code>legend</code>).</p>",

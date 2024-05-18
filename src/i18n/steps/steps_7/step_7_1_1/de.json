@@ -1,5 +1,6 @@
 {
   "_STEP_7_1_1_NAME_": "Wiedergabe von Untertiteln",
+  "_STEP_7_1_1_NAME_MENU_": "7.1.1 Wiedergabe von Untertiteln",
   "_STEP_7_1_1_WHAT_CHECKED_1_": "<p>Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden.</p>",
   "_STEP_7_1_1_WHY_CHECKED_1_": "<p>Filme sind in der Regel ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch Untertitel bereitgestellt werden.</p>",
   "_STEP_7_1_1_WHY_CHECKED_2_": "<p>Untertitel können auf unterschiedliche Arten eingebunden werden: Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“, die meisten jedoch sogenannte textbasierte „closed captions“, die über ein Bedienelement am Player flexibel zuschaltbar sind.</p>",

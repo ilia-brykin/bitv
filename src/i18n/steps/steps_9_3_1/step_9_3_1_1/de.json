@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_1_1_NAME_": "Hauptsprache angegeben",
+  "_STEP_9_3_1_1_NAME_MENU_": "9.3.1.1 Hauptsprache angegeben",
   "_STEP_9_3_1_1_WHAT_CHECKED_1_": "<p>Die Hauptsprache der Webseite soll angegeben werden.</p>",
   "_STEP_9_3_1_1_WHY_CHECKED_1_": "<p>Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist. Sie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.</p>",
   "_STEP_9_3_1_1_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

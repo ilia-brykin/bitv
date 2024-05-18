@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_3_NAME_": "Ohne Bezug auf sensorische Merkmale nutzbar",
+  "_STEP_9_1_3_3_NAME_MENU_": "9.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar",
   "_STEP_9_1_3_3_WHAT_CHECKED_1_": "<p>Verweise auf Inhalte der Seite sollen <strong>nicht ausschließlich</strong> sensorische Merkmale wie Farbe, Form oder Position nutzen, sondern auch ohne bestimmte Sinneswahrnehmungen verständlich sein (etwa durch den Verweis die Überschrift von Inhalten).</p>",
   "_STEP_9_1_3_3_WHY_CHECKED_1_": "<p>Auch der Bezug auf die Form, Farbe oder Position von bestimmten Seiteninhalten ist für blinde Nutzende und auch Nutzende, die die Seite ohne das mitgelieferte Stylesheet oder auf anderen Ausgabegeräten sehen, nicht brauchbar.</p>",
   "_STEP_9_1_3_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

@@ -1,5 +1,6 @@
 {
   "_STEP_6_5_2_NAME_": "Auflösung bei Videotelefonie",
+  "_STEP_6_5_2_NAME_MENU_": "6.5.2 Auflösung bei Videotelefonie",
   "_STEP_6_5_2_WHAT_CHECKED_1_": "<p>Web-Anwendungen mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung für die Videoübertragung unterstützen. Üblicherweise entspricht dies 320x240 Pixel. Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.</p>",
   "_STEP_6_5_2_WHY_CHECKED_1_": "<p>Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflösung besonders wichtig - zum Beispiel für gehörlose Menschen, die über das Mundbild von Sprechern die Inhalte verstehen oder durch die zusätzliche Aufnahme von Mundbild, Mimik und Gestik eine simultane Verschriftlichung besser verstehen können.</p>",
   "_STEP_6_5_2_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

@@ -1,5 +1,6 @@
 {
   "_STEP_6_3_NAME_": "Anrufer-Identifizierung",
+  "_STEP_6_3_NAME_MENU_": "6.3 Anrufer-Identifizierung",
   "_STEP_6_3_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet, soll die Identifizierung (auch) in Textform verfügbar und programmatisch ermittelbar sein.</p>",
   "_STEP_6_3_WHY_CHECKED_1_": "<p>Diese Anforderung stellt sicher, dass auch Nutzende von Hilfsmittel-Technologien den Anrufer identifizieren können.</p>",
   "_STEP_6_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

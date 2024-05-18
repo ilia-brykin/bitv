@@ -1,5 +1,6 @@
 {
   "_STEP_6_2_2_3_NAME_": "Sprecheridentifizierung",
+  "_STEP_6_2_2_3_NAME_MENU_": "6.2.2.3 Sprecheridentifizierung",
   "_STEP_6_2_2_3_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprechende über Sprache identifiziert, sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.</p>",
   "_STEP_6_2_2_3_WHY_CHECKED_1_": "<p>Für alle Teilnehmenden in einer entfernten Kommunikation ist es sehr wichtig, sehen oder ermitteln zu können, wer gerade spricht, um sich in Antworten auf sie oder ihn beziehen zu können. Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.</p>",
   "_STEP_6_2_2_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

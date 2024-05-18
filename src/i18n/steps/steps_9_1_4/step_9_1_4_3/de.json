@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_4_3_NAME_": "Kontraste von Texten ausreichend",
+  "_STEP_9_1_4_3_NAME_MENU_": "9.1.4.3 Kontraste von Texten ausreichend",
   "_STEP_9_1_4_3_WHAT_CHECKED_1_": "<p>Alle Texte der Seite sollen in allen Zuständen ausreichende Helligkeitskontraste haben.</p>",
   "_STEP_9_1_4_3_WHY_CHECKED_1_": "<p>Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben Texte unter Umständen zu wenig Kontrast. Gute Kontraste sorgen dafür, dass Nutzende Texte leichter lesen können. Insbesondere Menschen, die aufgrund einer verringerten Sehschärfe, einer Farbfehlsichtigkeit oder aufgrund des Alters eine verminderte Kontrastempfindlichkeit haben, profitieren von guten Kontrasten.</p>",
   "_STEP_9_1_4_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

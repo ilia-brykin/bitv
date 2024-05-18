@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_4_10_NAME_": "Inhalte brechen um",
+  "_STEP_9_1_4_10_NAME_MENU_": "9.1.4.10 Inhalte brechen um",
   "_STEP_9_1_4_10_WHAT_CHECKED_1_": "<p>Seiten-Inhalte sollen bei einer Browserfensterbreite von 320 CSS-Pixeln (bzw. bei einer Browserfensterbreite von 1280 CSS-Pixeln und 400% Zoomvergrößerung) so umbrechen, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.</p>",
   "_STEP_9_1_4_10_WHAT_CHECKED_2_": "<p>Es wird dabei nicht verlangt, dass alle Inhalte in gleicher Weise in der responsiven Ansicht verfügbar sind. So sind die sichtbaren Navigationsmenüs einer Standard-Ansicht auf dem Desktop häufig nach dem Hereinzoomen (oder bei Nutzung des Angebots auf einem Smartphone-Bildschirm) nur über eine Ausklappnavigation zugänglich. Inhalte können auch in Ausklappbereichen oder über Links auf andere Seiten oder Ansichten verfügbar sein.</p>",
   "_STEP_9_1_4_10_WHAT_CHECKED_3_": "<p>Ausnahmen gelten für Inhalte, für deren Nutzung ein zweidimensionales Layout erforderlich ist, z. B. Bilder, Landkarten, Diagramme, Videos, Spiele, Präsentationen, Datentabellen und Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von Werkzeugleisten erfordert.</p>",

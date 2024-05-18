@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_4_3_NAME_": "Schlüssige Reihenfolge bei der Tastaturbedienung",
+  "_STEP_9_2_4_3_NAME_MENU_": "9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung",
   "_STEP_9_2_4_3_WHAT_CHECKED_1_": "<p>Wenn die Webseite mit der Tastatur bedient wird, soll die Reihenfolge, in der Links, Formularelemente und Objekte angesteuert werden, schlüssig und nachvollziehbar sein.</p>",
   "_STEP_9_2_4_3_WHY_CHECKED_1_": "<p>Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch andere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.</p>",
   "_STEP_9_2_4_3_WHY_CHECKED_2_": "<p>Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Webnutzenden arbeitet mit der Maus, daher wird oft nur an sie gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.</p>",

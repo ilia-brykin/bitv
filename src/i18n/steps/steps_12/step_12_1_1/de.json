@@ -1,5 +1,6 @@
 {
   "_STEP_12_1_1_NAME_": "Dokumentation von Kompatibilität und Barrierefreiheit",
+  "_STEP_12_1_1_NAME_MENU_": "12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit",
   "_STEP_12_1_1_WHAT_CHECKED_1_": "<p>Wenn ein Webangebot Dokumentation bereitstellt (und dazu gehört auch die Erklärung zur Barrierefreiheit), dann soll diese Dokumentation vorhandene zusätzliche Barrierefreiheits-Eigenschaften und -Funktionen auflisten und deren Nutzung erklären, sofern diese als Teil des Web-Angebots selbst implementiert wurden. Dazu gehören zum Beispiel Vorlesefunktionen, Funktionen zum Einstellen individueller Farbschemata, oder verfügbare Tastaturkurzbefehle. Auch Informationen zur (möglicherweise eingeschränkten) Kompatibilität mit assistiven Technologien zählen dazu.</p>",
   "_STEP_12_1_1_WHY_CHECKED_1_": "<p>Wenn Angebote bestimmte Barrierefreiheitsfunktionen enthalten, sollten diese gut dokumentiert sein, denn viele Nutzende werden ohne ausdrückliche Hinweise diese Funktionen nicht erkennen oder nutzen können.</p>",
   "_STEP_12_1_1_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_1_1A_NAME_": "Alternativtexte für Bedienelemente",
+  "_STEP_9_1_1_1A_NAME_MENU_": "9.1.1.1a Alternativtexte für Bedienelemente",
   "_STEP_9_1_1_1A_WHAT_CHECKED_1_": "<p>Grafische Bedienelemente (alle verlinkten / interaktiven Grafiken und Bilder) müssen mit Alternativtexten versehen werden (nicht verlinkte bzw. nicht interaktive Grafiken und Bilder werden in Prüfschritt 9.1.1.1b \"Alternativtexte für Grafiken und Objekte\" geprüft).</p>",
   "_STEP_9_1_1_1A_WHAT_CHECKED_2_": "<p>Die Alternativtexte für Bedienelemente (z. B. Icons oder Logos) oder Teaserbilder sollen das <strong>Ziel</strong> des Links bezeichnen. Alternativtexte für grafische Schaltflächen (Buttons) sollen die <strong>Aktion</strong> bezeichnen, die der Button auslöst. Wenn Image maps eingesetzt werden, sollen deren Bereiche (<code>area</code>-Elemente) sinnvolle Alternativtexte haben.</p>",
   "_STEP_9_1_1_1A_WHAT_CHECKED_3_": "<p>Thema dieses Prüfschritts sind auch Textlinks, die per CSS durch Hintergrundbilder ersetzt werden sowie Textalternativen für Icon Fonts und SVGs.</p>",

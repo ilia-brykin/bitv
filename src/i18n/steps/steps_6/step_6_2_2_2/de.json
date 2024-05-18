@@ -1,5 +1,6 @@
 {
   "_STEP_6_2_2_2_NAME_": "Programmatisch unterscheidbare Anzeige von Textnachrichten",
+  "_STEP_6_2_2_2_NAME_MENU_": "6.2.2.2 Programmatisch unterscheidbare Anzeige von Textnachrichten",
   "_STEP_6_2_2_2_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzende beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.</p>",
   "_STEP_6_2_2_2_WHY_CHECKED_1_": "<p>Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in einer Kommunikation lesen wollen, müssen sie eigene Text-Beiträge von denen anderer unterscheiden können. Darum muss die Sende- und Empfangsrichtung programmatisch ermittelbar sein. (Darüber hinaus ist es auch sinnvoll, programmatisch zwischen empfangenen Texten von verschiedenen Teilnehmenden unterscheiden zu können.)</p>",
   "_STEP_6_2_2_2_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

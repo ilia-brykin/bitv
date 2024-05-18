@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_1_1B_NAME_": "Alternativtexte für Grafiken und Objekte",
+  "_STEP_9_1_1_1B_NAME_MENU_": "9.1.1.1b Alternativtexte für Grafiken und Objekte",
   "_STEP_9_1_1_1B_WHAT_CHECKED_1_": "<p>Nicht verlinkte informationsorientierte Grafiken und Bilder müssen mit Alternativtexten versehen werden (verlinkte Grafiken werden in Prüfschritt 9.1.1.1a \"Alternativtexte für Bedienelemente\" geprüft). Die Alternativtexte ersetzen das Bild, sie sollen also (wenn möglich) dieselbe Aufgabe erfüllen wie das Bild.</p>",
   "_STEP_9_1_1_1B_WHAT_CHECKED_2_": "<p>Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien oder Applets soll der Alternativtext zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.</p>",
   "_STEP_9_1_1_1B_WHAT_CHECKED_3_": "<p>Thema dieses Prüfschritts sind auch Textalternativen für Hintergrundbilder, Icon Fonts und SVGs, sofern diese nicht verlinkt sind.</p>",

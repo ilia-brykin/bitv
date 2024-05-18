@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_4_7_NAME_": "Aktuelle Position des Fokus deutlich",
+  "_STEP_9_2_4_7_NAME_MENU_": "9.2.4.7 Aktuelle Position des Fokus deutlich",
   "_STEP_9_2_4_7_WHAT_CHECKED_1_": "<p>Der Tastaturfokus soll deutlich hervorgehoben werden. Wenn Autoren keine eigene Fokushervorhebung umsetzen, darf die Standardhervorhebung durch den Browser nicht über CSS unterdrückt werden. Der Kontrast der Fokushervorhebung (z.B. Fokusrahmen um Elemente, Unterstreichung, Farbumkehr) zum nicht-fokussierten Zustand muss mindestens 3:1 betragen.</p>",
   "_STEP_9_2_4_7_WHAT_CHECKED_2_": "<p>Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.</p>",
   "_STEP_9_2_4_7_WHY_CHECKED_1_": "<p>Für Tastaturnutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, also welcher Link oder Schalter ausgelöst wird, wenn sie die Enter-Taste drücken, oder welches Eingabefeld oder andere Formularelement gerade den Fokus hat.</p>",

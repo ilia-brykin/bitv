@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_3_4_NAME_": "Fehlervermeidung wird unterstützt",
+  "_STEP_9_3_3_4_NAME_MENU_": "9.3.3.4 Fehlervermeidung wird unterstützt",
   "_STEP_9_3_3_4_WHAT_CHECKED_1_": "<p>Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die Möglichkeit, die Dateneingabe rückgängig zu machen oder sie vor dem Abschicken zu überprüfen und zu korrigieren. Erfolgreiche Eingaben werden bestätigt.</p>",
   "_STEP_9_3_3_4_WHY_CHECKED_1_": "<p>Bei jeder Dateneingabe können Fehler passieren. Gerade wenn sich der Prozess nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.</p>",
   "_STEP_9_3_3_4_WHY_CHECKED_2_": "<p>Dies ist für alle Benutzer wichtig. Für Benutzer mit Behinderungen ist jedoch in vielen Fällen das Risiko von Fehleingaben größer. Benutzer mit Legasthenie vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken häufiger versehentlich falsche Tastaturtasten. Deshalb ist das Rückgängig-Machen oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten für diese Benutzer besonders wichtig.</p>",

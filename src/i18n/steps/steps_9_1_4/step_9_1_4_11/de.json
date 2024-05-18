@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_4_11_NAME_": "Kontraste von Grafiken und grafischen Bedienelementen ausreichend",
+  "_STEP_9_1_4_11_NAME_MENU_": "9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend",
   "_STEP_9_1_4_11_WHAT_CHECKED_1_": "<p>Die für die Identifizierung notwendige visuelle Information von informationstragenden Grafiken und grafischen Bedienelementen sowie deren Zuständen soll einen Kontrast von mindestens 3:1 zu angrenzenden Farben haben.</p>",
   "_STEP_9_1_4_11_WHAT_CHECKED_2_": "<p>In vielen Fällen, wie etwa bei einfarbigen Icons, bedeutet das einfach, dass der Kontrast zwischen der Farbe des Elements und der Hintergrundfarbe gemessen wird.</p>",
   "_STEP_9_1_4_11_WHAT_CHECKED_3_": "<p>Bei mehrfarbigen oder abgetönten Elementen gilt die Kontrastanforderung für jene visuelle Information, über die das Element (oder dessen Zustand) hinreichend klar identifizierbar ist. Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung erfüllen.</p>",

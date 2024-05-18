@@ -1,5 +1,6 @@
 {
   "_STEP_7_2_3_NAME_": "Erhaltung von Audiodeskription",
+  "_STEP_7_2_3_NAME_MENU_": "7.2.3 Erhaltung von Audiodeskription",
   "_STEP_7_2_3_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, bleibt die Audiodeskription nach dem Vorgang erhalten. Sie ist weiterhin zuschaltbar und wird synchron zu Bild und Ton dargestellt. Die Prüfschritte 7.2.1 \"Wiedergabe von Audiodeskription\" und 7.2.2 \"Synchrone Audiodeskription\" sind weiterhin erfüllt.</p>",
   "_STEP_7_2_3_WHY_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, soll die Audiodeskription in gleicher Weise nutzbar sein wie vor dem Vorgang. Dazu gehört, dass sie ausgegeben werden kann und synchron abgespielt wird.</p>",
   "_STEP_7_2_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

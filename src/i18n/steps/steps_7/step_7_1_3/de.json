@@ -1,5 +1,6 @@
 {
   "_STEP_7_1_3_NAME_": "Erhaltung von Untertiteln",
+  "_STEP_7_1_3_NAME_MENU_": "7.1.3 Erhaltung von Untertiteln",
   "_STEP_7_1_3_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, bleiben die Untertitel erhalten, sie lassen sich weiterhin anzeigen und werden synchron zum Ton dargestellt. Das heißt, die Prüfschritte 7.1.1 \"Wiedergabe von Untertiteln\" und 7.1.2 \"Synchrone Untertitel\" sind weiterhin erfüllt.</p>",
   "_STEP_7_1_3_WHY_CHECKED_1_": "<p>Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, sollen diese Untertitel in gleicher Weise nutzbar sein wie vor dem Vorgang. Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.</p>",
   "_STEP_7_1_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

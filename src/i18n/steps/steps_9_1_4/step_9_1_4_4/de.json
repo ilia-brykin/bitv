@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_4_4_NAME_": "Text auf 200% vergrößerbar",
+  "_STEP_9_1_4_4_NAME_MENU_": "9.1.4.4 Text auf 200% vergrößerbar",
   "_STEP_9_1_4_4_WHAT_CHECKED_1_": "<p>Text soll um bis zu 200 Prozent vergrößert werden können, ohne dass dabei Inhalt oder Funktionalität verloren geht. Mindestens eine der folgenden Voraussetzungen soll erfüllt sein:</p>",
   "_STEP_9_1_4_4_WHAT_CHECKED_2_": "<ul><li><p>Mit der Zoom-Funktion des Browsers kann die Schrift auf 200% vergrößert werden (dabei bricht die Seite häufig in ein neues Layout um)</p></li><li><p>Über ein Bedienelement oben auf der Seite kann die Schriftgröße vergrößert werden</p></li></ul>",
   "_STEP_9_1_4_4_WHY_CHECKED_1_": "<p>Benutzer sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Desktop-Browser bieten heutezutage die Zoom-Vergrößerung des gesamte Layouts, bei der die Seite häufig in eine responsive Ansicht umbricht.</p>",

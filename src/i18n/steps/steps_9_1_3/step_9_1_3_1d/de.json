@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_1D_NAME_": "Inhalt gegliedert",
+  "_STEP_9_1_3_1D_NAME_MENU_": "9.1.3.1d Inhalt gegliedert",
   "_STEP_9_1_3_1D_WHAT_CHECKED_1_": "<p>Absätze sind mit geeigneten Strukturelementen ausgezeichnet, Zeilenumbrüche über doppelte <code>br</code> Elemente werden vermieden.</p>",
   "_STEP_9_1_3_1D_WHAT_CHECKED_2_": "<p>Hervorhebungen in Texten sind mit <code>strong</code> oder <code>em</code> ausgezeichnet.</p>",
   "_STEP_9_1_3_1D_WHY_CHECKED_1_": "<p>Die Unterteilung in kleinere Einheiten erleichtert die Handhabung und das Verständnis.</p>",

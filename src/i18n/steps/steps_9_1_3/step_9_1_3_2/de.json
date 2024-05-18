@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_2_NAME_": "Sinnvolle Reihenfolge",
+  "_STEP_9_1_3_2_NAME_MENU_": "9.1.3.2 Sinnvolle Reihenfolge",
   "_STEP_9_1_3_2_WHAT_CHECKED_1_": "<p>Seiteninhalte sollen unabhängig von der Darstellung in einer sinnvollen und brauchbaren Reihenfolge stehen. Was inhaltlich zusammengehört (etwa eine Überschrift und dazugehörige Inhalte darunter), soll nicht auseinandergerissen werden. Mittels CSS versteckte Seiteninhalte sollen deshalb an sinnvoller Stelle im Seitenquelltext erscheinen.</p>",
   "_STEP_9_1_3_2_WHAT_CHECKED_2_": "<p>Dynamische Inhalte, die im Ausgangszustand visuell versteckt sind, sollen auch für Screenreader verborgen sein, damit sie nicht die Lesereihenfolge stören.</p>",
   "_STEP_9_1_3_2_WHAT_CHECKED_3_": "<p>Ausschlaggebend bei der Prüfung ist nicht, ob die Seite in der Ansicht ohne CSS visuell eine verständliche Lesereihenfolge hat. Denn häufig sind Seiteninhalte schlecht lesbar, wenn CSS abgeschaltet ist, es kommt zu Überlappungen oder Inhalte erscheinen auseinandergerissen. Ausschlaggebend ist dagegen, ob <strong>bei eingeschaltetem CSS</strong> die Reihenfolge beim linearen Lesen mit dem Screenreader sinnvoll ist.</p>",

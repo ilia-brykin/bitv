@@ -1,5 +1,6 @@
 {
   "_STEP_11_7_1_NAME_": "Benutzerdefinierte Einstellungen",
+  "_STEP_11_7_1_NAME_MENU_": "11.7.1 Benutzerdefinierte Einstellungen",
   "_STEP_11_7_1_WHAT_CHECKED_1_": "<p>Die Seite soll benutzerdefinierte Browsereinstellungen berücksichtigen. Im Einzelnen können dies folgende Punkte sein:</p>",
   "_STEP_11_7_1_WHAT_CHECKED_2_": "<ul><li><p>Geänderte Vorder- und Hintergrundfarben</p></li><li><p>Schriftarten</p></li><li><p>Schriftgrößen</p></li><li><p>Darstellung des Fokuscursors</p></li><li><p>Maßeinheiten</p></li></ul>",
   "_STEP_11_7_1_WHAT_CHECKED_3_": "<p>Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten. Wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden. In manchen Fällen muss die Seite neu geladen werden, damit sich die Änderungen auswirken.</p>",

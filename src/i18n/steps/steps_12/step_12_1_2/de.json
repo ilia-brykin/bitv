@@ -1,5 +1,6 @@
 {
   "_STEP_12_1_2_NAME_": "Barrierefreie Dokumentation",
+  "_STEP_12_1_2_NAME_MENU_": "12.1.2 Barrierefreie Dokumentation",
   "_STEP_12_1_2_WHAT_CHECKED_1_": "<p>Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen für die allgemeine Nutzung von Funktionen des Angebots, aber oft auch Hinweise auf zusätzliche Funktionen, welche die Barrierefreiheit für bestimmte Nutzergruppen verbessern. Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.</p>",
   "_STEP_12_1_2_WHAT_CHECKED_2_": "<p>Wenn ein Web-Angebot eine Produkt-Dokumentation bereitstellt, soll diese mindestens in einer der folgenden Formate barrierefrei zur Verfügung gestellt werden:</p>",
   "_STEP_12_1_2_WHAT_CHECKED_3_": "<ul><li><p>Als Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9</p></li><li><p>Als Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10</p></li></ul>",

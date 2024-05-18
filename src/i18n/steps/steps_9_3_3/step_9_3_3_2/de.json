@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_3_2_NAME_": "Beschriftungen von Formularelementen vorhanden",
+  "_STEP_9_3_3_2_NAME_MENU_": "9.3.3.2 Beschriftungen von Formularelementen vorhanden",
   "_STEP_9_3_3_2_WHAT_CHECKED_1_": "<p>Sichtbare Beschriftungen von Formularelementen sind vorhanden.</p>",
   "_STEP_9_3_3_2_WHAT_CHECKED_2_": "<p>Eine sichtbare Beschriftung von Formularelementen soll vor (das heißt links neben oder über) dem zugehörigen Eingabefeld vorhanden sein. Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.</p>",
   "_STEP_9_3_3_2_WHAT_CHECKED_3_": "<p>Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die Anweisungen für alle Benutzer lesbar.</p>",

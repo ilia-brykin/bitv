@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_5_4_NAME_": "Alternativen für Bewegungsaktivierung",
+  "_STEP_9_2_5_4_NAME_MENU_": "9.2.5.4 Alternativen für Bewegungsaktivierung",
   "_STEP_9_2_5_4_WHAT_CHECKED_1_": "<p>Wenn Webinhalte auf die Bewegung eines mobilen Gerätes reagieren oder wenn Bewegungen der Nutzenden von Gerätesensoren oder der Kamera erfasst werden, um Funktionen auszulösen, sollten hierfür alternative Eingabemöglichkeiten vorhanden sein, und die Bewegungseingabe soll von Nutzenden abgeschaltet werden können.</p>",
   "_STEP_9_2_5_4_WHAT_CHECKED_2_": "<p>Der Prüfschritt gilt nicht für Bewegungseingaben, die für die Funktion wesentlich sind, z. B. wenn ein Bewegungssensor die Schritte einer Person aufzeichnet, oder wenn die Bewegung Teil einer zugänglichkeits-unterstützten Hilfsmitteleingabe ist.</p>",
   "_STEP_9_2_5_4_WHAT_CHECKED_3_": "<p>Abschaltbarkeit der Bewegungseingabe: Gegebenenfalls können Webinhalte diese Anforderung erfüllen, indem sie Betriebssystemeinstellungen unterstützen, die es den Nutzenden ermöglichen, die Bewegungserkennung auf Systemebene zu deaktivieren.</p>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_4_1_3_NAME_": "Statusmeldungen programmatisch verfügbar",
+  "_STEP_9_4_1_3_NAME_MENU_": "9.4.1.3 Statusmeldungen programmatisch verfügbar",
   "_STEP_9_4_1_3_WHAT_CHECKED_1_": "<p>Eine Statusmeldung ist eine Nachricht, die einer Seite dynamisch hinzugefügt wird. Sie informiert Nutzenden beispielsweise über den Erfolg oder das Ergebnis einer Aktion, über den Fortschritt eines Prozesses oder über das Vorkommen von Fehlern.</p>",
   "_STEP_9_4_1_3_WHAT_CHECKED_2_": "<p>Wenn Webangebote Statusmeldungen erzeugen, sollen visuell eingeblendete Statusmeldungen mit geeigneten Rollen und Eigenschaften ausgezeichnet und programmatisch ermittelbar sein, das bedeutet die Statusmeldungen werden Nutzenden von assistiven Technologien (Screenreader) präsentiert, ohne dass sie den Fokus erhalten.</p>",
   "_STEP_9_4_1_3_WHAT_CHECKED_3_": "<p>Beispiele für Statusmeldungen:</p>",

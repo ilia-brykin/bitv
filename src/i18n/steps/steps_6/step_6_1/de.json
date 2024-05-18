@@ -1,5 +1,6 @@
 {
   "_STEP_6_1_NAME_": "Audiobandbreite für Sprache",
+  "_STEP_6_1_NAME_MENU_": "6.1 Audiobandbreite für Sprache",
   "_STEP_6_1_WHAT_CHECKED_1_": "<p>Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die Webanwendung beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.</p>",
   "_STEP_6_1_WHAT_CHECKED_2_": "<p>Damit die Webanwendung diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.</p>",
   "_STEP_6_1_WHY_CHECKED_1_": "<p>Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshalb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.</p>",

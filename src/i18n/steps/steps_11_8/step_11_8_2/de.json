@@ -1,5 +1,6 @@
 {
   "_STEP_11_8_2_NAME_": "Barrierefreie Erstellung von Inhalten",
+  "_STEP_11_8_2_NAME_MENU_": "11.8.2 Barrierefreie Erstellung von Inhalten",
   "_STEP_11_8_2_WHAT_CHECKED_1_": "<p>Wenn es sich bei der zu testenden Webanwendung um ein Autorenwerkzeug handelt, soll die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den Nutzer dabei unterstützen.</p>",
   "_STEP_11_8_2_WHY_CHECKED_1_": "<p>Für Hilfsmittelnutzer, die eine programmatische Ermittelbarkeit von Informationen brauchen, ist es wichtig, dass Autorenwerkzeuge dies bei der Erzeugung von Inhalten unterstützen. Wenn zum Beispiel ein Kommentar-Eingabefeld die Vergabe einer Überschrift erlaubt, sollte diese auf der erzeugten (bzw. aktualisierten) Seite auch als Überschrift ausgezeichnet sein, damit Hilfsmittel-Nutzer diese semantische Information auswerten können (zum Beispiel zum Navigieren von Kommentar zu Kommentar).</p>",
   "_STEP_11_8_2_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

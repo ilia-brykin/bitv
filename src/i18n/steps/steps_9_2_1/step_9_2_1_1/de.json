@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_1_1_NAME_": "Ohne Maus nutzbar",
+  "_STEP_9_2_1_1_NAME_MENU_": "9.2.1.1 Ohne Maus nutzbar",
   "_STEP_9_2_1_1_WHAT_CHECKED_1_": "<p>Die Webseite soll auch ohne Maus - also ausschließlich mit der Tastatur - zu benutzen sein.</p>",
   "_STEP_9_2_1_1_WHY_CHECKED_1_": "<p>Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.</p>",
   "_STEP_9_2_1_1_WHY_CHECKED_2_": "<p>Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedacht.</p>",

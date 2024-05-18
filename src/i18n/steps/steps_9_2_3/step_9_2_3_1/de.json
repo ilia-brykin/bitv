@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_3_1_NAME_": "Verzicht auf Flackern",
+  "_STEP_9_2_3_1_NAME_MENU_": "9.2.3.1 Verzicht auf Flackern",
   "_STEP_9_2_3_1_WHAT_CHECKED_1_": "<p>Die Seite enthält keine Elemente, die in einem Zeitraum von einer Sekunde häufiger als dreimal aufblitzen.</p>",
   "_STEP_9_2_3_1_WHY_CHECKED_1_": "<p>Bei Menschen mit Epilepsie kann längeres Flackern in bestimmten Frequenzen einen Anfall auslösen.</p>",
   "_STEP_9_2_3_1_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

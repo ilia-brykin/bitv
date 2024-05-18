@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_1_2_NAME_": "Keine Tastaturfalle",
+  "_STEP_9_2_1_2_NAME_MENU_": "9.2.1.2 Keine Tastaturfalle",
   "_STEP_9_2_1_2_WHAT_CHECKED_1_": "<p>Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch von diesem Element wieder wegbewegt werden können. Der Inhalt darf keine Tastaturfalle erzeugen.</p>",
   "_STEP_9_2_1_2_WHY_CHECKED_1_": "<p>Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich sein.</p>",
   "_STEP_9_2_1_2_WHY_CHECKED_2_": "<p>Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.</p>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_4_5_NAME_": "Schriftgrafiken",
+  "_STEP_9_1_4_5_NAME_MENU_": "9.1.4.5 Schriftgrafiken",
   "_STEP_9_1_4_5_WHAT_CHECKED_1_": "<p>Grafiken sollen nicht für die Darstellung von Schriften verwendet werden. Logos sind hiervon ausgenommen.</p>",
   "_STEP_9_1_4_5_WHY_CHECKED_1_": "<p>Schriftgrafiken, die als Bitmap-Grafik eingebunden werden (z. B. als JPEG, PNG, oder GIF), können nicht oder nur eingeschränkt an Benutzeranforderungen angepasst werden. Ihre Farben können nicht individuell eingestellt werden, auch die individuelle Anpassung der Schriftgröße wirkt nicht auf grafische Schriften. Und bei Zoomvergrößerung werden die Schriftkanten unscharf.</p>",
   "_STEP_9_1_4_5_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

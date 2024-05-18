@@ -1,5 +1,6 @@
 {
   "_STEP_6_2_2_1_NAME_": "Visuell unterscheidbare Anzeige von Textnachrichten",
+  "_STEP_6_2_2_1_NAME_MENU_": "6.2.2.1 Visuell unterscheidbare Anzeige von Textnachrichten",
   "_STEP_6_2_2_1_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.</p>",
   "_STEP_6_2_2_1_WHY_CHECKED_1_": "<p>Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereits empfangene und gesendete Nachrichten visuell zu unterscheiden. So können sie leichter Äußerungen von sich selbst oder von anderen finden und zuordnen.</p>",
   "_STEP_6_2_2_1_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

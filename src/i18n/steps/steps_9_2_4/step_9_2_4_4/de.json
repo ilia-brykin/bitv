@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_4_4_NAME_": "Aussagekräftige Linktexte",
+  "_STEP_9_2_4_4_NAME_MENU_": "9.2.4.4 Aussagekräftige Linktexte",
   "_STEP_9_2_4_4_WHAT_CHECKED_1_": "<p>Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein.</p>",
   "_STEP_9_2_4_4_WHAT_CHECKED_2_": "<p>Falls Links nicht auf HTML-Seiten verweisen, soll der Link über das Dateiformat des Zieldokuments informieren.</p>",
   "_STEP_9_2_4_4_WHY_CHECKED_1_": "<p>Blinde Nutzer, die von Link zu Link tabben, bekommen die Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.</p>",

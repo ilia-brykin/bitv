@@ -1,5 +1,6 @@
 {
   "_STEP_6_5_4_NAME_": "Synchronität bei Videotelefonie",
+  "_STEP_6_5_4_NAME_MENU_": "6.5.4 Synchronität bei Videotelefonie",
   "_STEP_6_5_4_WHAT_CHECKED_1_": "<p>Wenn das Webangebot Videotelefonie unterstützt, soll die Zeitdifferenz zwischen Audio und Video nicht mehr als 100 Millisekunden betragen.</p>",
   "_STEP_6_5_4_WHY_CHECKED_1_": "<p>Die Verständlichkeit von Videotelefonie ist allgemein schlechter, wenn Bild und Ton nicht zeitgleich übertragen werden. Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. Menschen mit kognitiven Einschränkungen, gehörlosen Menschen und Menschen mit eingeschränktem Hörvermögen fällt es vermutlich schwerer, mittels nicht synchroner Videotelefonie zu kommunizieren. Um dem Gesprochenen besser zu folgen, ist es hilfreich, zeitgleich zum Ton die Lippen der sprechenden Person zu sehen. Die Voraussetzung dafür ist, dass Bild und Ton gleichzeitig übertragen werden. Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, und Hinweise darauf willkommen.</p>",
   "_STEP_6_5_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

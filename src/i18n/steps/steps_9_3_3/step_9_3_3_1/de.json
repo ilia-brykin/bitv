@@ -1,5 +1,6 @@
 {
   "_STEP_9_3_3_1_NAME_": "Fehlererkennung",
+  "_STEP_9_3_3_1_NAME_MENU_": "9.3.3.1 Fehlererkennung",
   "_STEP_9_3_3_1_WHAT_CHECKED_1_": "<p>Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und der Fehler in Textform beschrieben werden.</p>",
   "_STEP_9_3_3_1_WHY_CHECKED_1_": "<p>Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.</p>",
   "_STEP_9_3_3_1_WHY_CHECKED_2_": "<p>Wenn das Angebot Nutzereingaben überprüft, sollen die Felder mit fehlerhaften oder fehlenden Eingaben identifiziert werden. Dies erleichtert den Nutzern, Eingaben zu korrigieren.</p>",

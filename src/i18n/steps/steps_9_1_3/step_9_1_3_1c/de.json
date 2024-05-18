@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_1C_NAME_": "HTML-Strukturelemente für Zitate",
+  "_STEP_9_1_3_1C_NAME_MENU_": "9.1.3.1c HTML-Strukturelemente für Zitate",
   "_STEP_9_1_3_1C_WHAT_CHECKED_1_": "<p>Zur Auszeichnung von Zitaten, die als eigenständige Textabschnitte gefasst sind, soll das dafür vorgesehene HTML-Strukturelement <code>blockquote</code> genutzt werden.</p>",
   "_STEP_9_1_3_1C_WHY_CHECKED_1_": "<p>Die Verwendung der HTML-Strukturelemente stellt sicher, dass der Aufbau einer Seite unabhängig von der Präsentation auf einer abstrakten Ebene festgelegt und zugänglich ist.</p>",
   "_STEP_9_1_3_1C_WHY_CHECKED_2_": "<p>Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht oder sie können eine eigene, besser passende Präsentation anwenden.</p>",

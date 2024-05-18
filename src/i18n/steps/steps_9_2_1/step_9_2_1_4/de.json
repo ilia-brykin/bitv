@@ -1,5 +1,6 @@
 {
   "_STEP_9_2_1_4_NAME_": "Tastatur-Kurzbefehle abschaltbar oder anpassbar",
+  "_STEP_9_2_1_4_NAME_MENU_": "9.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar",
   "_STEP_9_2_1_4_WHAT_CHECKED_1_": "<p>Wenn Webseiten Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen, Satzzeichen oder Symbole) implementieren, können diese entweder abgeschaltet oder auf eine Tastenkombination mit Modifikator-Tasten umgestellt werden, oder sie sind nur aktiv für bestimmte Schnittstellen-Elemente, wenn diese den Fokus haben.</p>",
   "_STEP_9_2_1_4_WHY_CHECKED_1_": "<p>Tastaturkurzbefehle sind für Menschen, die am Computer oder einem mobilen Gerät die Spracheingabe benutzen, häufig problematisch. Spracheingaben können unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch verloren.</p>",
   "_STEP_9_2_1_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

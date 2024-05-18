@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_1E_NAME_": "Datentabellen richtig aufgebaut",
+  "_STEP_9_1_3_1E_NAME_MENU_": "9.1.3.1e Datentabellen richtig aufgebaut",
   "_STEP_9_1_3_1E_WHAT_CHECKED_1_": "<p>Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind mit <code>th</code> oder den entsprechenden ARIA-Rollen ausgezeichnet.</p>",
   "_STEP_9_1_3_1E_WHY_CHECKED_1_": "<p>Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften, wenn nötig, auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten zu erkennen und mit ihnen umzugehen.</p>",
   "_STEP_9_1_3_1E_WHY_CHECKED_2_": "<p>Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.</p>",

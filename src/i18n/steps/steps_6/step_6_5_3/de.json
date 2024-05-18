@@ -1,5 +1,6 @@
 {
   "_STEP_6_5_3_NAME_": "Bildwiederholfrequenz bei Videotelefonie",
+  "_STEP_6_5_3_NAME_MENU_": "6.5.3 Bildwiederholfrequenz bei Videotelefonie",
   "_STEP_6_5_3_WHAT_CHECKED_1_": "<p>Wenn das Web-Angebot Videotelefonie unterstützt, soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.</p>",
   "_STEP_6_5_3_WHY_CHECKED_1_": "<p>Eine ausreichende Bildwiederholfrequenz ist besonders wichtig für Menschen mit Hörbehinderungen, die Bildinformationen auswerten, etwa gehörlose Menschen, die das Mundbild von Sprechenden lesen. Auch die unterstützende Wahrnehmung von Mimik und Gestik verlangt eine ausreichende Bildwiederholfrequenz.</p>",
   "_STEP_6_5_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

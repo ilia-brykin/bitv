@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_1A_NAME_": "HTML-Strukturelemente für Überschriften",
+  "_STEP_9_1_3_1A_NAME_MENU_": "9.1.3.1a HTML-Strukturelemente für Überschriften",
   "_STEP_9_1_3_1A_WHAT_CHECKED_1_": "<p>Überschriften müssen korrekt mit den HTML-Strukturelementen <code>h1</code> bis <code>h6</code> oder äquivalenten ARIA-Rollen und Attributen ausgezeichnet sein und die Inhalte der Seite erschließen.</p>",
   "_STEP_9_1_3_1A_WHY_CHECKED_1_": "<p>Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung wissen Nutzende, was zusammengehört, kann die Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.</p>",
   "_STEP_9_1_3_1A_WHY_CHECKED_2_": "<p>Nutzende, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von Überschriften-Elementen ist dafür eine wesentliche Voraussetzung.</p>",

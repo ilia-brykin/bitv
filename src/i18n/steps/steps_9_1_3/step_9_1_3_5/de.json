@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_3_5_NAME_": "Eingabefelder zu Nutzerdaten vermitteln den Zweck",
+  "_STEP_9_1_3_5_NAME_MENU_": "9.1.3.5 Eingabefelder zu Nutzerdaten vermitteln den Zweck",
   "_STEP_9_1_3_5_WHAT_CHECKED_1_": "<p>Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen. Geeignet dafür ist zur Zeit das HTML <code>autocomplete</code>-Attribut, mit dem sich der Eingabezweck für Felder wie etwa Name, E-Mail oder Telefonnummer ebenso wie für Adress-Daten oder Kreditkarten-Daten definieren lässt.</p>",
   "_STEP_9_1_3_5_WHAT_CHECKED_2_": "<p>Es wird erwartet, dass andere Taxonomien zur Festlegung des Zwecks von Interface-Komponenten entwickelt werden, welche die Verwendung von <code>autocomplete</code> ersetzen können.</p>",
   "_STEP_9_1_3_5_WHY_CHECKED_1_": "<p>Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.</p>",

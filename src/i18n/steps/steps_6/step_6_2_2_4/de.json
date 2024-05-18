@@ -1,5 +1,6 @@
 {
   "_STEP_6_2_2_4_NAME_": "Echtzeitindikation von Sprachkommunikation",
+  "_STEP_6_2_2_4_NAME_MENU_": "6.2.2.4 Echtzeitindikation von Sprachkommunikation",
   "_STEP_6_2_2_4_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation (RTT, Real-Time Text) bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.</p>",
   "_STEP_6_2_2_4_WHY_CHECKED_1_": "<p>Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmende, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.</p>",
   "_STEP_6_2_2_4_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",

@@ -1,5 +1,6 @@
 {
   "_STEP_9_1_1_1D_NAME_": "Alternativen für CAPTCHAs",
+  "_STEP_9_1_1_1D_NAME_MENU_": "9.1.1.1d Alternativen für CAPTCHAs",
   "_STEP_9_1_1_1D_WHAT_CHECKED_1_": "<p>In bildbasierten CAPTCHAs soll der Alternativtext des Bildes den Zweck des CAPTCHAs beschreiben und angeben, wie eine nicht bildbasierte Alternative zu finden ist.</p>",
   "_STEP_9_1_1_1D_WHAT_CHECKED_2_": "<p>Mindestens eine CAPTCHA-Alternative für ein Grafik-Captcha oder Audio-Captcha muss vorhanden sein.</p>",
   "_STEP_9_1_1_1D_WHY_CHECKED_1_": "<p>In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu erreichen. Für blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht zugänglich. Audio-Captchas sind für höreingeschränkte Nutzer nicht zugänglich. Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.</p>",

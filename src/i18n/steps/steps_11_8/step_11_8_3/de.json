@@ -1,5 +1,6 @@
 {
   "_STEP_11_8_3_NAME_": "Erhaltung von Barrierefreiheitsinformationen bei Transformation",
+  "_STEP_11_8_3_NAME_MENU_": "11.8.3 Erhaltung von Barrierefreiheitsinformationen bei Transformation",
   "_STEP_11_8_3_WHAT_CHECKED_1_": "<p>Wenn die Web-Anwendung ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Neucodierung bietet, dann werden die Informationen zur Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren, übernommen.</p>",
   "_STEP_11_8_3_WHY_CHECKED_1_": "<p>Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel durch Überschriften oder richtig aufgebaute Datentabellen), um Inhalte effektiv zu nutzen. Werden diese Auszeichnungen in Transformationen entfernt oder korrumpiert, leidet die Benutzbarkeit der Dokumente.</p>",
   "_STEP_11_8_3_HOW_CHECKED_1_": "<h3 id=\"_1_anwendbarkeit_des_prüfschritts\">1. Anwendbarkeit des Prüfschritts</h3>",
