@@ -7,12 +7,16 @@
     "serve": "webpack serve --mode=development --devtool=eval",
     "build-production": "webpack --mode=production --devtool=source-map",
     "build-css": "node-sass --include-path scss src/styles/styles.scss dist/styles/styles.css",
-    "i": "npm i --scope=@npm"
+    "i": "npm i --scope=@npm",
+    "build-json-search": "node scriptsNode/buildJsonSearch.js"
   },
   "dependencies": {
     "aloha-css": "1.0.134",
     "aloha-vue": "1.2.189",
+    "lodash": "4.17.21",
     "lodash-es": "4.17.21",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.14.0",
     "vue": "3.4.26",
     "vue-router": "4.3.2"
   },
