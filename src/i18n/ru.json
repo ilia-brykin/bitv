@@ -33,5 +33,7 @@
   "_STEP_TAGS_": "Теги",
   "_STEP_GROUP_": "Группа",
   "_TAG_PRESENCE_FILTER_": "Фильтр наличия тегов",
-  "_TAG_ABSENCE_FILTER_": "Фильтр отсутствия тегов"
+  "_TAG_ABSENCE_FILTER_": "Фильтр отсутствия тегов",
+  "_NOTHING_FOUND_": "Ничего не найдено",
+  "_SEARCH_": "Поиск"
 }

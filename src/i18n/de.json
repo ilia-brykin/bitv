@@ -33,5 +33,7 @@
   "_STEP_TAGS_": "Tags",
   "_STEP_GROUP_": "Gruppe",
   "_TAG_PRESENCE_FILTER_": "Tag-Präsenz-Filter",
-  "_TAG_ABSENCE_FILTER_": "Tag-Abwesenheit-Filter"
+  "_TAG_ABSENCE_FILTER_": "Tag-Abwesenheit-Filter",
+  "_NOTHING_FOUND_": "Nichts gefunden",
+  "_SEARCH_": "Suche"
 }

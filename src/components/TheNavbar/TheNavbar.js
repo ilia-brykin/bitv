@@ -1,5 +1,6 @@
 import AElement from "aloha-vue/src/AElement/AElement";
 import ASelect from "aloha-vue/src/ui/ASelect/ASelect";
+import TheSearchGlobal from "../TheSearchGlobal/TheSearchGlobal.vue";
 
 import LanguagesAPI from "./compositionAPI/LanguagesAPI";
 
@@ -8,6 +9,7 @@ export default {
   components: {
     ASelect,
     AElement,
+    TheSearchGlobal,
   },
   setup() {
     const {
