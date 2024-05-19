@@ -37,7 +37,7 @@ const processJson = inputJson => {
       outputJson.title = value;
       const idMatch = key.match(/_STEP_([\d_]+(?:_\d+[A-Z]*)?)_/);
       if (idMatch && idMatch[1]) {
-        outputJson.id = idMatch[1].replace(/_/g, ".");
+        outputJson.id = _.toLower(idMatch[1].replace(/_/g, "."));
       }
     } else {
       const keyMatch = key.match(/_STEP_[\d_]+(?:_\d+[A-Z]*)?_(.*?)_\d+_/);
