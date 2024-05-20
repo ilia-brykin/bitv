@@ -2,6 +2,10 @@ import {
   computed,
   toRef,
 } from "vue";
+import {
+  useRoute,
+  useRouter,
+} from "vue-router";
 
 import rubrics from "../../../../global/consts/rubrics";
 import {
@@ -12,6 +16,9 @@ export default function LinkAPI(props) {
   const id = toRef(props, "id");
   const matches = toRef(props, "matches");
   const modelSearch = toRef(props, "modelSearch");
+
+  const $route = useRoute();
+  const $router = useRouter();
 
   const additionalQuery = computed(() => {
     const QUERY = {
@@ -39,7 +46,15 @@ export default function LinkAPI(props) {
     };
   });
 
+  const goTo = () => {
+    if ($route.name === to.value.name &&
+      $route.params.step === to.value.params.step) {
+      $router.push({ query: to.value.query });
+    }
+  };
+
   return {
+    goTo,
     to,
   };
 }

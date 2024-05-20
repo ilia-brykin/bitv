@@ -28,6 +28,7 @@ export default {
   },
   setup(props) {
     const {
+      goTo,
       to,
     } = LinkAPI(props);
 
@@ -36,6 +37,7 @@ export default {
     } = TextAPI(props);
 
     return {
+      goTo,
       stepText,
       to,
     };
