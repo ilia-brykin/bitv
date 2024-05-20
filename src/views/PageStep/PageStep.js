@@ -5,6 +5,7 @@ import StepTags from "../../components/StepTags/StepTags.vue";
 
 import StepAPI from "./compositionAPI/StepAPI";
 import PageTitle from "./compositionAPI/PageTitle";
+import UrlAPI from "./compositionAPI/UrlAPI";
 
 export default {
   name: "PageStep",
@@ -30,12 +31,20 @@ export default {
       step,
     });
 
+    const {
+      initRubricsOpenFromUrl,
+      rubricsOpen,
+    } = UrlAPI();
+
+    initRubricsOpenFromUrl();
+
     return {
       currentStep,
       hasStep,
       headerStep,
       headerText,
       pageTitle,
+      rubricsOpen,
     };
   },
 };

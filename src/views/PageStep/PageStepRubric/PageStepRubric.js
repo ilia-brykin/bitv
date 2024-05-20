@@ -1,3 +1,8 @@
+import {
+  toRef,
+  watch,
+} from "vue";
+
 import AElement from "aloha-vue/src/AElement/AElement";
 import ATranslation from "aloha-vue/src/ATranslation/ATranslation";
 
@@ -16,6 +21,10 @@ export default {
       type: Object,
       required: true,
     },
+    isRubricOpen: {
+      type: Boolean,
+      required: true,
+    },
     rubricKey: {
       type: String,
       required: true,
@@ -23,6 +32,8 @@ export default {
     },
   },
   setup(props) {
+    const isRubricOpen = toRef(props, "isRubricOpen");
+
     const {
       headerKey,
     } = HeaderAPI(props);
@@ -35,15 +46,22 @@ export default {
 
     const {
       iconToggleRubric,
-      isRubricOpen,
+      initIsRubricOpenLocal,
+      isRubricOpenLocal,
       toggleRubric,
-    } = ToggleAPI();
+    } = ToggleAPI(props);
+
+    initIsRubricOpenLocal();
+
+    watch(isRubricOpen, () => {
+      initIsRubricOpenLocal();
+    });
 
     return {
       headerKey,
       htmlElements,
       iconToggleRubric,
-      isRubricOpen,
+      isRubricOpenLocal,
       toggleRubric,
     };
   },

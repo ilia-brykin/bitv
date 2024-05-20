@@ -1,6 +1,6 @@
 div
   h2.cursor_pointer.a_d_flex.a_align_items_center(
-    :ariaExpanded="isRubricOpen"
+    :ariaExpanded="isRubricOpenLocal"
     tabindex="0"
     @click="toggleRubric"
   )
@@ -16,7 +16,7 @@ div
     )
 
   .a_ml_5(
-    v-show="isRubricOpen"
+    v-show="isRubricOpenLocal"
   )
     a-translation(
       v-for="element in htmlElements"

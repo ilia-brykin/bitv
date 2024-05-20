@@ -1,4 +1,5 @@
 import {
+  computed,
   ref,
 } from "vue";
 
@@ -17,11 +18,14 @@ export default function ModelAPI({
   const itemsSearch = ref([]);
   const model = ref("");
   let idx = undefined;
-  let timer = undefined;
 
   const {
     modelLanguage,
   } = LanguagesAPI();
+
+  const isTooFewCharacters = computed(() => {
+    return !model.value || model.value.length < 3;
+  });
 
   const setDefaultItemsSearch = () => {
     itemsSearch.value = [];
@@ -64,24 +68,8 @@ export default function ModelAPI({
     });
   };
 
-  const searchLunr = () => {
-    if (!model.value || model.value.length < 3) {
-      setDefaultItemsSearch();
-      return;
-    }
-
-    itemsSearch.value = search(model.value);
-    console.log("itemsSearch.value", itemsSearch.value);
-    openDropdown();
-  };
-
   const changeModel = _model => {
     model.value = _model;
-    clearTimeout(timer);
-
-    timer = setTimeout(() => {
-      searchLunr();
-    }, 300);
   };
 
   const initIndexes = () => {
@@ -105,12 +93,26 @@ export default function ModelAPI({
     });
   };
 
+  const startSearch = () => {
+    if (isTooFewCharacters.value) {
+      setDefaultItemsSearch();
+      openDropdown();
+      return;
+    }
+
+    itemsSearch.value = search(model.value);
+    console.log("itemsSearch.value", itemsSearch.value);
+    openDropdown();
+  };
+
   return {
     changeModel,
     initIndexes,
+    isTooFewCharacters,
     itemsSearch,
     model,
     modelLanguage,
     setDefaultItemsSearch,
+    startSearch,
   };
 }

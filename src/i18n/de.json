@@ -35,5 +35,6 @@
   "_TAG_PRESENCE_FILTER_": "Tag-Präsenz-Filter",
   "_TAG_ABSENCE_FILTER_": "Tag-Abwesenheit-Filter",
   "_NOTHING_FOUND_": "Nichts gefunden",
-  "_SEARCH_": "Suche"
+  "_SEARCH_": "Suche",
+  "_TOO_FEW_CHARACTERS_": "Die Suche erfordert mindestens 3 Zeichen"
 }

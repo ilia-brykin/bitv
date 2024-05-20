@@ -1,22 +1,30 @@
 import {
   computed,
   ref,
+  toRef,
 } from "vue";
 
-export default function ToggleAPI() {
-  const isRubricOpen = ref(false);
+export default function ToggleAPI(props) {
+  const isRubricOpen = toRef(props, "isRubricOpen");
+
+  const isRubricOpenLocal = ref(false);
 
   const iconToggleRubric = computed(() => {
-    return isRubricOpen.value ? "DashCircle" : "PlusCircle";
+    return isRubricOpenLocal.value ? "DashCircle" : "PlusCircle";
   });
 
   const toggleRubric = () => {
-    isRubricOpen.value = !isRubricOpen.value;
+    isRubricOpenLocal.value = !isRubricOpenLocal.value;
+  };
+
+  const initIsRubricOpenLocal = () => {
+    isRubricOpenLocal.value = isRubricOpen.value;
   };
 
   return {
     iconToggleRubric,
-    isRubricOpen,
+    initIsRubricOpenLocal,
+    isRubricOpenLocal,
     toggleRubric,
   };
 }

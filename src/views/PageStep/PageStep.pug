@@ -22,36 +22,42 @@ div(
   page-step-rubric(
     v-if="currentStep.whatChecked"
     :current-step="currentStep"
+    :is-rubric-open="rubricsOpen.whatChecked"
     rubric-key="whatChecked"
   )
 
   page-step-rubric(
     v-if="currentStep.whyChecked"
     :current-step="currentStep"
+    :is-rubric-open="rubricsOpen.whyChecked"
     rubric-key="whyChecked"
   )
 
   page-step-rubric(
     v-if="currentStep.howChecked"
     :current-step="currentStep"
+    :is-rubric-open="rubricsOpen.howChecked"
     rubric-key="howChecked"
   )
 
   page-step-rubric(
     v-if="currentStep.sources"
     :current-step="currentStep"
+    :is-rubric-open="rubricsOpen.sources"
     rubric-key="sources"
   )
 
   page-step-rubric(
     v-if="currentStep.classification"
     :current-step="currentStep"
+    :is-rubric-open="rubricsOpen.classification"
     rubric-key="classification"
   )
 
   page-step-rubric(
     v-if="currentStep.questions"
     :current-step="currentStep"
+    :is-rubric-open="rubricsOpen.questions"
     rubric-key="questions"
   )
 

@@ -9,18 +9,34 @@ a-dropdown(
   template(
     v-slot:button
   )
-    a-input(
-      label="_SEARCH_"
-      :model-value="model"
-      @update:model-value="changeModel"
+    form.a_d_flex.a_input_group_search(
+      @submit.prevent
     )
+      a-input(
+        label="_SEARCH_"
+        :model-value="model"
+        @update:model-value="changeModel"
+      )
+      a-element.a_btn.a_btn_primary(
+        type="submit"
+        icon-left="Search"
+        title="_SEARCH_"
+        text-screen-reader="_SEARCH_"
+        :prevent="true"
+        @click="startSearch"
+      )
 
   template(
     v-slot:dropdown
   )
     ul.a_list_group
       a-translation.a_list_group__item(
-        v-if="!itemsSearch.length"
+        v-if="isTooFewCharacters"
+        tag="li"
+        text="_TOO_FEW_CHARACTERS_"
+      )
+      a-translation.a_list_group__item(
+        v-else-if="!itemsSearch.length"
         tag="li"
         text="_NOTHING_FOUND_"
       )

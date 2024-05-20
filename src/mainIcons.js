@@ -19,7 +19,9 @@ import ListCheck from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/ListCheck";
 import PersonHearts from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/PersonHearts";
 import PlusCircle from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/PlusCircle";
 import PuzzleFill from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/PuzzleFill";
+import Search from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Search";
 import Tools from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Tools";
+import Window from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Window";
 
 export default {
   BarChartLine,
@@ -43,6 +45,7 @@ export default {
   PersonHearts,
   PlusCircle,
   PuzzleFill,
+  Search,
   Tools,
   Window,
 };
