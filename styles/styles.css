@@ -8881,3 +8881,11 @@ p {
   margin-top: -0.5rem; }
   .a_list_tags .a_list_inline_item {
     margin-top: .5rem; }
+
+.a_input_group_search .a_form_control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.a_input_group_search .a_btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
