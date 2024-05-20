@@ -1,0 +1,125 @@
+/*!
+  * vue-router v4.3.2
+  * (c) 2024 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * Lunr languages, `German` language
+ * https://github.com/MihaiValentin/lunr-languages
+ *
+ * Copyright 2014, Mihai Valentin
+ * http://www.mozilla.org/MPL/
+ */
+
+/*!
+ * Lunr languages, `Russian` language
+ * https://github.com/MihaiValentin/lunr-languages
+ *
+ * Copyright 2014, Mihai Valentin
+ * http://www.mozilla.org/MPL/
+ */
+
+/*!
+ * Snowball JavaScript Library v0.3
+ * http://code.google.com/p/urim/
+ * http://snowball.tartarus.org/
+ *
+ * Copyright 2010, Oleg Mazko
+ * http://www.mozilla.org/MPL/
+ */
+
+/*!
+ * based on
+ * Snowball JavaScript Library v0.3
+ * http://code.google.com/p/urim/
+ * http://snowball.tartarus.org/
+ *
+ * Copyright 2010, Oleg Mazko
+ * http://www.mozilla.org/MPL/
+ */
+
+/*!
+ * lunr.Builder
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.Index
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.Pipeline
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.Set
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.TokenSet
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.Vector
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.stemmer
+ * Copyright (C) 2020 Oliver Nightingale
+ * Includes code from - http://tartarus.org/~martin/PorterStemmer/js.txt
+ */
+
+/*!
+ * lunr.stopWordFilter
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.tokenizer
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.trimmer
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*!
+ * lunr.utils
+ * Copyright (C) 2020 Oliver Nightingale
+ */
+
+/*! #__NO_SIDE_EFFECTS__ */
+
+/*! @license DOMPurify 2.5.4 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/2.5.4/LICENSE */
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/**
+ * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.3.9
+ * Copyright (C) 2020 Oliver Nightingale
+ * @license MIT
+ */
+
+/**
+* vue v3.4.26
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+//! moment.js
+
+//! moment.js locale configuration
