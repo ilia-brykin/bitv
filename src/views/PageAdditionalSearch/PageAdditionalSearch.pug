@@ -1,0 +1,45 @@
+div
+  a-translation(
+    tag="h1"
+    text="_ADDITIONAL_SEARCH_"
+  )
+
+  form.a_d_flex.a_input_group_search.a_mt_5(
+    @submit.prevent
+  )
+    a-input(
+      label="_SEARCH_"
+      :model-value="model"
+      @update:model-value="changeModel"
+    )
+    a-element.a_btn.a_btn_primary(
+      type="submit"
+      icon-left="Search"
+      title="_SEARCH_"
+      text-screen-reader="_SEARCH_"
+      :prevent="true"
+      @click="startSearch"
+    )
+
+  ul.a_list_group.a_mt_5
+    a-translation.a_list_group__item(
+      v-if="isTooFewCharacters"
+      tag="li"
+      text="_TOO_FEW_CHARACTERS_"
+    )
+    a-translation.a_list_group__item(
+      v-else-if="!itemsSearch.length"
+      tag="li"
+      text="_NOTHING_FOUND_"
+    )
+    template(
+      v-else
+    )
+      the-search-global-item(
+        v-for="item in itemsSearch"
+        :key="item.ref"
+        :id="item.ref"
+        :in-navbar="false"
+        :matches="item.matches"
+        :model-search="model"
+      )

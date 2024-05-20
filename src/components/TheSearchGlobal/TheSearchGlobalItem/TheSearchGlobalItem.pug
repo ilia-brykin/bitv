@@ -1,7 +1,45 @@
 li.a_list_group__item
   a-element.a_btn.a_btn_link(
+    v-if="inNavbar"
     type="link"
     :to="to"
     :text="stepText"
     @click="goTo"
   )
+  template(
+    v-else
+  )
+    a-element.a_btn.a_btn_link.a_fs_3(
+      type="link"
+      :to="to"
+      :text="stepText"
+      @click="goTo"
+    )
+    ul.a_list_group
+      li.a_list_group__item(
+        v-if="matches.title"
+      )
+        dl.a_m_0
+          a-translation.a_text_bold(
+            tag="dt"
+            text="_HEADER_"
+          )
+          dd(
+            v-for="title in matches.title"
+            :key="title"
+            v-html="title"
+          )
+      li.a_list_group__item(
+        v-for="rubric in rubricsMatches"
+        :key="rubric.name"
+      )
+        dl.a_m_0
+          a-translation.a_text_bold(
+            tag="dt"
+            :text="rubric.name"
+          )
+          dd(
+            v-for="match in rubric.matches"
+            :key="match"
+            v-html="match"
+          )

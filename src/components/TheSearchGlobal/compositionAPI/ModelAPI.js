@@ -14,6 +14,7 @@ require("lunr-languages/lunr.ru")(lunr);
 
 export default function ModelAPI({
   openDropdown = () => {},
+  maxItems = 5,
 }) {
   const itemsSearch = ref([]);
   const model = ref("");
@@ -32,27 +33,35 @@ export default function ModelAPI({
   };
 
   const search = query => {
-    const results = idx.search(query);
-    return results.slice(0, 5).map(result => {
+    let results = idx.search(query);
+    if (maxItems) {
+      results = results.slice(0, maxItems);
+    }
+
+    return results.map(result => {
       const doc = translationIndexes[modelLanguage.value].find(d => d.id === result.ref);
       const matches = {};
 
       Object.keys(result.matchData.metadata).forEach(term => {
         Object.keys(result.matchData.metadata[term]).forEach(field => {
           if (!matches[field]) {
-            matches[field] = []; 
+            matches[field] = [];
           }
           result.matchData.metadata[term][field].position.forEach(pos => {
             const contextRadius = 20;
             const start = Math.max(pos[0] - contextRadius, 0);
             const end = Math.min(pos[0] + pos[1] + contextRadius, doc[field].length);
 
-            let snippet = doc[field].substring(start, end);
+            const beforeMatch = doc[field].substring(start, pos[0]);
+            const match = doc[field].substring(pos[0], pos[0] + pos[1]);
+            const afterMatch = doc[field].substring(pos[0] + pos[1], end);
+
+            let snippet = `${ beforeMatch }<span class="a_search_highlight">${ match }</span>${ afterMatch }`;
             if (start > 0) {
-              snippet = "..." + snippet; 
+              snippet = "..." + snippet;
             }
             if (end < doc[field].length) {
-              snippet = snippet + "..."; 
+              snippet = snippet + "...";
             }
 
             matches[field].push(snippet);

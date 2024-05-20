@@ -36,5 +36,7 @@
   "_TAG_ABSENCE_FILTER_": "Tag-Abwesenheit-Filter",
   "_NOTHING_FOUND_": "Nichts gefunden",
   "_SEARCH_": "Suche",
-  "_TOO_FEW_CHARACTERS_": "Die Suche erfordert mindestens 3 Zeichen"
+  "_TOO_FEW_CHARACTERS_": "Die Suche erfordert mindestens 3 Zeichen",
+  "_ADDITIONAL_SEARCH_": "Erweiterte Suche",
+  "_HEADER_": "Überschrift"
 }
