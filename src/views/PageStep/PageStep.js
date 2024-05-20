@@ -17,6 +17,13 @@ export default {
   },
   setup() {
     const {
+      initRubricsOpenFromUrl,
+      isSearchInTitle,
+      rubricsOpen,
+      searchFromUrl,
+    } = UrlAPI();
+
+    const {
       currentStep,
       hasStep,
       step,
@@ -24,17 +31,14 @@ export default {
 
     const {
       headerStep,
-      headerText,
+      headerTextWithSearch,
       pageTitle,
     } = PageTitle({
       currentStep,
+      isSearchInTitle,
+      searchFromUrl,
       step,
     });
-
-    const {
-      initRubricsOpenFromUrl,
-      rubricsOpen,
-    } = UrlAPI();
 
     initRubricsOpenFromUrl();
 
@@ -42,7 +46,7 @@ export default {
       currentStep,
       hasStep,
       headerStep,
-      headerText,
+      headerTextWithSearch,
       pageTitle,
       rubricsOpen,
     };

@@ -30,6 +30,10 @@ export default function LinkAPI(props) {
       }
     });
 
+    if (matches.value.title) {
+      QUERY.title = true;
+    }
+
     return QUERY;
   });
 

@@ -1,6 +1,9 @@
 import {
   computed,
+  ref,
 } from "vue";
+
+import AFiltersAPI from "aloha-vue/src/compositionAPI/AFiltersAPI";
 
 import {
   getTranslatedText,
@@ -11,8 +14,14 @@ import {
 
 export default function PageTitle({
   currentStep = computed(() => ({})),
+  isSearchInTitle = ref(false),
+  searchFromUrl = ref(""),
   step = "",
 }) {
+  const {
+    filterSearchHighlight,
+  } = AFiltersAPI();
+
   const headerStep = computed(() => {
     if (step) {
       return getTranslatedText({
@@ -36,6 +45,14 @@ export default function PageTitle({
     return undefined;
   });
 
+  const headerTextWithSearch = computed(() => {
+    if (!isSearchInTitle.value || !searchFromUrl.value) {
+      return headerText.value;
+    }
+
+    return filterSearchHighlight(headerText.value, { searchModel: searchFromUrl.value });
+  });
+
   const pageTitle = computed(() => {
     let title = "";
     if (headerStep.value) {
@@ -49,7 +66,7 @@ export default function PageTitle({
 
   return {
     headerStep,
-    headerText,
+    headerTextWithSearch,
     pageTitle,
   };
 }

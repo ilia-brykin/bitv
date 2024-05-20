@@ -1,6 +1,7 @@
 import {
   computed,
-  ref, watch,
+  ref,
+  watch,
 } from "vue";
 import {
   useRoute,
@@ -19,6 +20,8 @@ export default function UrlAPI() {
   const $router = useRouter();
   const rubricsOpen = ref({});
   const isWatchRouteQuery = ref(true);
+  const searchFromUrl = ref("");
+  const isSearchInTitle = ref(false);
 
   const rubricsFromUrl = computed(() => {
     if (!$route.query.rubrics) {
@@ -36,6 +39,9 @@ export default function UrlAPI() {
       rubricsOpen.value[key] = !!(rubricsFromUrl.value.length &&
         rubricsFromUrl.value.indexOf(key) !== -1);
     });
+    searchFromUrl.value = $route.query.search || "";
+    isSearchInTitle.value = !!$route.query.title;
+
     isWatchRouteQuery.value = false;
     setTimeout(() => {
       $router.push({ query: {} });
@@ -55,6 +61,8 @@ export default function UrlAPI() {
 
   return {
     initRubricsOpenFromUrl,
+    isSearchInTitle,
     rubricsOpen,
+    searchFromUrl,
   };
 }

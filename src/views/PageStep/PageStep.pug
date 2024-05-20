@@ -8,7 +8,9 @@ div(
     span.a_d_block(
       v-if="headerStep"
     ) {{ headerStep }}
-    span {{ headerText }}
+    span(
+      v-html="headerTextWithSearch"
+    )
 
   a-translation(
     tag="h2"
