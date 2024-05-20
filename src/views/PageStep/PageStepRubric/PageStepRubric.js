@@ -9,6 +9,7 @@ import ATranslation from "aloha-vue/src/ATranslation/ATranslation";
 import HeaderAPI from "./compositionAPI/HeaderAPI";
 import HtmlAPI from "./compositionAPI/HtmlAPI";
 import ToggleAPI from "./compositionAPI/ToggleAPI";
+import TranslationAPI from "./compositionAPI/TranslationAPI";
 
 export default {
   name: "PageStepRubric",
@@ -29,6 +30,11 @@ export default {
       type: String,
       required: true,
       validator: value => ["whatChecked", "whyChecked", "howChecked", "sources", "classification", "questions"].indexOf(value) !== -1,
+    },
+    searchFromUrl: {
+      type: String,
+      required: false,
+      default: "",
     },
   },
   setup(props) {
@@ -51,6 +57,12 @@ export default {
       toggleRubric,
     } = ToggleAPI(props);
 
+    const {
+      elementsTranslatedAndHighlighted,
+    } = TranslationAPI(props, {
+      htmlElements,
+    });
+
     initIsRubricOpenLocal();
 
     watch(isRubricOpen, () => {
@@ -58,8 +70,8 @@ export default {
     });
 
     return {
+      elementsTranslatedAndHighlighted,
       headerKey,
-      htmlElements,
       iconToggleRubric,
       isRubricOpenLocal,
       toggleRubric,

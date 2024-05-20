@@ -49,6 +49,7 @@ export default {
       headerTextWithSearch,
       pageTitle,
       rubricsOpen,
+      searchFromUrl,
     };
   },
 };

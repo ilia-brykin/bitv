@@ -25,6 +25,7 @@ div(
     v-if="currentStep.whatChecked"
     :current-step="currentStep"
     :is-rubric-open="rubricsOpen.whatChecked"
+    :search-from-url="searchFromUrl"
     rubric-key="whatChecked"
   )
 
@@ -32,6 +33,7 @@ div(
     v-if="currentStep.whyChecked"
     :current-step="currentStep"
     :is-rubric-open="rubricsOpen.whyChecked"
+    :search-from-url="searchFromUrl"
     rubric-key="whyChecked"
   )
 
@@ -39,6 +41,7 @@ div(
     v-if="currentStep.howChecked"
     :current-step="currentStep"
     :is-rubric-open="rubricsOpen.howChecked"
+    :search-from-url="searchFromUrl"
     rubric-key="howChecked"
   )
 
@@ -46,6 +49,7 @@ div(
     v-if="currentStep.sources"
     :current-step="currentStep"
     :is-rubric-open="rubricsOpen.sources"
+    :search-from-url="searchFromUrl"
     rubric-key="sources"
   )
 
@@ -53,6 +57,7 @@ div(
     v-if="currentStep.classification"
     :current-step="currentStep"
     :is-rubric-open="rubricsOpen.classification"
+    :search-from-url="searchFromUrl"
     rubric-key="classification"
   )
 
@@ -60,6 +65,7 @@ div(
     v-if="currentStep.questions"
     :current-step="currentStep"
     :is-rubric-open="rubricsOpen.questions"
+    :search-from-url="searchFromUrl"
     rubric-key="questions"
   )
 

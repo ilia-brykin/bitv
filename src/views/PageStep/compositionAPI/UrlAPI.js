@@ -44,7 +44,7 @@ export default function UrlAPI() {
 
     isWatchRouteQuery.value = false;
     setTimeout(() => {
-      $router.push({ query: {} });
+      $router.replace({ query: {} });
       setTimeout(() => {
         isWatchRouteQuery.value = true;
       });
