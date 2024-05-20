@@ -10,6 +10,7 @@ import CursorText from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/CursorText";
 import DashCircle from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/DashCircle";
 import EyeFill from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/EyeFill";
 import FileText from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/FileText";
+import FilterCircle from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/FilterCircle";
 import GearWideConnected from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/GearWideConnected";
 import HandIndexThumb from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/HandIndexThumb";
 import Headset from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Headset";
@@ -36,6 +37,7 @@ export default {
   DashCircle,
   EyeFill,
   FileText,
+  FilterCircle,
   GearWideConnected,
   HandIndexThumb,
   Headset,
