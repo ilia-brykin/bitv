@@ -38,7 +38,7 @@ const ROUTES = [
 ];
 
 const ROUTER = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/bitv/"),
   routes: ROUTES,
 });
 
