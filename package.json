@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "webpack serve --mode=development --devtool=eval",
     "build-production": "webpack --mode=production --devtool=source-map",
+    "build": "webpack --mode=development --devtool=source-map",
     "build-css": "node-sass --include-path scss src/styles/styles.scss dist/styles/styles.css",
     "i": "npm i --scope=@npm",
     "build-json-search": "node scriptsNode/buildJsonSearch.js"

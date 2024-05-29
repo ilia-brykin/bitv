@@ -120,7 +120,7 @@ module.exports = (env, options) => {
     entry: ["./src/main.js"],
     output: {
       path: path.resolve(__dirname, "./dist/"),
-      publicPath: options.mode !== "development" ? "./" : "/bitv/",
+      publicPath: options.mode === "development" ? "/" : "/bitv/",
       filename: "bundle.[id].[contenthash].js",
       chunkFilename: "chunk.[id].[contenthash].js",
       asyncChunks: true,
