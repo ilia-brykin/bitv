@@ -1,5 +1,5 @@
 const path = require("path");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
+// const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader");
@@ -158,14 +158,14 @@ module.exports = (env, options) => {
           logoPath: options.mode === "development" ? "/styles/logo.png" : "/bitv/styles/logo.png",
         },
       }),
-      new CopyWebpackPlugin({
-        patterns: [
-          {
-            from: "./index.html",
-            to: "./404.html",
-          },
-        ],
-      }),
+      // new CopyWebpackPlugin({
+      //   patterns: [
+      //     {
+      //       from: "./index.html",
+      //       to: "./404.html",
+      //     },
+      //   ],
+      // }),
       new ESLintPlugin({
         overrideConfigFile: path.resolve(__dirname, ".eslintrc.js"),
         cache: options.mode === "development",

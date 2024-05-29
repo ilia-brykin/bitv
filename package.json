@@ -5,7 +5,7 @@
   "author": "Ilia Brykin",
   "scripts": {
     "serve": "webpack serve --mode=development --devtool=eval",
-    "build-production": "webpack --mode=production --devtool=source-map",
+    "build-production": "webpack --mode=production --devtool=source-map && node scriptsNode/copyIndexHtmlTo404",
     "build": "webpack --mode=development --devtool=source-map",
     "build-css": "node-sass --include-path scss src/styles/styles.scss dist/styles/styles.css",
     "i": "npm i --scope=@npm",
