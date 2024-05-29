@@ -157,8 +157,8 @@ module.exports = (env, options) => {
       new CopyWebpackPlugin({
         patterns: [
           {
-            from: path.resolve(__dirname, "dist/index.html"),
-            to: path.resolve(__dirname, "dist/404.html"),
+            from: "./index.html",
+            to: "./404.html",
           },
         ],
       }),
