@@ -153,6 +153,10 @@ module.exports = (env, options) => {
       new HtmlWebpackPlugin({
         filename: "index.html",
         template: "index.html",
+        templateParameters: {
+          stylesPath: options.mode === "development" ? "/styles/styles.css" : "/bitv/styles/styles.css",
+          logoPath: options.mode === "development" ? "/styles/logo.png" : "/bitv/styles/logo.png",
+        },
       }),
       new CopyWebpackPlugin({
         patterns: [
