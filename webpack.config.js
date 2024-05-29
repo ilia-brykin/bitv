@@ -1,5 +1,5 @@
 const path = require("path");
-// const CopyWebpackPlugin = require("copy-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader");
@@ -120,7 +120,7 @@ module.exports = (env, options) => {
     entry: ["./src/main.js"],
     output: {
       path: path.resolve(__dirname, "./dist/"),
-      publicPath: options.mode !== "development" ? "./" : "/",
+      publicPath: options.mode !== "development" ? "./" : "/bitv/",
       filename: "bundle.[id].[contenthash].js",
       chunkFilename: "chunk.[id].[contenthash].js",
       asyncChunks: true,
@@ -153,6 +153,14 @@ module.exports = (env, options) => {
       new HtmlWebpackPlugin({
         filename: "index.html",
         template: "index.html",
+      }),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: path.resolve(__dirname, "dist/index.html"),
+            to: path.resolve(__dirname, "dist/404.html"),
+          },
+        ],
       }),
       new ESLintPlugin({
         overrideConfigFile: path.resolve(__dirname, ".eslintrc.js"),
