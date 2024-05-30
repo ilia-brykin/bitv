@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "aloha-css": "1.0.134",
-    "aloha-vue": "1.2.189",
+    "aloha-vue": "1.2.198",
     "lodash": "4.17.21",
     "lodash-es": "4.17.21",
     "lunr": "^2.3.9",
