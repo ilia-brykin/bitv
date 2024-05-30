@@ -12,10 +12,28 @@ div(
       v-html="headerTextWithSearch"
     )
 
-  a-translation(
-    tag="h2"
-    text="_STEP_TAGS_"
-  )
+  .a_d_flex.a_justify_content_between.a_mb_3
+    a-translation.a_my_0(
+      tag="h2"
+      text="_STEP_TAGS_"
+    )
+    div
+      a-element.a_ml_3.a_btn.a_btn_secondary(
+        v-if="hasPreviousStep"
+        :to="toPreviousStep"
+        icon-left="CaretLeftFill"
+        text-screen-reader="_BTN_PREVIOUS_STEP_TITLE_"
+        title="_BTN_PREVIOUS_STEP_TITLE_"
+        type="link"
+      )
+      a-element.a_ml_3.a_btn.a_btn_secondary(
+        v-if="hasNextStep"
+        :to="toNextStep"
+        icon-left="CaretRightFill"
+        text-screen-reader="_BTN_NEXT_STEP_TITLE_"
+        title="_BTN_NEXT_STEP_TITLE_"
+        type="link"
+      )
   step-tags(
     :is-button="false"
     :tags="currentStep.tags"

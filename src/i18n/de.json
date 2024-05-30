@@ -38,5 +38,7 @@
   "_SEARCH_": "Suche",
   "_TOO_FEW_CHARACTERS_": "Die Suche erfordert mindestens 3 Zeichen",
   "_ADDITIONAL_SEARCH_": "Erweiterte Suche",
-  "_HEADER_": "Überschrift"
+  "_HEADER_": "Überschrift",
+  "_BTN_PREVIOUS_STEP_TITLE_": "Zum vorherigen Prüfschritt",
+  "_BTN_NEXT_STEP_TITLE_": "Zum nächsten Prüfschritt"
 }

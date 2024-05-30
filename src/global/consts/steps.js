@@ -1,4 +1,8 @@
-export default {
+import {
+  keys,
+} from "lodash-es";
+
+const STEPS = {
   5.2: {
     key: "5_2",
     whatChecked: 4,
@@ -1550,3 +1554,7 @@ export default {
     group: "12",
   },
 };
+
+export default STEPS;
+
+export const stepsList = keys(STEPS);

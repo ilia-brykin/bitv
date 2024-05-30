@@ -2,6 +2,8 @@ import BarChartLine from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/BarChartLine
 import Book from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Book";
 import CameraVideoFill from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/CameraVideoFill";
 import Capsule from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Capsule";
+import CaretLeftFill from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/CaretLeftFill";
+import CaretRightFill from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/CaretRightFill";
 import ChatDots from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/ChatDots";
 import Clock from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/Clock";
 import ClockHistory from "aloha-vue/src/AIcon/Icons/bootstrap-1-9-1/ClockHistory";
@@ -29,6 +31,8 @@ export default {
   Book,
   CameraVideoFill,
   Capsule,
+  CaretLeftFill,
+  CaretRightFill,
   ChatDots,
   Clock,
   ClockHistory,
