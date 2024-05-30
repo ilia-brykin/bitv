@@ -67,3 +67,9 @@ p {
     border-bottom-left-radius: 0;
   }
 }
+code, code.Code {
+  background-color: var(--a_color_gray_200);
+  color: #2a4c99;
+  font-family: Monaco, sans-serif;
+  padding: .1rem .25rem;
+}
