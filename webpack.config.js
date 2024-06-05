@@ -106,6 +106,13 @@ function getRules(mode) {
         }
       ]
     },
+    {
+      test: /\.html$/,
+      use: ["html-loader"],
+      exclude: [
+        /index\.html$/,
+      ],
+    },
   ];
 
   return RULES;

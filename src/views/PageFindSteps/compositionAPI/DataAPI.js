@@ -2,6 +2,8 @@ import {
   computed,
 } from "vue";
 
+import AFiltersAPI from "aloha-vue/src/compositionAPI/AFiltersAPI";
+
 import steps from "../../../global/consts/steps";
 import {
   getTranslationKeyGroupName,
@@ -15,6 +17,10 @@ import {
 } from "lodash-es";
 
 export default function DataAPI() {
+  const {
+    filterBoolean,
+  } = AFiltersAPI();
+
   const dataSteps = computed(() => {
     const DATA = [];
     forEach(steps, (step, key) => {
@@ -31,6 +37,7 @@ export default function DataAPI() {
         tags: step.tags,
         group: getTranslatedText({ placeholder: GROUP_NAME }),
         groupId: step.group,
+        hasTests: filterBoolean(!!step.tests),
       };
       DATA.push(STEP);
     });

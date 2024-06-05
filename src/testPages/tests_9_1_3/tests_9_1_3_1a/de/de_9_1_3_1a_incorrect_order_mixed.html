@@ -1,0 +1,13 @@
+<h1>Unkorrekte gemischte Reihenfolge h1-h6 und role heading</h1>
+<p>Dies ist die Hauptüberschrift der Seite, dargestellt
+    durch ein <code>&lt;h1&gt;</code>-Tag.</p>
+<section>
+    <div role="heading" aria-level="3">Unterüberschrift Ebene 3</div>
+    <p>Dieser Unterabschnitt hat eine Überschrift der Ebene 3, was falsch ist, da es <code>&lt;div role="heading"
+        aria-level="2"&gt;</code> sein sollte.</p>
+    <h2>Überschrift Ebene 2</h2>
+    <p>Dieser Abschnitt hat eine Überschrift der Ebene 2, was falsch ist, da es <code>&lt;h3&gt;</code> sein sollte.</p>
+    <div role="heading" aria-level="4">Unterunterüberschrift Ebene 4</div>
+    <p>Dieser Unterunterabschnitt hat eine Überschrift der Ebene 4.</p><h5>Tiefergehende Überschrift Ebene 5</h5>
+    <p>Dies ist eine tiefergehende Überschrift der Ebene 5.</p>
+</section>

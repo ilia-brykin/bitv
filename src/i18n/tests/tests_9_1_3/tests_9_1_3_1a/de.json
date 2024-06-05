@@ -1,0 +1,18 @@
+{
+  "_TEST_9_1_3_1A_HEADER_CORRECT_ONLY_H1_H6_": "Korrekte Überschriftenstruktur nur h1-h6",
+  "_TEST_9_1_3_1A_HEADER_CORRECT_ROLE_HEADING_ARIA_LEVEL_": "Korrekte Überschriftenstruktur mit role heading und aria-level",
+  "_TEST_9_1_3_1A_HEADER_CORRECT_MIXED_": "Korrekte Überschriftenstruktur mit gemischten Elementen",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_TWO_H1_": "Unkorrekt: Zwei h1-Überschriften",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_TWO_ROLE_HEADING_1_": "Unkorrekt: Zwei role heading aria-level=1",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_H1_ROLE_HEADING_1_": "Unkorrekt: Eine h1 und eine role heading aria-level=1",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ORDER_H1_H6_": "Unkorrekte Reihenfolge h1-h6",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ORDER_ROLE_HEADING_": "Unkorrekte Reihenfolge role heading und aria-level",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ORDER_MIXED_": "Unkorrekte gemischte Reihenfolge h1-h6 und role heading",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ROLE_HEADING_7_8_": "Unkorrekte role heading mit aria-level 7 und 8",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_NO_H1_": "Unkorrekt: Keine h1-Überschrift",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_MISSING_LEVELS_": "Unkorrekt: Fehlende Überschriftsebenen",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_STYLE_ONLY_": "Unkorrekt: Überschriften nur zur Stilformatierung verwendet",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_DUPLICATE_HEADINGS_": "Unkorrekt: Doppelte Überschriften",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_MIXED_LEVELS_": "Unkorrekt: Gemischte Überschriftsebenen",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_NO_HEADINGS_": "Unkorrekt: Keine Überschriften"
+}

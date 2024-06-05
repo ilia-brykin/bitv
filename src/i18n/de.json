@@ -40,5 +40,7 @@
   "_ADDITIONAL_SEARCH_": "Erweiterte Suche",
   "_HEADER_": "Überschrift",
   "_BTN_PREVIOUS_STEP_TITLE_": "Zum vorherigen Prüfschritt",
-  "_BTN_NEXT_STEP_TITLE_": "Zum nächsten Prüfschritt"
+  "_BTN_NEXT_STEP_TITLE_": "Zum nächsten Prüfschritt",
+  "_STEP_TEST_PAGES_": "Testseiten",
+  "_TEST_PAGE_NOT_FOUND_": "Testseite nicht gefunden"
 }

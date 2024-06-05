@@ -1,0 +1,13 @@
+<h1>Некорректный порядок role heading и aria-level</h1>
+<p>Это основной заголовок страницы, представленный тегом <code>&lt;div
+    role="heading" aria-level="1"&gt;</code>.</p>
+<section>
+    <div role="heading" aria-level="3">Заголовок уровня 3</div>
+    <p>Этот подраздел имеет заголовок уровня 3, что некорректно, так как он должен быть <code>&lt;div role="heading"
+        aria-level="2"&gt;</code>.</p>
+    <div role="heading" aria-level="2">Заголовок уровня 2</div>
+    <p>Этот раздел имеет заголовок уровня 2, что некорректно, так как он должен быть <code>&lt;div role="heading"
+        aria-level="3"&gt;</code>.</p>
+    <div role="heading" aria-level="4">Заголовок уровня 4</div>
+    <p>Этот подраздел имеет заголовок уровня 4.</p>
+</section>

@@ -30,6 +30,11 @@ const ROUTES = [
     component: () => import(/* webpackChunkName: "PageStep" */ "../views/PageStep/PageStep.vue"),
   },
   {
+    path: "/steps/:step/tests/:test/",
+    name: "PageStepTest",
+    component: () => import(/* webpackChunkName: "PageStepTest" */ "../views/PageStepTest/PageStepTest.vue"),
+  },
+  {
     // If the routing configuration '*' reports an error, replace it with '/: catchAll(. *)'
     // caught Error: Catch all routes ("*") must now be defined using a param with a custom regexp
     path: "/:catchAll(.*)", // Special attention should be paid to the bottom

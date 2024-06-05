@@ -1,0 +1,14 @@
+div(
+  v-if="hasCurrentTest"
+)
+  div(
+    v-html="currentHtml"
+  )
+
+div(
+  v-else
+)
+  a-translation(
+    tag="h1"
+    text="_TEST_PAGE_NOT_FOUND_"
+  )

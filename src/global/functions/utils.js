@@ -58,3 +58,12 @@ export function highlightSearchTerm(html, searchTerm) {
 
   return doc.body.innerHTML;
 }
+
+export function importAll(r) {
+  const files = {};
+  r.keys().forEach(item => {
+    const key = item.replace("./", "").replace(/\.[^/.]+$/, "");
+    files[key] = r(item).default;
+  });
+  return files;
+}

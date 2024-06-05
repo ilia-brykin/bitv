@@ -2,6 +2,7 @@ import {
   onBeforeUnmount,
 } from "vue";
 
+import AElement from "aloha-vue/src/AElement/AElement";
 import AFilters from "aloha-vue/src/AFilters/AFilters/AFilters";
 import ATable from "aloha-vue/src/ATable/ATable";
 import ATranslation from "aloha-vue/src/ATranslation/ATranslation";
@@ -15,6 +16,7 @@ import FiltersAPI from "./compositionAPI/FiltersAPI";
 export default {
   name: "PageFindSteps",
   components: {
+    AElement,
     AFilters,
     ATable,
     ATranslation,

@@ -33,6 +33,14 @@ export default function ColumnsAPI() {
       keyLabel: "tags",
       slot: "tags",
     },
+    {
+      id: "hasTests",
+      label: "_STEP_TEST_PAGES_",
+      keyLabel: "hasTests",
+      sortId: "hasTests",
+      width: 130,
+      grow: 0,
+    },
   ];
 
   return {

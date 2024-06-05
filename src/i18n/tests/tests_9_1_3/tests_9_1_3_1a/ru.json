@@ -1,0 +1,18 @@
+{
+  "_TEST_9_1_3_1A_HEADER_CORRECT_ONLY_H1_H6_": "Правильная структура заголовков только h1-h6",
+  "_TEST_9_1_3_1A_HEADER_CORRECT_ROLE_HEADING_ARIA_LEVEL_": "Правильная структура заголовков с role heading и aria-level",
+  "_TEST_9_1_3_1A_HEADER_CORRECT_MIXED_": "Правильная структура заголовков со смешанными элементами",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_TWO_H1_": "Некорректно: Два заголовка h1",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_TWO_ROLE_HEADING_1_": "Некорректно: Два заголовка role heading aria-level=1",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_H1_ROLE_HEADING_1_": "Некорректно: Один заголовок h1 и один role heading aria-level=1",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ORDER_H1_H6_": "Некорректный порядок h1-h6",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ORDER_ROLE_HEADING_": "Некорректный порядок role heading и aria-level",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ORDER_MIXED_": "Некорректный порядок смешанных заголовков h1-h6 и role heading",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_ROLE_HEADING_7_8_": "Некорректный заголовок role heading с aria-level 7 и 8",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_NO_H1_": "Некорректно: Отсутствие заголовка h1",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_MISSING_LEVELS_": "Некорректно: Пропущенные уровни заголовков",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_STYLE_ONLY_": "Некорректно: Заголовки используются только для стиля",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_DUPLICATE_HEADINGS_": "Некорректно: Дублирующиеся заголовки",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_MIXED_LEVELS_": "Некорректно: Смешанные уровни заголовков",
+  "_TEST_9_1_3_1A_HEADER_INCORRECT_NO_HEADINGS_": "Некорректно: Отсутствие заголовков"
+}

@@ -1,4 +1,9 @@
 import {
+  computed,
+} from "vue";
+
+import {
+  forEach,
   keys,
 } from "lodash-es";
 
@@ -617,6 +622,24 @@ const STEPS = {
       "additional-screen-reader",
     ],
     group: "9.1.3",
+    tests: [
+      "correct_only_h1_h6",
+      "correct_role_heading_aria_level",
+      "correct_mixed",
+      "incorrect_two_h1",
+      "incorrect_two_role_heading_1",
+      "incorrect_h1_role_heading_1",
+      "incorrect_order_h1_h6",
+      "incorrect_order_role_heading",
+      "incorrect_order_mixed",
+      "incorrect_role_heading_7_8",
+      "incorrect_no_h1",
+      "incorrect_missing_levels",
+      "incorrect_style_only",
+      "incorrect_duplicate_headings",
+      "incorrect_mixed_levels",
+      "incorrect_no_headings",
+    ],
   },
   "9.1.3.1b": {
     key: "9_1_3_1B",
@@ -1558,3 +1581,14 @@ const STEPS = {
 export default STEPS;
 
 export const stepsList = keys(STEPS);
+
+export const stepsWithTests = computed(() => {
+  const STEPS_WITH_TESTS = {};
+  forEach(STEPS, (step, key) => {
+    if (step.tests) {
+      STEPS_WITH_TESTS[key] = step;
+    }
+  });
+
+  return STEPS_WITH_TESTS;
+});
