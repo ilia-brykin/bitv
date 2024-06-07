@@ -29,7 +29,7 @@ export default {
     rubricKey: {
       type: String,
       required: true,
-      validator: value => ["whatChecked", "whyChecked", "howChecked", "sources", "classification", "questions"].indexOf(value) !== -1,
+      validator: value => ["whatChecked", "whyChecked", "howChecked", "sources", "classification", "questions", "tests"].indexOf(value) !== -1,
     },
     searchFromUrl: {
       type: String,

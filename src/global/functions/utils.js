@@ -35,6 +35,12 @@ export function getTranslationKeyTagDescription({ tag }) {
   return `_TAG_DESCRIPTION_${ TAG_KEY }_`;
 }
 
+export function getTranslationTestName({ stepKey, test }) {
+  const TEST_KEY = toUpper(test);
+
+  return `_TEST_${ stepKey }_HEADER_${ TEST_KEY }_`;
+}
+
 export function highlightSearchTerm(html, searchTerm) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");

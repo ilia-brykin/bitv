@@ -2,6 +2,7 @@ import AElement from "aloha-vue/src/AElement/AElement";
 import APageTabTitle from "aloha-vue/src/APageTabTitle/APageTabTitle";
 import ATranslation from "aloha-vue/src/ATranslation/ATranslation";
 import PageStepRubric from "./PageStepRubric/PageStepRubric.vue";
+import PageStepTestsTable from "./PageStepTestsTable/PageStepTestsTable.vue";
 import StepTags from "../../components/StepTags/StepTags.vue";
 
 import LinksStepAPI from "./compositionAPI/LinksStepAPI";
@@ -16,6 +17,7 @@ export default {
     APageTabTitle,
     ATranslation,
     PageStepRubric,
+    PageStepTestsTable,
     StepTags,
   },
   setup() {

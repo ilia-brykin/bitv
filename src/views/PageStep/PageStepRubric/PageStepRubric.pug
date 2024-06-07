@@ -18,9 +18,16 @@ div
   .a_ml_5(
     v-show="isRubricOpenLocal"
   )
-    a-translation(
-      v-for="element in elementsTranslatedAndHighlighted"
-      :key="element.key"
-      tag="div"
-      :safe-html="element.htmlTranslation"
+    template(
+      v-if="elementsTranslatedAndHighlighted.length"
+    )
+      a-translation(
+        v-for="element in elementsTranslatedAndHighlighted"
+        :key="element.key"
+        tag="div"
+        :safe-html="element.htmlTranslation"
+      )
+
+    slot(
+      name="default"
     )

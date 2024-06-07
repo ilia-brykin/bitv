@@ -87,6 +87,17 @@ div(
     rubric-key="questions"
   )
 
+  page-step-rubric(
+    v-if="currentStep.tests?.length"
+    :current-step="currentStep"
+    :is-rubric-open="!!rubricsOpen.tests"
+    :search-from-url="searchFromUrl"
+    rubric-key="tests"
+  )
+    page-step-tests-table(
+      :current-step="currentStep"
+    )
+
 div(
   v-else
 )
