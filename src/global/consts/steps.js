@@ -905,7 +905,7 @@ const STEPS = {
     key: "9_1_4_10",
     whatChecked: 4,
     whyChecked: 3,
-    howChecked: 14,
+    howChecked: 13,
     sources: 1,
     classification: 11,
     questions: 0,
