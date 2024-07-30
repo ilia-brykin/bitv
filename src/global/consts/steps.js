@@ -859,7 +859,7 @@ const STEPS = {
     howChecked: 25,
     sources: 2,
     classification: 12,
-    questions: 6,
+    questions: 5,
     tags: [
       "use-component",
       "additional-user-interface",
