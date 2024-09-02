@@ -19,7 +19,7 @@
   "_STEP_9_2_4_7_HOW_CHECKED_13_": "<h4 id=\"_nicht_erfüllt\">Не выполнено</h4>",
   "_STEP_9_2_4_7_HOW_CHECKED_14_": "<p>Стандартный фокус браузера подавлен, при использовании клавиатуры фокус не отображается.</p>",
   "_STEP_9_2_4_7_CLASSIFICATION_1_": "<h3 id=\"_bezug_zu_1_4_11_non_text_contrast_sichtbarkeit_der_fokushervorhebung\">Отношение к 1.4.11 Неконтрастный текст (видимость выделения фокуса)</h3>",
-  "_STEP_9_2_4_7_CLASSIFICATION_2_": "<p>Текст понимания к требованию WCAG 1.4.11 Неконтрастный текст в разделе \"Связь с использованием цвета и видимостью фокуса\" гласит:</p>",
+  "_STEP_9_2_4_7_CLASSIFICATION_2_": "<p><a href=\"https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html\">Текст понимания к требованию WCAG 1.4.11 Неконтрастный текст</a> в разделе \"Связь с использованием цвета и видимостью фокуса\" гласит:</p>",
   "_STEP_9_2_4_7_CLASSIFICATION_3_": "<div lang=\"en\" class=\"a_ml_5\"><blockquote><p>In combination with 2.4.7 Focus Visible, the visual focus indicator for a component must have sufficient contrast against the adjacent background when the component is focused, except where the appearance of the component is determined by the user agent and not modified by the author. If the focus state relies on a change of color (e.g., changing only the background color of a button), then changing from one color to another that has at least a 3:1 contrast ratio with the previous state of the control is a method for meeting the Focus visible criteria.</p></blockquote></div>",
   "_STEP_9_2_4_7_CLASSIFICATION_4_": "<h3 id=\"_einordnung_des_prüfschritts_nach_wcag_2_1\">Классификация этапа проверки по WCAG 2.1</h3>",
   "_STEP_9_2_4_7_CLASSIFICATION_5_": "<h4 id=\"_guideline\">Руководство</h4>",
